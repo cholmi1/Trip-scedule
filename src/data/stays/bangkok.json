@@ -1,0 +1,159 @@
+[
+  {
+    "id": "bkk-1",
+    "name": "호텔 로얄 아속",
+    "nameEn": "Hotel Royal Asok",
+    "type": "hotel",
+    "district": "아속",
+    "lat": 13.7373,
+    "lng": 100.5601,
+    "pricePerNight": 58000,
+    "rating": 8.6,
+    "reviewCount": 3240,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F766E",
+      "#99F6E4"
+    ],
+    "description": "지하철 아속역에서 도보 3분. 시내까지 8분.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "bkk-2",
+    "name": "시암 호스텔",
+    "nameEn": "Siam Hostel",
+    "type": "guesthouse",
+    "district": "시암",
+    "lat": 13.7495,
+    "lng": 100.5348,
+    "pricePerNight": 24000,
+    "rating": 8.8,
+    "reviewCount": 5110,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "조식 무료",
+      "라운지"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FDE68A"
+    ],
+    "description": "역 코앞. 태국 최저가 게스트하우스 중 평점 최상위.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "bkk-3",
+    "name": "랏차다 리버사이드",
+    "nameEn": "Ratchada Riverside Hotel",
+    "type": "hotel",
+    "district": "랏차다",
+    "lat": 13.7685,
+    "lng": 100.5148,
+    "pricePerNight": 76000,
+    "rating": 8.9,
+    "reviewCount": 1980,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "바"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#134E4A",
+      "#5EEAD4"
+    ],
+    "description": "강변 호텔. 옥상에서 강 건너 야경을 볼 수 있습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "bkk-4",
+    "name": "쥬트 초이 호텔",
+    "nameEn": "JOOYUTE Hotel",
+    "type": "guesthouse",
+    "district": "쥬트 초이",
+    "lat": 13.7406,
+    "lng": 100.5699,
+    "pricePerNight": 39000,
+    "rating": 8.4,
+    "reviewCount": 1450,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "수영장",
+      "짐 보관"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#7E22CE",
+      "#E9D5FF"
+    ],
+    "description": "지하철 3호선 직영 건물. 하루 패스와 조합하면 합리적.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "bkk-5",
+    "name": "아리 라차따위이 원베드",
+    "nameEn": "Ari Ratchathewi 1BR",
+    "type": "airbnb",
+    "district": "아리",
+    "lat": 13.7571,
+    "lng": 100.5418,
+    "pricePerNight": 68000,
+    "rating": 9.2,
+    "reviewCount": 690,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "에어컨",
+      "수영장"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#DB2777",
+      "#FBCFE8"
+    ],
+    "description": "역 도보 2분. 호텔로 잡는 것보다 저렴합니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "bkk-6",
+    "name": "시암 보라타",
+    "nameEn": "Siam Borata Chatuchak",
+    "type": "guesthouse",
+    "district": "짜뚜위",
+    "lat": 13.7995,
+    "lng": 100.5523,
+    "pricePerNight": 31000,
+    "rating": 8.2,
+    "reviewCount": 2210,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "물품 보관",
+      "세탁 무료"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#C2410C",
+      "#FDBA74"
+    ],
+    "description": "위키디 주말 마켓 근처. 주말 여행에 최고.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

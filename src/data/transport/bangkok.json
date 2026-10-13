@@ -1,0 +1,130 @@
+{
+  "airportTransfers": [
+    {
+      "id": "bkk-t1",
+      "name": "공항 링크 레일트랙",
+      "nameEn": "Airport Rail Link",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 1900,
+      "durationLabel": "약 30분",
+      "covers": [
+        "수완나품 → 프라차뚜역",
+        "편도 요금"
+      ],
+      "emoji": "🚆",
+      "icon": "train",
+      "billing": "once",
+      "notes": "도시와 바로 이어집니다.",
+      "perDayEquivalent": 950
+    },
+    {
+      "id": "bkk-t2",
+      "name": "공항 택시",
+      "nameEn": "Airport Taxi",
+      "kind": "taxi_ride",
+      "kindLabel": "공항 시내",
+      "price": 18000,
+      "durationLabel": "약 40분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "택시 호출 카운터에서 금액을 먼저 확인하세요.",
+      "perDayEquivalent": 9000
+    },
+    {
+      "id": "bkk-t3",
+      "name": "공항 버스",
+      "nameEn": "Airport Bus",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 5000,
+      "durationLabel": "약 60분",
+      "covers": [
+        "공항 → 에콰노",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "호텔 셔틀을 포함하는 곳이 있습니다.",
+      "perDayEquivalent": 2500
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "bkk-p1",
+      "name": "BTS 하루권",
+      "nameEn": "BTS 1-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 5200,
+      "durationLabel": "24시간",
+      "covers": [
+        "BTS 2호선과 3호선"
+      ],
+      "emoji": "🚆",
+      "icon": "train",
+      "billing": "once",
+      "notes": "시암과 아속 주요 역을 지납니다.",
+      "perDayEquivalent": 5200
+    },
+    {
+      "id": "bkk-p2",
+      "name": "BTS 3일권",
+      "nameEn": "BTS 3-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 12000,
+      "durationLabel": "72시간",
+      "covers": [
+        "BTS 2호선과 3호선"
+      ],
+      "emoji": "🚆",
+      "icon": "train",
+      "billing": "once",
+      "notes": "3일 연속 여행이면 하루 4천원입니다.",
+      "perDayEquivalent": 4000,
+      "recommended": true
+    },
+    {
+      "id": "bkk-p3",
+      "name": "BTS 4일권",
+      "nameEn": "BTS 4-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 14000,
+      "durationLabel": "96시간",
+      "covers": [
+        "BTS 2호선과 3호선"
+      ],
+      "emoji": "🚆",
+      "icon": "train",
+      "billing": "once",
+      "notes": "4일 이상이면 이 권이 가장 저렴합니다.",
+      "perDayEquivalent": 3500,
+      "recommended": true
+    },
+    {
+      "id": "bkk-p4",
+      "name": "강 유람선 하루권",
+      "nameEn": "River Express Boat Day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 4000,
+      "durationLabel": "24시간",
+      "covers": [
+        "차오프라야 강 유람선"
+      ],
+      "emoji": "🛶",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "오후 배는 무료입니다.",
+      "perDayEquivalent": 4000
+    }
+  ]
+}

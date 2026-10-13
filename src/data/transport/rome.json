@@ -1,0 +1,153 @@
+{
+  "airportTransfers": [
+    {
+      "id": "rom-t1",
+      "name": "레오나르도 익스프레스",
+      "nameEn": "Leonardo Express",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 29000,
+      "durationLabel": "약 32분",
+      "covers": [
+        "피우미치노 → 터미널",
+        "편도 요금"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "32분 만에 역까지 도착합니다.",
+      "perDayEquivalent": 14500
+    },
+    {
+      "id": "rom-t2",
+      "name": "공항 셔틀 트레인",
+      "nameEn": "Leonardo Shuttle",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 16000,
+      "durationLabel": "약 45분",
+      "covers": [
+        "피우미치노 → 시내역",
+        "편도 요금"
+      ],
+      "emoji": "🚃",
+      "icon": "train",
+      "billing": "once",
+      "notes": "레오나르도 익스프레스보다 저렴합니다.",
+      "perDayEquivalent": 8000
+    },
+    {
+      "id": "rom-t3",
+      "name": "공항 버스",
+      "nameEn": "Airport Bus",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 7000,
+      "durationLabel": "약 60분",
+      "covers": [
+        "공항 → 터미널",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "가장 저렴하지만 소요 시간이 깁니다.",
+      "perDayEquivalent": 3500
+    },
+    {
+      "id": "rom-t4",
+      "name": "공항 택시",
+      "nameEn": "Airport Taxi",
+      "kind": "taxi_ride",
+      "kindLabel": "공항 시내",
+      "price": 56000,
+      "durationLabel": "약 40분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "2인 이상이면 수량이 유리합니다.",
+      "perDayEquivalent": 28000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "rom-p1",
+      "name": "100분 티켓",
+      "nameEn": "Big Ticket 100 minutes",
+      "kind": "single_ticket",
+      "kindLabel": "개별권",
+      "price": 2400,
+      "durationLabel": "100분 무제한",
+      "covers": [
+        "시내 지하철과 트램",
+        "버스"
+      ],
+      "emoji": "🎫",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "로마 시내 지도는 타는 곳마다 무료로 제공됩니다.",
+      "perDayEquivalent": 2400,
+      "recommended": true
+    },
+    {
+      "id": "rom-p2",
+      "name": "24시간권",
+      "nameEn": "24-hour Ticket",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 7200,
+      "durationLabel": "24시간",
+      "covers": [
+        "시내 지하철과 트램",
+        "버스"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "하루에 3회 이상 탈 때가 이득입니다.",
+      "perDayEquivalent": 7200
+    },
+    {
+      "id": "rom-p3",
+      "name": "3일권",
+      "nameEn": "3-day Ticket",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 18000,
+      "durationLabel": "72시간",
+      "covers": [
+        "시내 지하철과 트램",
+        "버스",
+        "일부 지역 철도"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "3박 4일 일정에서 가장 효율적입니다.",
+      "perDayEquivalent": 6000,
+      "recommended": true
+    },
+    {
+      "id": "rom-p4",
+      "name": "콜로소움 입장권",
+      "nameEn": "Colosseum Ticket",
+      "kind": "single_ticket",
+      "kindLabel": "입장권",
+      "price": 18000,
+      "durationLabel": "당일 사용",
+      "covers": [
+        "콜로소움",
+        "팔라틴 길"
+      ],
+      "emoji": "🏛️",
+      "icon": "walk",
+      "billing": "once",
+      "notes": "시간 지정 입장권이므로 미리 예약하세요.",
+      "perDayEquivalent": 18000
+    }
+  ]
+}

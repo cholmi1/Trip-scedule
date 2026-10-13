@@ -1,0 +1,114 @@
+{
+  "airportTransfers": [
+    {
+      "id": "nag-t1",
+      "name": "나고야 공항 급행",
+      "nameEn": "나고야 공항 급행",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 5400,
+      "durationLabel": "약 30분",
+      "covers": [
+        "공항 → 나고야역",
+        "편도 요금"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "공항에서 역까지 직통입니다.",
+      "perDayEquivalent": 5400
+    },
+    {
+      "id": "nag-t2",
+      "name": "나고야 공항 버스",
+      "nameEn": "나고야 공항 버스",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 2400,
+      "durationLabel": "약 65분",
+      "covers": [
+        "공항 → 나고야역",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "가장 저렴한 수단입니다.",
+      "perDayEquivalent": 2400
+    },
+    {
+      "id": "nag-t3",
+      "name": "나고야 공항 택시",
+      "nameEn": "나고야 공항 택시",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 26000,
+      "durationLabel": "약 35분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "짐이 많으면 편합니다.",
+      "perDayEquivalent": 26000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "nag-p1",
+      "name": "나고야 시내 패스",
+      "nameEn": "Nagoya City Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 4200,
+      "durationLabel": "24시간",
+      "covers": [
+        "시내 지하철과 버스"
+      ],
+      "emoji": "🎫",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "하루에 4회 이상 타면 이득입니다.",
+      "perDayEquivalent": 4200,
+      "recommended": false
+    },
+    {
+      "id": "nag-p2",
+      "name": "나고야 버스 1일권",
+      "nameEn": "나고야 버스 1일권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 3000,
+      "durationLabel": "24시간",
+      "covers": [
+        "시내 버스 전 노선"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "버스로만 다닐 때 유리합니다.",
+      "perDayEquivalent": 3000,
+      "recommended": false
+    },
+    {
+      "id": "nag-p3",
+      "name": "로-go 카드",
+      "nameEn": "로-go 카드",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 2200,
+      "durationLabel": "1회",
+      "covers": [
+        "1회 이동권"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "단발 이동에 적합합니다.",
+      "perDayEquivalent": 2200,
+      "recommended": false
+    }
+  ]
+}

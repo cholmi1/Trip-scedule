@@ -1,0 +1,150 @@
+{
+  "airportTransfers": [
+    {
+      "id": "tyo-t1",
+      "name": "나리타 급행 열차",
+      "nameEn": "Narita Express",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 13000,
+      "durationLabel": "약 60분",
+      "covers": [
+        "나리타 → 도쿄역",
+        "라운드 티켓"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "좌석 지정이 필요합니다. 직통이므로 짐 옮기기 편해요.",
+      "perDayEquivalent": 4333
+    },
+    {
+      "id": "tyo-t2",
+      "name": "하네다 공항 시내버스",
+      "nameEn": "Haneda Airport Bus",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 6200,
+      "durationLabel": "약 45분",
+      "covers": [
+        "하네다 → 시부야역",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "도쿄 공항에도 운행합니다. 하차 위치가 시내역과 가깝습니다.",
+      "perDayEquivalent": 3100
+    },
+    {
+      "id": "tyo-t3",
+      "name": "나리타 공항 시내버스",
+      "nameEn": "Narita Airport Bus",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 4500,
+      "durationLabel": "약 90분",
+      "covers": [
+        "나리타 → 신주쿠역",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "가장 저렴하지만 시간이 오래 걸립니다.",
+      "perDayEquivalent": 2250
+    },
+    {
+      "id": "tyo-t4",
+      "name": "나리타 공항 택시",
+      "nameEn": "Narita Airport Taxi",
+      "kind": "taxi_ride",
+      "kindLabel": "공항 시내",
+      "price": 58000,
+      "durationLabel": "약 70분",
+      "covers": [
+        "나리타 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "짐이 많거나 3인 이상이면 택시가 오히려 저렴합니다.",
+      "perDayEquivalent": 29000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "tyo-p1",
+      "name": "도쿄 지하철 24시간권",
+      "nameEn": "Tokyo Metro 24h Ticket",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 6700,
+      "durationLabel": "24시간",
+      "covers": [
+        "도쿄 지하철 13개 노선 전부"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "하루에 5회 이상 타면 이득입니다.",
+      "perDayEquivalent": 6700,
+      "recommended": true
+    },
+    {
+      "id": "tyo-p2",
+      "name": "도쿄 지하철 72시간권",
+      "nameEn": "Tokyo Metro 72h Ticket",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 14000,
+      "durationLabel": "72시간",
+      "covers": [
+        "도쿄 지하철 13개 노선",
+        "72시간 무제한"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "3박 4일 일정에서 하루 평균 3,500원입니다. 가장 강력합니다.",
+      "perDayEquivalent": 4667,
+      "recommended": true
+    },
+    {
+      "id": "tyo-p3",
+      "name": "JR 야마테 하루권",
+      "nameEn": "JR Yamanote 1-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 7200,
+      "durationLabel": "24시간",
+      "covers": [
+        "JR 야마테선",
+        "도쿄역 기준 철도"
+      ],
+      "emoji": "🚆",
+      "icon": "train",
+      "billing": "once",
+      "notes": "시부야와 신주쿠 골목으로 이동할 때 유용합니다.",
+      "perDayEquivalent": 7200
+    },
+    {
+      "id": "tyo-p4",
+      "name": "도쿄 시내버스 24시간권",
+      "nameEn": "Toei Bus 24h Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 5000,
+      "durationLabel": "24시간",
+      "covers": [
+        "도쿄 시내 버스 전 노선"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "지하철보다 저렴하지만 노선이 제한적입니다.",
+      "perDayEquivalent": 5000
+    }
+  ]
+}

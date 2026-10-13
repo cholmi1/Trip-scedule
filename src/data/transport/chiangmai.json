@@ -1,0 +1,114 @@
+{
+  "airportTransfers": [
+    {
+      "id": "cnm-t1",
+      "name": "공항 새먼",
+      "nameEn": "공항 새먼",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 2000,
+      "durationLabel": "약 15분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "시내까지 15분 소요입니다.",
+      "perDayEquivalent": 2000
+    },
+    {
+      "id": "cnm-t2",
+      "name": "공항 소형버스",
+      "nameEn": "공항 소형버스",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 1800,
+      "durationLabel": "약 30분",
+      "covers": [
+        "공항 → 옛 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "호텔과 시내를 경유합니다.",
+      "perDayEquivalent": 1800
+    },
+    {
+      "id": "cnm-t3",
+      "name": "공항 택시",
+      "nameEn": "공항 택시",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 14000,
+      "durationLabel": "약 20분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "도심까지 저렴합니다.",
+      "perDayEquivalent": 14000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "cnm-p1",
+      "name": "RED card 일일권",
+      "nameEn": "RED card 일일권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 2400,
+      "durationLabel": "24시간",
+      "covers": [
+        "시내 버스 전 노선"
+      ],
+      "emoji": "🎫",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "하루에 3회 이상 타면 이득입니다.",
+      "perDayEquivalent": 2400,
+      "recommended": false
+    },
+    {
+      "id": "cnm-p2",
+      "name": "PING bus 패스",
+      "nameEn": "PING bus 패스",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 1400,
+      "durationLabel": "24시간",
+      "covers": [
+        "시내 버스 전 노선"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "가장 저렴한 패스입니다.",
+      "perDayEquivalent": 1400,
+      "recommended": false
+    },
+    {
+      "id": "cnm-p3",
+      "name": "소쿠 Bike",
+      "nameEn": "소쿠 Bike",
+      "kind": "single_ticket",
+      "kindLabel": "자전거",
+      "price": 300,
+      "durationLabel": "24시간",
+      "covers": [
+        "자전거 대여"
+      ],
+      "emoji": "🚲",
+      "icon": "walk",
+      "billing": "once",
+      "notes": "도심 이동에 충분합니다.",
+      "perDayEquivalent": 300,
+      "recommended": false
+    }
+  ]
+}

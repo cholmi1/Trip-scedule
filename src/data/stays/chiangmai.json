@@ -1,0 +1,182 @@
+[
+  {
+    "id": "cnm-s1",
+    "name": "올드시티 게스트하우스",
+    "nameEn": "올드시티 게스트하우스",
+    "type": "guesthouse",
+    "district": "옛 시내",
+    "lat": 18.7885,
+    "lng": 98.9866,
+    "pricePerNight": 32000,
+    "rating": 8.6,
+    "reviewCount": 4260,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "수건 제공"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "성벽 안쪽. 걸어서 모든 곳에 갈 수 있습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "cnm-s2",
+    "name": "님먼 로드 호텔",
+    "nameEn": "님먼 로드 호텔",
+    "type": "hotel",
+    "district": "님먼 해먼",
+    "lat": 18.7965,
+    "lng": 98.9675,
+    "pricePerNight": 92000,
+    "rating": 9,
+    "reviewCount": 2840,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "님먼 카페 거리의 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "cnm-s3",
+    "name": "바오 쿠엣 인",
+    "nameEn": "바오 쿠엣 인",
+    "type": "guesthouse",
+    "district": "바오 쿠엣",
+    "lat": 18.8021,
+    "lng": 98.9219,
+    "pricePerNight": 38000,
+    "rating": 8.4,
+    "reviewCount": 1620,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기",
+      "수영장"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "숲속 사원 근처. 조용합니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "cnm-s4",
+    "name": "도이 수텁 하우스",
+    "nameEn": "도이 수텁 하우스",
+    "type": "guesthouse",
+    "district": "도이 수텁",
+    "lat": 18.8047,
+    "lng": 98.9225,
+    "pricePerNight": 44000,
+    "rating": 8.7,
+    "reviewCount": 1080,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "조식"
+    ],
+    "emoji": "🏘️",
+    "gradient": [
+      "#0891B2",
+      "#67E9F9"
+    ],
+    "description": "산 위에서 도시를 내려다봅니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "cnm-s5",
+    "name": "강의 내추럴",
+    "nameEn": "강의 내추럴",
+    "type": "hotel",
+    "district": "강의",
+    "lat": 18.7897,
+    "lng": 98.9906,
+    "pricePerNight": 136000,
+    "rating": 9.2,
+    "reviewCount": 3860,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "룸서비스",
+      "공항 셔틀"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "강변의 상급 리조트.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "cnm-s6",
+    "name": "님먼 콘도",
+    "nameEn": "님먼 콘도",
+    "type": "airbnb",
+    "district": "님먼 해먼",
+    "lat": 18.7981,
+    "lng": 98.9669,
+    "pricePerNight": 68000,
+    "rating": 9.1,
+    "reviewCount": 460,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "엘리베이터"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "님먼 거리 원베드룸 민박.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "cnm-s7",
+    "name": "노이 호스텔",
+    "nameEn": "노이 호스텔",
+    "type": "guesthouse",
+    "district": "나엔",
+    "lat": 18.7995,
+    "lng": 98.9793,
+    "pricePerNight": 24000,
+    "rating": 8.2,
+    "reviewCount": 5240,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "수영장",
+      "물품 보관"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "도심 최저가 호스텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

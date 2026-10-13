@@ -1,0 +1,114 @@
+{
+  "airportTransfers": [
+    {
+      "id": "ctu-t1",
+      "name": "쌍류 애매권",
+      "nameEn": "쌍류 애매권",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 8000,
+      "durationLabel": "약 20분",
+      "covers": [
+        "공항 → 춘시루역",
+        "편도 요금"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "지하철 10번선 직통입니다.",
+      "perDayEquivalent": 8000
+    },
+    {
+      "id": "ctu-t2",
+      "name": "공항 버스",
+      "nameEn": "공항 버스",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 2600,
+      "durationLabel": "약 60분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "도심 여러 곳을 경유합니다.",
+      "perDayEquivalent": 2600
+    },
+    {
+      "id": "ctu-t3",
+      "name": "공항 택시",
+      "nameEn": "공항 택시",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 26000,
+      "durationLabel": "약 35분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "2인 이상이면 저렴합니다.",
+      "perDayEquivalent": 26000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "ctu-p1",
+      "name": "충칭 천지 tong",
+      "nameEn": "충칭 천지 tong",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 4000,
+      "durationLabel": "72시간",
+      "covers": [
+        "지하철과 버스 무제한"
+      ],
+      "emoji": "🎫",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "3일권이 가장 합리적입니다.",
+      "perDayEquivalent": 1333,
+      "recommended": true
+    },
+    {
+      "id": "ctu-p2",
+      "name": "1일 무제한권",
+      "nameEn": "1일 무제한권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 1800,
+      "durationLabel": "24시간",
+      "covers": [
+        "지하철 무제한"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "하루에 4회 이상 타면 이득입니다.",
+      "perDayEquivalent": 1800,
+      "recommended": false
+    },
+    {
+      "id": "ctu-p3",
+      "name": "교통 카드",
+      "nameEn": "교통 카드",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 200,
+      "durationLabel": "1회",
+      "covers": [
+        "1회 이동권"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "카드에 충전해 씁니다.",
+      "perDayEquivalent": 200,
+      "recommended": false
+    }
+  ]
+}

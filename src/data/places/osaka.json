@@ -123,7 +123,7 @@
   "restaurants": [
     {
       "id": "osk-r1",
-      "name": "키즈오키 화이트 curry",
+      "name": "키즈오키 화이트 커리",
       "nameEn": "KizzOki White Curry",
       "lat": 34.6652,
       "lng": 135.5034,
@@ -138,7 +138,7 @@
       "diningStyle": "local",
       "mealSlot": "lunch",
       "description": "노후한 식당에서 나가는 흰 카레. 한 그릇에 계란 두 개.",
-      "tip": "7 downto 2시 사이에만 나옵니다. 대기 시간이 길지는 않습니다.",
+      "tip": "오후 1시부터 2시 사이에만 나옵니다.",
       "bestTime": "12:00 - 13:30"
     },
     {
@@ -183,8 +183,8 @@
     },
     {
       "id": "osk-r4",
-      "name": "CRIB 갈릭",
-      "nameEn": "Crib Coffee Ippolite",
+      "name": "CRIB 카페",
+      "nameEn": "Crib Coffee",
       "lat": 34.6677,
       "lng": 135.5014,
       "address": "오사카시 추오구 도정후 1-6-5",

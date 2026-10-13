@@ -41,7 +41,7 @@
       "lat": 35.6595,
       "lng": 139.7005,
       "address": "도쿄도 시부야구 도정후 2-1",
-      "rating": 9.0,
+      "rating": 9,
       "reviewCount": 298110,
       "durationMin": 45,
       "ticketPrice": 0,
@@ -195,7 +195,7 @@
       "diningStyle": "local",
       "mealSlot": "lunch",
       "description": "칸막이 좌석의 일식 라멘. 혼자 여행객에게 가장 편안한 구조.",
-      "tip": "기계로 주문을 넣는 시스템.CUIT 배달이 없어 공짜입니다.",
+      "tip": "기계로 주문하는 시스템이라 외식이 없는 편입니다.",
       "bestTime": "11:00 - 13:00"
     },
     {
@@ -225,7 +225,7 @@
       "lat": 35.6654,
       "lng": 139.7707,
       "address": "도쿄도 추오지구 츠키지 4-16-2",
-      "rating": 9.0,
+      "rating": 9,
       "reviewCount": 18700,
       "durationMin": 90,
       "ticketPrice": 0,
@@ -377,7 +377,7 @@
       "diningStyle": "cafe",
       "mealSlot": "lunch",
       "description": "창가 스탠딩 좌석의 분위기 커피. 부드러운 크림 커피가 시그니처.",
-      "tip": "기요미시 인-pool 주변은 매우 아늑합니다. 오후 2시 이후에는 대기가 붙습니다.",
+      "tip": "기요미지 주변은 매우 아늑합니다. 오후 2시 이후에는 대기가 붙습니다.",
       "bestTime": "11:00 - 14:00"
     },
     {
@@ -397,7 +397,7 @@
       "diningStyle": "cafe",
       "mealSlot": "lunch",
       "description": "시부야 힐즈 13층의 파노라마 카페. 일정 중간 쉬어갈 때 최고.",
-      "tip": "최상층 전망대 입장료가 별도. 카페만 이용할 거면 SKY 전망대 결제는 필요 없습니다.",
+      "tip": "최상층 전망대 입장료가 별도이므로 카페만 이용할 거면 결제는 필요 없습니다.",
       "bestTime": "14:00 - 17:00"
     },
     {
@@ -417,7 +417,7 @@
       "diningStyle": "cafe",
       "mealSlot": "lunch",
       "description": "모던 비엔나 파네와 로스터 원두. 소금빵과 합치면 완벽한 브런치.",
-      "tip": "시부야 cat street 라면, 계단 아래 입구라 지나치기 쉽습니다.",
+      "tip": "시부야 골목에 자리한 곳이라 지나치기 쉽습니다.",
       "bestTime": "09:00 - 18:00"
     },
     {
@@ -437,7 +437,7 @@
       "diningStyle": "cafe",
       "mealSlot": "lunch",
       "description": "빈티지 오크 테이블. 1잔 7,000원대 조용한 로스터리.",
-      "tip": "화요일 휴무. 다이칸야마 T-SITE 3층입니다.",
+      "tip": "화요일 휴무입니다. 다이칸야마 타임스카이프루 3층입니다.",
       "bestTime": "10:00 - 17:00"
     }
   ]

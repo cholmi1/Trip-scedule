@@ -1,0 +1,115 @@
+{
+  "airportTransfers": [
+    {
+      "id": "sha-t1",
+      "name": "자후이 lin 열차",
+      "nameEn": "Maglev Train",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 18000,
+      "durationLabel": "약 60분",
+      "covers": [
+        "퐁둥 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "표는 당일 매표만 가능합니다.",
+      "perDayEquivalent": 18000
+    },
+    {
+      "id": "sha-t2",
+      "name": "공항 리무진 버스",
+      "nameEn": "공항 리무진 버스",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 8000,
+      "durationLabel": "약 70분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "차량 종류가 다양합니다.",
+      "perDayEquivalent": 8000
+    },
+    {
+      "id": "sha-t3",
+      "name": "공항 택시",
+      "nameEn": "공항 택시",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 48000,
+      "durationLabel": "약 45분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "2인 이상이면 저렴합니다.",
+      "perDayEquivalent": 48000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "sha-p1",
+      "name": "상하이 교통 카드",
+      "nameEn": "상하이 교통 카드",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 500,
+      "durationLabel": "1회",
+      "covers": [
+        "지하철과 버스 1회 이동"
+      ],
+      "emoji": "🎫",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "시내 기기에서 충전합니다.",
+      "perDayEquivalent": 500,
+      "recommended": false
+    },
+    {
+      "id": "sha-p2",
+      "name": "1일 무제한권",
+      "nameEn": "1일 무제한권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 2000,
+      "durationLabel": "24시간",
+      "covers": [
+        "지하철 무제한"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "하루에 4회 이상 타면 이득입니다.",
+      "perDayEquivalent": 2000,
+      "recommended": false
+    },
+    {
+      "id": "sha-p3",
+      "name": "3일 무제한권",
+      "nameEn": "3일 무제한권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 5000,
+      "durationLabel": "72시간",
+      "covers": [
+        "지하철 무제한",
+        "72시간"
+      ],
+      "emoji": "🎟️",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "3박 이상이면 가장 저렴합니다.",
+      "perDayEquivalent": 1667,
+      "recommended": true
+    }
+  ]
+}

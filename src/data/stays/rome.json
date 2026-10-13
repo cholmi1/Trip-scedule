@@ -1,0 +1,160 @@
+[
+  {
+    "id": "rom-1",
+    "name": "호텔 아르코",
+    "nameEn": "Hotel Arco",
+    "type": "hotel",
+    "district": "트라베르시",
+    "lat": 41.8893,
+    "lng": 12.4718,
+    "pricePerNight": 108000,
+    "rating": 8.9,
+    "reviewCount": 1620,
+    "amenities": [
+      "무료 와이파이",
+      "조식",
+      "에어컨",
+      "엘리베이터"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#92400E",
+      "#FCD34D"
+    ],
+    "description": "란베 첸레서리오 거리의 노천 식당 연계 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "rom-2",
+    "name": "카사 바칸체 머제",
+    "nameEn": "Casa Vacanze Murge",
+    "type": "airbnb",
+    "district": "무르게",
+    "lat": 41.8992,
+    "lng": 12.4795,
+    "pricePerNight": 82000,
+    "rating": 9.1,
+    "reviewCount": 843,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "에어컨",
+      "바닥 난방"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#166534",
+      "#BBF7D0"
+    ],
+    "description": "테르미 바로 근처 아파트. 로마 중심부 최저가급.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "rom-3",
+    "name": "파티나 게스트하우스",
+    "nameEn": "Patin Guesthouse",
+    "type": "guesthouse",
+    "district": "파티나",
+    "lat": 41.8951,
+    "lng": 12.4723,
+    "pricePerNight": 52000,
+    "rating": 8.4,
+    "reviewCount": 2740,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "조식 무료",
+      "테라스"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#7C3AED",
+      "#DDD6FE"
+    ],
+    "description": "콜로소우 접근성이 가장 좋은 로케이션.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "rom-4",
+    "name": "호텔 모레티",
+    "nameEn": "Hotel Moretti",
+    "type": "hotel",
+    "district": "파티나",
+    "lat": 41.8965,
+    "lng": 12.4741,
+    "pricePerNight": 154000,
+    "rating": 9.2,
+    "reviewCount": 1890,
+    "amenities": [
+      "무료 와이파이",
+      "옥상 바",
+      "조식",
+      "에어컨"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#1E1B4B",
+      "#A5B4FC"
+    ],
+    "description": "스페인 광장 옥상 테라스에서 로마 전망이 펼쳐집니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "rom-5",
+    "name": "트라베르시 로컬",
+    "nameEn": "Trastevere Local GH",
+    "type": "guesthouse",
+    "district": "트라베르시",
+    "lat": 41.8898,
+    "lng": 12.4696,
+    "pricePerNight": 44000,
+    "rating": 8.1,
+    "reviewCount": 1290,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "물품 보관",
+      "리넨 무료"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#059669",
+      "#A7F3D0"
+    ],
+    "description": "노천 식자가 매일 저녁 골목을 채우는 동네.",
+    "freeCancellation": false,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "rom-6",
+    "name": "카사 로마 코티지",
+    "nameEn": "Casa Roma Cottage",
+    "type": "airbnb",
+    "district": "무르게",
+    "lat": 41.9005,
+    "lng": 12.4872,
+    "pricePerNight": 96000,
+    "rating": 8.8,
+    "reviewCount": 512,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "테라스",
+      "에어컨"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EA580C",
+      "#FED7AA"
+    ],
+    "description": "포르티 오르바르 바로 앞. 저녁 식사 동선이 짧습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

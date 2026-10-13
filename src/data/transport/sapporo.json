@@ -1,0 +1,114 @@
+{
+  "airportTransfers": [
+    {
+      "id": "sap-t1",
+      "name": "삿포로 공항 열차",
+      "nameEn": "삿포로 공항 열차",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 5200,
+      "durationLabel": "약 35분",
+      "covers": [
+        "공항 → 삿포로역",
+        "편도 요금"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "하루가 빠르게 지나갑니다.",
+      "perDayEquivalent": 5200
+    },
+    {
+      "id": "sap-t2",
+      "name": "공항 버스",
+      "nameEn": "공항 버스",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 2200,
+      "durationLabel": "약 50분",
+      "covers": [
+        "공항 → 삿포로역",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "역 앞에서 갈아탭니다.",
+      "perDayEquivalent": 2200
+    },
+    {
+      "id": "sap-t3",
+      "name": "공항 택시",
+      "nameEn": "공항 택시",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 30000,
+      "durationLabel": "약 40분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "4인 이상이면 가성비가 좋습니다.",
+      "perDayEquivalent": 30000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "sap-p1",
+      "name": "삿포로 시내 버스 1일권",
+      "nameEn": "삿포로 시내 버스 1일권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 2000,
+      "durationLabel": "24시간",
+      "covers": [
+        "시내 버스 전 노선"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "무료 구간도 있습니다.",
+      "perDayEquivalent": 2000,
+      "recommended": false
+    },
+    {
+      "id": "sap-p2",
+      "name": "메트로 1일권",
+      "nameEn": "메트로 1일권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 1600,
+      "durationLabel": "24시간",
+      "covers": [
+        "지하철 3개 노선"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "지하철만 타면 저렴합니다.",
+      "perDayEquivalent": 1600,
+      "recommended": false
+    },
+    {
+      "id": "sap-p3",
+      "name": "도토모 페스",
+      "nameEn": "도토모 페스",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 200,
+      "durationLabel": "1회",
+      "covers": [
+        "1회 이동권"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "교통 카드로 충당하는 제품입니다.",
+      "perDayEquivalent": 200,
+      "recommended": false
+    }
+  ]
+}

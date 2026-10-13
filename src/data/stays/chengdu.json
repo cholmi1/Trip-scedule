@@ -1,0 +1,155 @@
+[
+  {
+    "id": "ctu-s1",
+    "name": "춘시루 게스트하우스",
+    "nameEn": "춘시루 게스트하우스",
+    "type": "guesthouse",
+    "district": "춘시루",
+    "lat": 30.6573,
+    "lng": 104.0657,
+    "pricePerNight": 42000,
+    "rating": 8.5,
+    "reviewCount": 2840,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "춘시루역 도보 5분.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "ctu-s2",
+    "name": "타이리 부티크",
+    "nameEn": "타이리 부티크",
+    "type": "hotel",
+    "district": "타이리",
+    "lat": 30.6524,
+    "lng": 104.0811,
+    "pricePerNight": 138000,
+    "rating": 9,
+    "reviewCount": 2140,
+    "amenities": [
+      "무료 와이파이",
+      "조식",
+      "룸서비스",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "타이리 카페 거리 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "ctu-s3",
+    "name": "쿠안재이 Hof",
+    "nameEn": "쿠안재이 Hof",
+    "type": "guesthouse",
+    "district": "쿠자이",
+    "lat": 30.6701,
+    "lng": 104.0568,
+    "pricePerNight": 48000,
+    "rating": 8.4,
+    "reviewCount": 1960,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "수건 제공"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "쿠지타이 거리 옆 게스트하우스.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "ctu-s4",
+    "name": "오토파닉 후얀",
+    "nameEn": "오토파닉 후얀",
+    "type": "airbnb",
+    "district": "성도구",
+    "lat": 30.6585,
+    "lng": 104.0736,
+    "pricePerNight": 78000,
+    "rating": 9,
+    "reviewCount": 520,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "엘리베이터"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "성도구 중심 원베드룸 민박.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "ctu-s5",
+    "name": "판다 호텔",
+    "nameEn": "판다 호텔",
+    "type": "hotel",
+    "district": "성도구",
+    "lat": 30.6571,
+    "lng": 104.0779,
+    "pricePerNight": 166000,
+    "rating": 9.1,
+    "reviewCount": 1620,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "피트니스"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "도심에서 쾌적한 호텔입니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "ctu-s6",
+    "name": "러저 캡슐",
+    "nameEn": "러저 캡슐",
+    "type": "guesthouse",
+    "district": "청두구",
+    "lat": 30.6607,
+    "lng": 104.0632,
+    "pricePerNight": 34000,
+    "rating": 8,
+    "reviewCount": 3240,
+    "amenities": [
+      "무료 와이파이",
+      "물품 보관",
+      "공용 욕실"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "가장 저렴한 캡슐 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

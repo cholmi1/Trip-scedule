@@ -1,0 +1,211 @@
+[
+  {
+    "id": "tyo-1",
+    "name": "게스트하우스 카사이 신주쿠",
+    "nameEn": "Guesthouse KASAI Shinjuku",
+    "type": "guesthouse",
+    "district": "신주쿠",
+    "lat": 35.691,
+    "lng": 139.698,
+    "pricePerNight": 58000,
+    "rating": 8.7,
+    "reviewCount": 1243,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기",
+      "수건 제공"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#6366F1",
+      "#A5B4FC"
+    ],
+    "description": "신주쿠역에서 걸어서 4분. 정리가 깔끔한 소규모 게스트하우스.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "tyo-2",
+    "name": "도쿄 에디션 토라노몬",
+    "nameEn": "The Tokyo EDITION Toranomon",
+    "type": "hotel",
+    "district": "토라노몬",
+    "lat": 35.669,
+    "lng": 139.746,
+    "pricePerNight": 385000,
+    "rating": 9.4,
+    "reviewCount": 2871,
+    "amenities": [
+      "수영장",
+      "무료 와이파이",
+      "룸서비스",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "저층 라운지에서 도쿄 타워까지 한눈에 보이는 럭셔리 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "tyo-3",
+    "name": "유라쿠 호스트 신주쿠",
+    "nameEn": "Yuraku Host Shinjuku",
+    "type": "guesthouse",
+    "district": "시부야",
+    "lat": 35.695,
+    "lng": 139.699,
+    "pricePerNight": 46000,
+    "rating": 8.5,
+    "reviewCount": 2108,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "코워킹 공간",
+      "짐 보관"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "야키토리 노점 골목 안의 조용한 숙소. 도쿄 최저가 후보.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "tyo-4",
+    "name": "일반 하우스 우에노",
+    "nameEn": "General House Ueno",
+    "type": "guesthouse",
+    "district": "우에노",
+    "lat": 35.708,
+    "lng": 139.775,
+    "pricePerNight": 51000,
+    "rating": 8.9,
+    "reviewCount": 1567,
+    "amenities": [
+      "무료 와이파이",
+      "세탁기와 건조기",
+      "자전거 대여",
+      "테라스"
+    ],
+    "emoji": "🏘️",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "우에노 공원 도보권. 야마구타 거리 접근성이 뛰어납니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "tyo-5",
+    "name": "포드 호스텔 우메야",
+    "nameEn": "POD HOSTEL Umejima",
+    "type": "guesthouse",
+    "district": "오다이바",
+    "lat": 35.716,
+    "lng": 139.742,
+    "pricePerNight": 39000,
+    "rating": 8.4,
+    "reviewCount": 3892,
+    "amenities": [
+      "무료 와이파이",
+      "리넨 무료",
+      "라운지",
+      "1인 캡슐룸"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "1인 캡슐형 방. 세면도거까지 무료 제공되는 최저가.",
+    "freeCancellation": false,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "tyo-6",
+    "name": "앤디스 긴자 원베드",
+    "nameEn": "Andis Ginza 1BR",
+    "type": "airbnb",
+    "district": "긴자",
+    "lat": 35.673,
+    "lng": 139.765,
+    "pricePerNight": 96000,
+    "rating": 9.2,
+    "reviewCount": 684,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "냉난방",
+      "엘리베이터"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "긴자 7번 출구 코앞. 원베드룸 구조로 4인까지 가능.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "tyo-7",
+    "name": "아사쿠사 리트리",
+    "nameEn": "Asakusa Retreat GH",
+    "type": "guesthouse",
+    "district": "아사쿠사",
+    "lat": 35.713,
+    "lng": 139.796,
+    "pricePerNight": 74000,
+    "rating": 9,
+    "reviewCount": 2210,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "목욕탕",
+      "세탁기"
+    ],
+    "emoji": "🛕",
+    "gradient": [
+      "#EC4899",
+      "#F9A8D4"
+    ],
+    "description": "센소지 근처 료쿠키 골목. 발코니에서 후지산이 보입니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "tyo-8",
+    "name": "그린 레인스 긴자",
+    "nameEn": "Green Palace Lane Ginza",
+    "type": "hotel",
+    "district": "긴자",
+    "lat": 35.67,
+    "lng": 139.762,
+    "pricePerNight": 218000,
+    "rating": 9.1,
+    "reviewCount": 3455,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "피트니스",
+      "비즈니스 센터"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#1E293B",
+      "#94A3B8"
+    ],
+    "description": "긴자 5번 출구 초역. 더 비싼 호텔과 동격의 서비스.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  }
+]

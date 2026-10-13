@@ -1,0 +1,135 @@
+{
+  "airportTransfers": [
+    {
+      "id": "jej-t1",
+      "name": "공항 시내 버스",
+      "nameEn": "Airport Limousine Bus",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 2600,
+      "durationLabel": "약 30분",
+      "covers": [
+        "제주공항 → 제주시점",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "시내 버스가 공항 건물 바로 옆에서 출발합니다.",
+      "perDayEquivalent": 2600,
+      "recommended": true
+    },
+    {
+      "id": "jej-t2",
+      "name": "공항 택시",
+      "nameEn": "Airport Taxi",
+      "kind": "taxi_ride",
+      "kindLabel": "공항 시내",
+      "price": 32000,
+      "durationLabel": "약 30분",
+      "covers": [
+        "제주공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "4인 이상이면 버스보다 저렴합니다.",
+      "perDayEquivalent": 32000
+    },
+    {
+      "id": "jej-t3",
+      "name": "렌터카",
+      "nameEn": "Rent a Car",
+      "kind": "taxi_ride",
+      "kindLabel": "차량 대여",
+      "price": 45000,
+      "durationLabel": "24시간",
+      "covers": [
+        "전 구간 이동",
+        "주차 1회 포함"
+      ],
+      "emoji": "🚗",
+      "icon": "taxi",
+      "billing": "per_day",
+      "notes": "공항에서 바로 끌 수 있습니다. 연료비는 별도입니다.",
+      "perDayEquivalent": 45000,
+      "recommended": true
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "jej-p1",
+      "name": "시내 버스 무료 이용",
+      "nameEn": "Free City Bus",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 0,
+      "durationLabel": "기본 2시간",
+      "covers": [
+        "제주시 시내 버스",
+        "65세 이상 무료"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "시내 버스는 기본 요금이 없습니다.",
+      "perDayEquivalent": 0
+    },
+    {
+      "id": "jej-p2",
+      "name": "서귀포 시내 버스",
+      "nameEn": "Seogwipo Bus",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 2600,
+      "durationLabel": "편도",
+      "covers": [
+        "제주시 → 서귀포",
+        "부두와 중문 지역"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "650 버스가 주요 관광지를 연결합니다.",
+      "perDayEquivalent": 2600
+    },
+    {
+      "id": "jej-p3",
+      "name": "카톡 택시",
+      "nameEn": "Jeju Taxi",
+      "kind": "taxi_ride",
+      "kindLabel": "택시",
+      "price": 18000,
+      "durationLabel": "시내 기본 요금",
+      "covers": [
+        "시내 구역",
+        "거리당 추가 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "거리당 추가 요금이 붙습니다.",
+      "perDayEquivalent": 18000
+    },
+    {
+      "id": "jej-p4",
+      "name": "렌터카 6시간",
+      "nameEn": "Rent a Car 6 hours",
+      "kind": "taxi_ride",
+      "kindLabel": "차량 대여",
+      "price": 28000,
+      "durationLabel": "6시간",
+      "covers": [
+        "전 구간 이동",
+        "주차 포함"
+      ],
+      "emoji": "🚗",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "하루만 쓸 때는 이 시간이 가장 저렴합니다.",
+      "perDayEquivalent": 28000,
+      "recommended": true
+    }
+  ]
+}

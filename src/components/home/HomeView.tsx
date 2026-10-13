@@ -5,11 +5,12 @@ import { useRouter } from "next/navigation";
 import { ArrowRight, Building2, Plane, Sparkles, Wallet } from "lucide-react";
 import { EXAMPLE_TRIPS, buildTripPlan } from "@/lib/engine";
 import { addDaysIso, formatKrw } from "@/lib/format";
-import { CITIES, CITY_MAP, CURATED_CITIES } from "@/lib/data";
+import { CITIES, CITY_MAP, CURATED_CITIES, CURATED_GROUPS } from "@/lib/data";
 import { useTripStore } from "@/store/useTripStore";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SearchHeader } from "@/components/search/SearchHeader";
+import { CuratedCard } from "@/components/home/CuratedCard";
 import { DestinationsBrowser } from "@/components/home/DestinationsBrowser";
 
 export default function HomeView() {
@@ -21,31 +22,36 @@ export default function HomeView() {
   const setBudget = useTripStore((s) => s.setBudget);
 
   /** 예시 카드 미리보기 (실제 엔진으로 계산) */
-  const previews = useMemo(
-    () =>
-      EXAMPLE_TRIPS.map((ex) => {
-        const req = {
-          cityId: ex.cityId,
-          departureAirport: request.departureAirport,
-          startDate: ex.startDate,
-          endDate: addDaysIso(ex.startDate, ex.nights),
-          travelers: ex.travelers,
-          budgetTotal: ex.budgetTotal,
-          rooms: Math.max(1, Math.ceil(ex.travelers / 2)),
-        };
-        const plan = buildTripPlan(req);
-        return { ex, plan, req };
-      }),
-    [request.departureAirport],
-  );
-
-  function applyExample(req: (typeof previews)[number]["req"]) {
-    setCity(req.cityId);
-    setDates(req.startDate, req.endDate);
-    setTravelers(req.travelers);
-    setBudget(req.budgetTotal);
-    router.push("/plan");
-  }
+  const previews = useMemo(() => {
+    const out: Record<string, number> = {};
+    EXAMPLE_TRIPS.forEach((ex) => {
+      const req = {
+        cityId: ex.cityId,
+        departureAirport: request.departureAirport,
+        startDate: ex.startDate,
+        endDate: addDaysIso(ex.startDate, ex.nights),
+        travelers: ex.travelers,
+        budgetTotal: ex.budgetTotal,
+        rooms: Math.max(1, Math.ceil(ex.travelers / 2)),
+      };
+      out[ex.cityId] = buildTripPlan(req).budget.totalTotal;
+    });
+    // 큐레이션 도시 전부에 대한 기본 3박4일 2인 예상 총액
+    CURATED_CITIES.forEach((c) => {
+      if (out[c.id]) return;
+      const start = addDaysIso(new Date().toISOString().slice(0, 10), 30);
+      out[c.id] = buildTripPlan({
+        cityId: c.id,
+        departureAirport: request.departureAirport,
+        startDate: start,
+        endDate: addDaysIso(start, 3),
+        travelers: 2,
+        budgetTotal: 1500000,
+        rooms: 1,
+      }).budget.totalTotal;
+    });
+    return out;
+  }, [request.departureAirport]);
 
   return (
     <div className="min-h-dvh bg-background">
@@ -115,13 +121,31 @@ export default function HomeView() {
         </div>
 
         <div className="grid gap-4 md:grid-cols-3">
-          {previews.map(({ ex, plan, req }) => {
+          {EXAMPLE_TRIPS.map((ex) => {
             const city = CITY_MAP[ex.cityId];
+            const start = ex.startDate;
+            const endDate = addDaysIso(ex.startDate, ex.nights);
+            const req = {
+              cityId: ex.cityId,
+              departureAirport: request.departureAirport,
+              startDate: start,
+              endDate,
+              travelers: ex.travelers,
+              budgetTotal: ex.budgetTotal,
+              rooms: Math.max(1, Math.ceil(ex.travelers / 2)),
+            };
+            const plan = buildTripPlan(req);
             const within = plan.budget.totalTotal <= ex.budgetTotal;
             return (
               <button
                 key={ex.id}
-                onClick={() => applyExample(req)}
+                onClick={() => {
+                  setCity(req.cityId);
+                  setDates(req.startDate, req.endDate);
+                  setTravelers(req.travelers);
+                  setBudget(req.budgetTotal);
+                  router.push("/plan");
+                }}
                 className="group overflow-hidden rounded-lg border bg-card text-left shadow-soft transition-all hover:-translate-y-0.5 hover:shadow-lift"
               >
                 {/* 썸네일 */}
@@ -182,6 +206,43 @@ export default function HomeView() {
               </button>
             );
           })}
+        </div>
+      </section>
+
+      {/* 큐레이션 여행지 */}
+      <section className="container py-12">
+        <div className="mb-4 flex flex-wrap items-end justify-between gap-2">
+          <div>
+            <h2 className="text-lg font-bold">
+              실제 장소 데이터가 있는 도시 {CURATED_CITIES.length}곳
+            </h2>
+            <p className="text-xs text-muted-foreground">
+              일본·중국·동남아 각 3곳을 포함해 장소·숙박·교통을 모두 수록했습니다.
+            </p>
+          </div>
+          <Badge variant="brand" className="gap-1">
+            <Sparkles className="h-3 w-3" /> 전체 {CITIES.length}곳 중 {CURATED_CITIES.length}곳
+          </Badge>
+        </div>
+
+        <div className="space-y-6">
+          {CURATED_GROUPS.map((group) => (
+            <div key={group.region}>
+              <p className="mb-2 flex items-center gap-2 text-xs font-bold text-muted-foreground">
+                {group.region}
+                <span className="h-px flex-1 bg-border" />
+                <span>{group.ids.length}곳</span>
+              </p>
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7">
+                {group.ids
+                  .map((id) => CITY_MAP[id])
+                  .filter(Boolean)
+                  .map((c) => (
+                    <CuratedCard key={c.id} city={c} totals={previews[c.id]} />
+                  ))}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

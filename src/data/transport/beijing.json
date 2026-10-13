@@ -1,0 +1,114 @@
+{
+  "airportTransfers": [
+    {
+      "id": "bjs-t1",
+      "name": "공항 고속열차",
+      "nameEn": "공항 고속열차",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 22000,
+      "durationLabel": "약 30분",
+      "covers": [
+        "서우두 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "베이징 서우두역에서 직통입니다.",
+      "perDayEquivalent": 22000
+    },
+    {
+      "id": "bjs-t2",
+      "name": "공항 시내버스",
+      "nameEn": "공항 시내버스",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 3000,
+      "durationLabel": "약 80분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "가장 저렴한 선택입니다.",
+      "perDayEquivalent": 3000
+    },
+    {
+      "id": "bjs-t3",
+      "name": "공항 택시",
+      "nameEn": "공항 택시",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 42000,
+      "durationLabel": "약 50분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "4인 이상이면 가성비가 좋습니다.",
+      "perDayEquivalent": 42000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "bjs-p1",
+      "name": "1일 무제한권",
+      "nameEn": "1일 무제한권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 2500,
+      "durationLabel": "24시간",
+      "covers": [
+        "버스와 지하철 무제한"
+      ],
+      "emoji": "🎟️",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "1구와 2구 구역이 포함됩니다.",
+      "perDayEquivalent": 2500,
+      "recommended": false
+    },
+    {
+      "id": "bjs-p2",
+      "name": "2일 무제한권",
+      "nameEn": "2일 무제한권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 4000,
+      "durationLabel": "48시간",
+      "covers": [
+        "버스와 지하철 무제한"
+      ],
+      "emoji": "🎫",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "일정이 이틀이면 이득입니다.",
+      "perDayEquivalent": 2000,
+      "recommended": true
+    },
+    {
+      "id": "bjs-p3",
+      "name": "교통 카드 한 장",
+      "nameEn": "교통 카드 한 장",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 300,
+      "durationLabel": "1회",
+      "covers": [
+        "1회 이동권"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "버스에도 사용할 수 있습니다.",
+      "perDayEquivalent": 300,
+      "recommended": false
+    }
+  ]
+}

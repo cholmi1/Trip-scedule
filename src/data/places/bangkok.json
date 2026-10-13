@@ -177,7 +177,7 @@
       "emoji": "🍦",
       "diningStyle": "streetfood",
       "mealSlot": "lunch",
-      "description": "_LOCATION 시계탑 근처의 오래된 아이스크림 가게.",
+      "description": "시계탑 근처의 오래된 아이스크림 가게.",
       "tip": "코코넛과 망고 맛이 인기입니다.",
       "bestTime": "15:00 - 21:00"
     },
@@ -297,7 +297,7 @@
       "emoji": "🍛",
       "diningStyle": "local",
       "mealSlot": "dinner",
-      "description": "치안마이 커리를 카르이 noodles로 낸 음식.",
+      "description": "치안마이 커리를 볶음밥과 국물로 낸 음식.",
       "tip": "볶음 크림과 국물 양을 골라 주문합니다.",
       "bestTime": "16:00 - 22:00"
     }

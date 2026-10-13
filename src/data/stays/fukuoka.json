@@ -1,0 +1,182 @@
+[
+  {
+    "id": "fuk-s1",
+    "name": "하카타 게스트하우스 유니온",
+    "nameEn": "하카타 게스트하우스 유니온",
+    "type": "guesthouse",
+    "district": "하카타역",
+    "lat": 33.5908,
+    "lng": 130.3995,
+    "pricePerNight": 46000,
+    "rating": 8.6,
+    "reviewCount": 2140,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기",
+      "수건 제공"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "하카타역 바로 앞. 짐을 두고 가볍게 걸어다닐 수 있습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "fuk-s2",
+    "name": "나카스 호텔",
+    "nameEn": "나카스 호텔",
+    "type": "hotel",
+    "district": "나카스",
+    "lat": 33.5903,
+    "lng": 130.3968,
+    "pricePerNight": 142000,
+    "rating": 9,
+    "reviewCount": 3820,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "나카스 야키소바 거리의 상급 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "fuk-s3",
+    "name": "시부이 야타이 인",
+    "nameEn": "시부이 야타이 인",
+    "type": "guesthouse",
+    "district": "나카스",
+    "lat": 33.5921,
+    "lng": 130.3989,
+    "pricePerNight": 54000,
+    "rating": 8.4,
+    "reviewCount": 1260,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "환영 차 공짜"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "야타이 골목 한복판의 작은 게스트하우스.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "fuk-s4",
+    "name": "칸자마차 디오",
+    "nameEn": "칸자마차 디오",
+    "type": "guesthouse",
+    "district": "칸자마차",
+    "lat": 33.5704,
+    "lng": 130.4166,
+    "pricePerNight": 62000,
+    "rating": 8.8,
+    "reviewCount": 940,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "자전거 대여"
+    ],
+    "emoji": "🏘️",
+    "gradient": [
+      "#0891B2",
+      "#67E8F9"
+    ],
+    "description": "시내로 15분 거리. 조용하고 저렴합니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "fuk-s5",
+    "name": "타이후쿠 Hotel",
+    "nameEn": "타이후쿠 Hotel",
+    "type": "hotel",
+    "district": "타이후쿠",
+    "lat": 33.5822,
+    "lng": 130.4013,
+    "pricePerNight": 188000,
+    "rating": 9.1,
+    "reviewCount": 1640,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "룸서비스",
+      "공항 셔틀"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "스카이트리까지 도보 10분. 전망이 좋습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "fuk-s6",
+    "name": "닛초 카야시",
+    "nameEn": "닛초 카야시",
+    "type": "guesthouse",
+    "district": "치요쿠",
+    "lat": 33.5866,
+    "lng": 130.3972,
+    "pricePerNight": 38000,
+    "rating": 8.2,
+    "reviewCount": 3240,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "물품 보관"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "후쿠오카 최저가 게스트하우스.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "fuk-s7",
+    "name": "존슨 스 하우스",
+    "nameEn": "존슨 스 하우스",
+    "type": "airbnb",
+    "district": "하카타역",
+    "lat": 33.5888,
+    "lng": 130.4012,
+    "pricePerNight": 78000,
+    "rating": 9,
+    "reviewCount": 620,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "엘리베이터"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "역 세 걸음 거리 1베드룸 민박.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

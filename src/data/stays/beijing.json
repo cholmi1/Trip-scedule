@@ -1,0 +1,155 @@
+[
+  {
+    "id": "bjs-s1",
+    "name": "디자니 차이나 인",
+    "nameEn": "디자니 차이나 인",
+    "type": "guesthouse",
+    "district": "후하이구",
+    "lat": 39.9234,
+    "lng": 116.4034,
+    "pricePerNight": 46000,
+    "rating": 8.4,
+    "reviewCount": 3240,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "후하이구 중심. 관광지에 가깝습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "bjs-s2",
+    "name": "호텔 인디고",
+    "nameEn": "호텔 인디고",
+    "type": "hotel",
+    "district": "둥체구",
+    "lat": 39.9088,
+    "lng": 116.4151,
+    "pricePerNight": 168000,
+    "rating": 9,
+    "reviewCount": 3860,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "둥성문 근처 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "bjs-s3",
+    "name": "난루오 인",
+    "nameEn": "Nanluo Inn",
+    "type": "guesthouse",
+    "district": "난루오 거리",
+    "lat": 39.9366,
+    "lng": 116.4032,
+    "pricePerNight": 54000,
+    "rating": 8.6,
+    "reviewCount": 2680,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "에어컨"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "남루오 거리 위 게스트하우스.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "bjs-s4",
+    "name": "황사이 협곡",
+    "nameEn": "황사이 협곡",
+    "type": "airbnb",
+    "district": "구안산",
+    "lat": 39.9273,
+    "lng": 116.4118,
+    "pricePerNight": 96000,
+    "rating": 9.2,
+    "reviewCount": 640,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "에어컨"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "구안산 언덕의 통창 있는 민박.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "bjs-s5",
+    "name": "왕후절 근처 호텔",
+    "nameEn": "왕후절 근처 호텔",
+    "type": "hotel",
+    "district": "동화문",
+    "lat": 39.9336,
+    "lng": 116.4116,
+    "pricePerNight": 218000,
+    "rating": 9.3,
+    "reviewCount": 2840,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "룸서비스",
+      "조식"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "둥화문 근처 신규 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "bjs-s6",
+    "name": "베이징 캡슐",
+    "nameEn": "베이징 캡슐",
+    "type": "guesthouse",
+    "district": "전러우",
+    "lat": 39.9086,
+    "lng": 116.3975,
+    "pricePerNight": 38000,
+    "rating": 8.1,
+    "reviewCount": 4860,
+    "amenities": [
+      "무료 와이파이",
+      "물품 보관",
+      "공용 욕실"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "역 근처의 캡슐 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

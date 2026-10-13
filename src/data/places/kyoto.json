@@ -99,7 +99,7 @@
       "priceLevel": 2,
       "emoji": "🐟",
       "description": "400년 된 시장. 간장과 회와 꼬치를 서서 먹는 화학식.",
-      "tip": "가게가 조업을.datab니다. 간식은 몇 군데만 가세요.",
+      "tip": "가게가 조업을 끊습니다. 간식은 몇 군데만 가세요.",
       "bestTime": "10:00 - 12:30"
     },
     {
@@ -177,7 +177,7 @@
       "emoji": "🍜",
       "diningStyle": "local",
       "mealSlot": "lunch",
-      "description": "부 clamps 납작한 우동. 맛보지도 않습니다.",
+      "description": "가늘고 납작하게 눌러 낸 우동.",
       "tip": "줄이 짧아서 빨리 먹을 수 있습니다.",
       "bestTime": "11:30 - 13:30"
     },
@@ -217,7 +217,7 @@
       "emoji": "🍣",
       "diningStyle": "fine",
       "mealSlot": "dinner",
-      "description": "했으며 PRESS 스시 카운터. 2인 예약 필수입니다.",
+      "description": "카운터 자리에 앉아 먹는 정통 스시.",
       "tip": "점심 오마카세는 가격 대비 만족도가 더 높습니다.",
       "bestTime": "12:00 / 18:00"
     },
@@ -299,7 +299,7 @@
       "emoji": "☕",
       "diningStyle": "cafe",
       "mealSlot": "lunch",
-      "description": "교토역 코앞 로스터리. 새벽 7시부터 엽니다.",
+      "description": "교토역 바로 앞 로스터리. 이른 아침에도 엽니다.",
       "tip": "열차 시간 확인용으로 여기서 잠깐 쉬면 좋습니다.",
       "bestTime": "07:00 - 12:00"
     },

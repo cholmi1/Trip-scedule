@@ -1,0 +1,181 @@
+[
+  {
+    "id": "nag-s1",
+    "name": "나고야역 게스트하우스 마키사",
+    "nameEn": "나고야역 게스트하우스 마키사",
+    "type": "guesthouse",
+    "district": "나고야역",
+    "lat": 35.1652,
+    "lng": 136.8817,
+    "pricePerNight": 42000,
+    "rating": 8.3,
+    "reviewCount": 2860,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "역 북쪽 출구 바로 앞. 접근성이 최고입니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "nag-s2",
+    "name": "사카에 시트 가든",
+    "nameEn": "사카에 시트 가든",
+    "type": "hotel",
+    "district": "사카에",
+    "lat": 35.1608,
+    "lng": 136.9082,
+    "pricePerNight": 148000,
+    "rating": 9,
+    "reviewCount": 3120,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "사카에역 남쪽. 도심이 바로 앞입니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "nag-s3",
+    "name": "나고야 역사 민박",
+    "nameEn": "나고야 역사 민박",
+    "type": "guesthouse",
+    "district": "미초",
+    "lat": 35.1565,
+    "lng": 136.8862,
+    "pricePerNight": 46000,
+    "rating": 8.5,
+    "reviewCount": 1420,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "자전거 대여"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "미초역 근처의 조용한 게스트하우스.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "nag-s4",
+    "name": "메이초 스테이",
+    "nameEn": "메이초 스테이",
+    "type": "guesthouse",
+    "district": "미초",
+    "lat": 35.1578,
+    "lng": 136.8848,
+    "pricePerNight": 56000,
+    "rating": 8.7,
+    "reviewCount": 1080,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "수건 제공"
+    ],
+    "emoji": "🏘️",
+    "gradient": [
+      "#0891B2",
+      "#67E8F9"
+    ],
+    "description": "성곽과 가로상이 가까운 동네.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "nag-s5",
+    "name": "나고야 그랜드",
+    "nameEn": "나고야 그랜드",
+    "type": "hotel",
+    "district": "사카에",
+    "lat": 35.1615,
+    "lng": 136.9093,
+    "pricePerNight": 196000,
+    "rating": 9.2,
+    "reviewCount": 2240,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "룸서비스",
+      "비즈니스 센터"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "사카에역 근처의 호텔급 숙소.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "nag-s6",
+    "name": "칸자마치 게스트하우스",
+    "nameEn": "칸자마치 게스트하우스",
+    "type": "guesthouse",
+    "district": "칸자마치",
+    "lat": 35.5697,
+    "lng": 136.7129,
+    "pricePerNight": 36000,
+    "rating": 8.1,
+    "reviewCount": 4180,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "물품 보관"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "차로 15분이면 갈 수 있는 최저가.",
+    "freeCancellation": false,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "nag-s7",
+    "name": "오자카 유닛",
+    "nameEn": "오자카 유닛",
+    "type": "airbnb",
+    "district": "오자카",
+    "lat": 35.1601,
+    "lng": 136.9106,
+    "pricePerNight": 88000,
+    "rating": 9.1,
+    "reviewCount": 580,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "엘리베이터"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "오자카 거리 위 원베드룸 민박.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "par-1",
+    "name": "라마르 부티크 호텔",
+    "nameEn": "Le Marais Boutique Hotel",
+    "type": "hotel",
+    "district": "마레",
+    "lat": 48.8589,
+    "lng": 2.3625,
+    "pricePerNight": 176000,
+    "rating": 9,
+    "reviewCount": 1420,
+    "amenities": [
+      "무료 와이파이",
+      "조식",
+      "에어컨",
+      "미니바"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#3730A3",
+      "#A5B4FC"
+    ],
+    "description": "마레 중심부의 미니멀 부티크 호텔. 조식 포함가.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "par-2",
+    "name": "레 마레 게스트하우스",
+    "nameEn": "Le Marais Guesthouse",
+    "type": "guesthouse",
+    "district": "라부타",
+    "lat": 48.8562,
+    "lng": 2.3598,
+    "pricePerNight": 92000,
+    "rating": 8.7,
+    "reviewCount": 2230,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기",
+      "자전거 대여"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#BE185D",
+      "#F9A8D4"
+    ],
+    "description": "파리 심장부 게스트하우스. 후갈루 창고까지 5분.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "par-3",
+    "name": "몽마르트 하우스",
+    "nameEn": "Montmartre Homey",
+    "type": "airbnb",
+    "district": "몽마르트",
+    "lat": 48.8867,
+    "lng": 2.3431,
+    "pricePerNight": 124000,
+    "rating": 9.2,
+    "reviewCount": 712,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "전망",
+      "난방"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#F43F5E",
+      "#FECDD3"
+    ],
+    "description": "사크레쾨르 언덕의 집. 지붕에서 파리 전경이 보입니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "par-4",
+    "name": "호텔 저스티나",
+    "nameEn": "Hôtel Justina",
+    "type": "hotel",
+    "district": "라부타",
+    "lat": 48.8612,
+    "lng": 2.3694,
+    "pricePerNight": 142000,
+    "rating": 8.8,
+    "reviewCount": 3160,
+    "amenities": [
+      "무료 와이파이",
+      "조식",
+      "바",
+      "룸서비스"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#312E81",
+      "#818CF8"
+    ],
+    "description": "바른 공원 정면. 같은 동네 대비 가격이 절반 수준.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "par-5",
+    "name": "레 레포 게스트하우스",
+    "nameEn": "Le Repos du Marais",
+    "type": "guesthouse",
+    "district": "라부타",
+    "lat": 48.8595,
+    "lng": 2.3566,
+    "pricePerNight": 64000,
+    "rating": 8.3,
+    "reviewCount": 1780,
+    "amenities": [
+      "무료 와이파이",
+      "리넨 무료",
+      "라운지",
+      "거실"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#0891B2",
+      "#A5F3FC"
+    ],
+    "description": "7박 이상 예약하면 할인 폭이 큽니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "par-6",
+    "name": "호텔 소피아",
+    "nameEn": "Hôtel Sofia",
+    "type": "hotel",
+    "district": "16구",
+    "lat": 48.8651,
+    "lng": 2.2787,
+    "pricePerNight": 138000,
+    "rating": 8.6,
+    "reviewCount": 2410,
+    "amenities": [
+      "무료 와이파이",
+      "조식",
+      "에어컨",
+      "작은 냉장고"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#334155",
+      "#94A3B8"
+    ],
+    "description": "트로카데로 근처. 지하철과 RER 접근성이 최고.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "par-7",
+    "name": "라마르 플라워 스튜디오",
+    "nameEn": "Le Marais Flower Studio",
+    "type": "guesthouse",
+    "district": "마레",
+    "lat": 48.8601,
+    "lng": 2.3605,
+    "pricePerNight": 104000,
+    "rating": 8.9,
+    "reviewCount": 389,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "엘리베이터"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#A21CAF",
+      "#F5D0FE"
+    ],
+    "description": "생클로샤르의 조용한 소형 스튜디오. 커플 여행에 최적.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

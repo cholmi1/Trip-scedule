@@ -1,0 +1,132 @@
+{
+  "airportTransfers": [
+    {
+      "id": "par-t1",
+      "name": "RER B 열차",
+      "nameEn": "RER B",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 17000,
+      "durationLabel": "약 50분",
+      "covers": [
+        "샤를 드골 → 시내",
+        "라운드 티켓"
+      ],
+      "emoji": "🚆",
+      "icon": "train",
+      "billing": "once",
+      "notes": "시내를 그대로 지나가기 때문에 방향을 따로 알아둡니다.",
+      "perDayEquivalent": 8500
+    },
+    {
+      "id": "par-t2",
+      "name": "공항 전용 버스",
+      "nameEn": "Roissybus",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 3200,
+      "durationLabel": "약 60분",
+      "covers": [
+        "공항 → 오피르",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "가장 저렴한 공항 이동 수단입니다.",
+      "perDayEquivalent": 1600
+    },
+    {
+      "id": "par-t3",
+      "name": "택시",
+      "nameEn": "Airport Taxi",
+      "kind": "taxi_ride",
+      "kindLabel": "공항 시내",
+      "price": 62000,
+      "durationLabel": "약 50분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "짐이 많거나 3인 이상이면 효율적입니다.",
+      "perDayEquivalent": 31000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "par-p1",
+      "name": "나비고 10회권",
+      "nameEn": "Navigo Easy 10-ticket",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 24500,
+      "durationLabel": "90분 단위 무제한 10회",
+      "covers": [
+        "파리 시내와 근교",
+        "1구와 2구"
+      ],
+      "emoji": "🎫",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "한 번에 여러 명이 함께 쓰면 더 저렴합니다.",
+      "perDayEquivalent": 5600,
+      "recommended": true
+    },
+    {
+      "id": "par-p2",
+      "name": "파리 비지테 2일권",
+      "nameEn": "Paris Visite 2-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 62000,
+      "durationLabel": "48시간",
+      "covers": [
+        "박물관 20곳 이상",
+        "시내 교통 무제한"
+      ],
+      "emoji": "🖼️",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "루브르와 오르세를 함께 보면 손해가 아닙니다.",
+      "perDayEquivalent": 31000
+    },
+    {
+      "id": "par-p3",
+      "name": "주말 티켓",
+      "nameEn": "Ticket Weekend",
+      "kind": "single_ticket",
+      "kindLabel": "개별권",
+      "price": 6200,
+      "durationLabel": "토요일과 일요일 무제한",
+      "covers": [
+        "주말에만 유효",
+        "1구와 2구"
+      ],
+      "emoji": "🎟️",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "토요일과 일요일에만 사용할 수 있습니다.",
+      "perDayEquivalent": 3100
+    },
+    {
+      "id": "par-p4",
+      "name": "무제한 교통권",
+      "nameEn": "Navigo Easy",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 3200,
+      "durationLabel": "1회 이동",
+      "covers": [
+        "1회 이동권"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "1회권이므로 하루에 여러 번 타면 패스가 낫습니다.",
+      "perDayEquivalent": 3200
+    }
+  ]
+}

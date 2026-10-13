@@ -1,0 +1,185 @@
+[
+  {
+    "id": "osk-1",
+    "name": "난바 게스트하우스 카즈",
+    "nameEn": "Namba Guesthouse Kazu",
+    "type": "guesthouse",
+    "district": "난바",
+    "lat": 34.6665,
+    "lng": 135.5015,
+    "pricePerNight": 44000,
+    "rating": 8.8,
+    "reviewCount": 1876,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기",
+      "수건 제공"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#F97316",
+      "#FDBA74"
+    ],
+    "description": "난바역 도보 5분. 도톤보리까지 걸어서 10분.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "osk-2",
+    "name": "난바 그랜드 호텔",
+    "nameEn": "Namba Grand Hotel",
+    "type": "hotel",
+    "district": "난바",
+    "lat": 34.6642,
+    "lng": 135.5033,
+    "pricePerNight": 168000,
+    "rating": 9,
+    "reviewCount": 4210,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "공항 셔틀",
+      "레스토랑"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "간사이 공항 직행 셔틀 운영. 장기 체류에도 부담 없는 가격.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "osk-3",
+    "name": "시바 스테이션 인",
+    "nameEn": "Shiba Station Inn",
+    "type": "guesthouse",
+    "district": "시바",
+    "lat": 34.669,
+    "lng": 135.5065,
+    "pricePerNight": 62000,
+    "rating": 9.2,
+    "reviewCount": 984,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "자전거 대여"
+    ],
+    "emoji": "🏘️",
+    "gradient": [
+      "#0891B2",
+      "#67E8F9"
+    ],
+    "description": "시바 요시코지 거리 한복판. 유론교 산책로가 바로 앞.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "osk-4",
+    "name": "우메다 타운호텔",
+    "nameEn": "Umeda Town Hotel",
+    "type": "hotel",
+    "district": "우메다",
+    "lat": 34.695,
+    "lng": 135.49,
+    "pricePerNight": 132000,
+    "rating": 8.9,
+    "reviewCount": 5530,
+    "amenities": [
+      "무료 와이파이",
+      "공항 리무진",
+      "룸서비스",
+      "중국식 식당"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#111827",
+      "#6B7280"
+    ],
+    "description": "하카타역과 난바역 사이. 일본 최대 환승 거점에 직결.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "osk-5",
+    "name": "신세이바치 유니온 인",
+    "nameEn": "Shinsaibashi Union Inn",
+    "type": "guesthouse",
+    "district": "신세이바시",
+    "lat": 34.6692,
+    "lng": 135.5,
+    "pricePerNight": 71000,
+    "rating": 8.6,
+    "reviewCount": 1420,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기",
+      "거실"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#BE185D",
+      "#F9A8D4"
+    ],
+    "description": "구라진기코지 거리 코앞. 쇼핑 예산이 큰 여행에 적합.",
+    "freeCancellation": false,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "osk-6",
+    "name": "도톤보리 로프트",
+    "nameEn": "Dotonbori Loft",
+    "type": "airbnb",
+    "district": "도톤보리",
+    "lat": 34.6687,
+    "lng": 135.5013,
+    "pricePerNight": 89000,
+    "rating": 9.3,
+    "reviewCount": 512,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "발코니",
+      "엘리베이터"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "글리코 간판 바로 아래. 창가에서 야경을 매일 감상.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "osk-7",
+    "name": "이마미차초 게스트하우스",
+    "nameEn": "Imamichacho Guesthouse",
+    "type": "guesthouse",
+    "district": "이마미차초",
+    "lat": 34.6765,
+    "lng": 135.4962,
+    "pricePerNight": 38000,
+    "rating": 8.3,
+    "reviewCount": 2090,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "물품 보관",
+      "수건 무료"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#65A30D",
+      "#BEF264"
+    ],
+    "description": "예약만 가능한 최저가 게스트하우스. 가성비 1위 후보.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

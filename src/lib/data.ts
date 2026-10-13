@@ -1,14 +1,6 @@
 import citiesRaw from "@/data/cities.json";
 import catalogRaw from "@/data/catalog.json";
-import staysRaw from "@/data/stays.json";
-import transportRaw from "@/data/transport.json";
-import tokyoPlaces from "@/data/places/tokyo.json";
-import osakaPlaces from "@/data/places/osaka.json";
-import kyotoPlaces from "@/data/places/kyoto.json";
-import parisPlaces from "@/data/places/paris.json";
-import romePlaces from "@/data/places/rome.json";
-import bangkokPlaces from "@/data/places/bangkok.json";
-import jejuPlaces from "@/data/places/jeju.json";
+import { CURATED_IDS, RAW_PLACES, RAW_STAYS, RAW_TRANSPORT } from "@/data/entries";
 
 import type { City, Place, StayOption, TransportPass } from "./types";
 import { haversineKm, hashSeed, mulberry32 } from "./utils";
@@ -175,13 +167,23 @@ function normalizeCatalogCity(raw: CatalogCity, index: number): City {
   };
 }
 
-/** 큐레이션 도시 + 카탈로그 도시를 합친 전체 목록 (id 중복 제거) */
+/**
+ * 큐레이션 도시 목록 (장소 데이터가 실제로 있는 도시)
+ * places/ 폴더에 파일이 있는 도시를 자동으로 판별한다.
+ */
+const CURATED_SET = new Set<string>(CURATED_IDS);
+
+/** 도시 목록 (큐레이션 7 + 카탈로그 115, 큐레이션 여부 자동 판별) */
 export const CITIES: City[] = (() => {
   const seen = new Set(CITIES_CURATED.map((c) => c.id));
   const extra = (catalogRaw as { cities: CatalogCity[] }).cities
     .filter((c) => !seen.has(c.id))
     .map(normalizeCatalogCity);
-  return [...CITIES_CURATED, ...extra];
+  return [...CITIES_CURATED, ...extra].map((c) => ({
+    ...c,
+    // cities.json 의 7개는 항상 큐레이션이고, 카탈로그는 places 파일이 있는 도시만 해당
+    curated: CURATED_SET.has(c.id),
+  }));
 })();
 
 export const CITY_MAP: Record<string, City> = Object.fromEntries(
@@ -190,6 +192,14 @@ export const CITY_MAP: Record<string, City> = Object.fromEntries(
 
 /** 큐레이션 도시만 추려낸 목록 */
 export const CURATED_CITIES = CITIES.filter((c) => c.curated);
+
+/** 지역별 큐레이션 도시 (홈 화면 큐레이션 섹션에서 사용) */
+export const CURATED_GROUPS: { region: string; ids: string[] }[] = [
+  { region: "원래 큐레이션", ids: ["tokyo", "osaka", "kyoto", "paris", "rome", "bangkok", "jeju"] },
+  { region: "일본", ids: ["fukuoka", "nagoya", "sapporo"] },
+  { region: "중국", ids: ["shanghai", "beijing", "chengdu"] },
+  { region: "동남아", ids: ["chiangmai", "bali", "hanoi"] },
+];
 
 /* ── 3. 공통 상수 ────────────────────────────────────────── */
 
@@ -249,8 +259,9 @@ interface RawPlaceSet {
 interface RawStay {
   id: string;
   name: string;
-  nameEn: string;
+  nameEn?: string;
   type: StayOption["type"];
+  typeLabel?: string;
   district: string;
   lat: number;
   lng: number;
@@ -299,15 +310,12 @@ function toPlaces(cityId: string, data: RawPlaceSet): Place[] {
   ];
 }
 
-const PLACE_MAP: Record<string, Place[]> = {
-  tokyo: toPlaces("tokyo", tokyoPlaces),
-  osaka: toPlaces("osaka", osakaPlaces),
-  kyoto: toPlaces("kyoto", kyotoPlaces),
-  paris: toPlaces("paris", parisPlaces),
-  rome: toPlaces("rome", romePlaces),
-  bangkok: toPlaces("bangkok", bangkokPlaces),
-  jeju: toPlaces("jeju", jejuPlaces),
-};
+const PLACE_MAP: Record<string, Place[]> = Object.fromEntries(
+  CURATED_IDS.map((id) => [
+    id,
+    toPlaces(id, (RAW_PLACES as Record<string, RawPlaceSet>)[id]),
+  ]),
+);
 
 /** 좌표에서 약 distKm 만큼 떨어진 지점을 만든다 (방위각은 난수로) */
 function offsetPoint(
@@ -689,37 +697,39 @@ function scoreLabel(rating: number) {
 }
 
 /** JSON → StayOption 변환 (도심까지 거리는 haversine으로 계산) */
-function toStays(cityId: string): StayOption[] {
+function toStays(cityId: string, raw: RawStay[]): StayOption[] {
   const city = CITY_MAP[cityId];
-  const list = ((staysRaw as Record<string, RawStay[]>)[cityId] ?? []) as RawStay[];
-  return list.map((raw) => ({
-    id: raw.id,
-    name: raw.name,
-    nameEn: raw.nameEn,
-    type: raw.type,
-    typeLabel: STAY_TYPE_LABEL[raw.type as StayOption["type"]],
-    district: raw.district,
-    lat: raw.lat,
-    lng: raw.lng,
+  return raw.map((r) => ({
+    id: r.id,
+    name: r.name,
+    nameEn: r.nameEn ?? r.name,
+    type: r.type,
+    typeLabel: STAY_TYPE_LABEL[r.type as StayOption["type"]] ?? r.typeLabel ?? "숙소",
+    district: r.district,
+    lat: r.lat,
+    lng: r.lng,
     distanceFromCenterKm: Number(
-      haversineKm({ lat: raw.lat, lng: raw.lng }, city.downtown).toFixed(2),
+      haversineKm({ lat: r.lat, lng: r.lng }, city.downtown).toFixed(2),
     ),
-    pricePerNight: raw.pricePerNight,
-    pricePerPerson: Math.round(raw.pricePerNight / 2),
-    rating: raw.rating,
-    reviewCount: raw.reviewCount,
-    amenities: raw.amenities,
-    emoji: raw.emoji,
-    gradient: raw.gradient as [string, string],
-    scoreLabel: scoreLabel(raw.rating),
-    description: raw.description,
-    freeCancellation: raw.freeCancellation,
-    breakfastIncluded: raw.breakfastIncluded,
+    pricePerNight: r.pricePerNight,
+    pricePerPerson: Math.round(r.pricePerNight / 2),
+    rating: r.rating,
+    reviewCount: r.reviewCount,
+    amenities: r.amenities,
+    emoji: r.emoji,
+    gradient: r.gradient as [string, string],
+    scoreLabel: scoreLabel(r.rating),
+    description: r.description,
+    freeCancellation: r.freeCancellation,
+    breakfastIncluded: r.breakfastIncluded,
   }));
 }
 
 const STAY_MAP: Record<string, StayOption[]> = Object.fromEntries(
-  CITIES.filter((c) => c.curated).map((c) => [c.id, toStays(c.id)]),
+  CURATED_IDS.map((id) => [
+    id,
+    toStays(id, (RAW_STAYS as Record<string, RawStay[]>)[id]),
+  ]),
 );
 
 export function getStays(cityId: string): StayOption[] {
@@ -730,7 +740,7 @@ export function getTransport(cityId: string): {
   airportTransfers: TransportPass[];
   cityPasses: TransportPass[];
 } {
-  const raw = (transportRaw as Record<string, { airportTransfers: TransportPass[]; cityPasses: TransportPass[] }>)[cityId];
+  const raw = (RAW_TRANSPORT as Record<string, { airportTransfers: TransportPass[]; cityPasses: TransportPass[] }>)[cityId];
   if (raw) return raw;
   return buildSyntheticTransport(CITY_MAP[cityId]);
 }

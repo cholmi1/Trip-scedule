@@ -1,0 +1,161 @@
+[
+  {
+    "id": "jej-1",
+    "name": "제주 시내 게스트하우스",
+    "nameEn": "Jeju Downtown Guesthouse",
+    "type": "guesthouse",
+    "district": "제주시",
+    "lat": 33.5125,
+    "lng": 126.5221,
+    "pricePerNight": 42000,
+    "rating": 8.6,
+    "reviewCount": 2140,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기",
+      "조식 무료"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#0284C7",
+      "#BAE6FD"
+    ],
+    "description": "제주시점 광장 옆. 도심 버스가 도보 3분 거리.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "jej-2",
+    "name": "애월 바다풍 펜션",
+    "nameEn": "Aewol Oceanview Pension",
+    "type": "guesthouse",
+    "district": "애월",
+    "lat": 33.4636,
+    "lng": 126.3105,
+    "pricePerNight": 88000,
+    "rating": 9.1,
+    "reviewCount": 980,
+    "amenities": [
+      "무료 와이파이",
+      "바베큐",
+      "수영장",
+      "주차",
+      "조식"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#0EA5E9",
+      "#F0F9FF"
+    ],
+    "description": "애월 해안 경관. 노을 시간에 노을이 최고.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "jej-3",
+    "name": "서귀포 마린파크",
+    "nameEn": "Seogwipo Marine Park",
+    "type": "hotel",
+    "district": "서귀포",
+    "lat": 33.2427,
+    "lng": 126.5613,
+    "pricePerNight": 96000,
+    "rating": 8.9,
+    "reviewCount": 3120,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "주차"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#1D4ED8",
+      "#93C5FD"
+    ],
+    "description": "중문관광단 입구. 제주 남부 숙박 허브.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "jej-4",
+    "name": "중도 바다둘레",
+    "nameEn": "Jungdo Airbnb Ocean",
+    "type": "airbnb",
+    "district": "중도",
+    "lat": 33.3035,
+    "lng": 126.5221,
+    "pricePerNight": 128000,
+    "rating": 9.4,
+    "reviewCount": 412,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "바베큐",
+      "주차",
+      "해변 앞"
+    ],
+    "emoji": "🏕️",
+    "gradient": [
+      "#0369A1",
+      "#7DD3FC"
+    ],
+    "description": "바다 바로 앞 단독 주택. 파도 소리가 들립니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "jej-5",
+    "name": "제주시 한림 스테이",
+    "nameEn": "Jeju Hanlim Stay",
+    "type": "guesthouse",
+    "district": "제주시",
+    "lat": 33.5198,
+    "lng": 126.5305,
+    "pricePerNight": 33000,
+    "rating": 8.2,
+    "reviewCount": 1640,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "물품 보관",
+      "환승 도움"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#0D9488",
+      "#CCFBF1"
+    ],
+    "description": "한림공원 도보권 최저가 숙소. 렌터카 없이 충분.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "jej-6",
+    "name": "제주 오션 스위트",
+    "nameEn": "Jeju Ocean Suites",
+    "type": "hotel",
+    "district": "제주시",
+    "lat": 33.4991,
+    "lng": 126.5305,
+    "pricePerNight": 178000,
+    "rating": 9.3,
+    "reviewCount": 2760,
+    "amenities": [
+      "무료 와이파이",
+      "빌라",
+      "수영장",
+      "조식",
+      "주차"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#7DD3FC"
+    ],
+    "description": "해운장 마린 레지던스. 빌라 단독 사용으로 프라이버시.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

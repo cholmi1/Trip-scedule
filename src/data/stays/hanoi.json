@@ -1,0 +1,181 @@
+[
+  {
+    "id": "han-s1",
+    "name": "올드쿼터 게스트하우스",
+    "nameEn": "올드쿼터 게스트하우스",
+    "type": "guesthouse",
+    "district": "옛 거리",
+    "lat": 21.0308,
+    "lng": 105.8544,
+    "pricePerNight": 30000,
+    "rating": 8.4,
+    "reviewCount": 4860,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "옛 시내 한복판. 좁은 골목 안.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "han-s2",
+    "name": "프렌치 Quarter 호텔",
+    "nameEn": "프렌치 Quarter 호텔",
+    "type": "hotel",
+    "district": "프렌치 켄터",
+    "lat": 21.0249,
+    "lng": 105.8548,
+    "pricePerNight": 118000,
+    "rating": 8.9,
+    "reviewCount": 3240,
+    "amenities": [
+      "무료 와이파이",
+      "조식",
+      "수영장",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "식민지 저택을 개조한 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "han-s3",
+    "name": "바오다리 호우스",
+    "nameEn": "바오다리 호우스",
+    "type": "guesthouse",
+    "district": "바오다리",
+    "lat": 21.0368,
+    "lng": 105.8341,
+    "pricePerNight": 36000,
+    "rating": 8.6,
+    "reviewCount": 2140,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "자전거 대여"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "바오다리 거리. 취안 단골입니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "han-s4",
+    "name": "타이호 야시장 인",
+    "nameEn": "타이호 야시장 인",
+    "type": "guesthouse",
+    "district": "타이호",
+    "lat": 21.0431,
+    "lng": 105.8813,
+    "pricePerNight": 32000,
+    "rating": 8.3,
+    "reviewCount": 3240,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "에어컨"
+    ],
+    "emoji": "🏘️",
+    "gradient": [
+      "#0891B2",
+      "#67E9F9"
+    ],
+    "description": "타이호 강변 야시장 옆.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "han-s5",
+    "name": "파크 Renaissance",
+    "nameEn": "파크 Renaissance",
+    "type": "hotel",
+    "district": "분성",
+    "lat": 21.0273,
+    "lng": 105.8342,
+    "pricePerNight": 210000,
+    "rating": 9.3,
+    "reviewCount": 4620,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "룸서비스",
+      "조식",
+      "공항 셔틀"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "호수 옆 상급 호텔입니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "han-s6",
+    "name": "리얼 레지던시",
+    "nameEn": "Real Residency",
+    "type": "airbnb",
+    "district": "호안킴",
+    "lat": 21.0286,
+    "lng": 105.8551,
+    "pricePerNight": 64000,
+    "rating": 9.1,
+    "reviewCount": 620,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "엘리베이터"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "호수 도보 5분 원베드룸 민박.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "han-s7",
+    "name": "타이후 호스텔",
+    "nameEn": "Taihu Hostel",
+    "type": "guesthouse",
+    "district": "타이호",
+    "lat": 21.0421,
+    "lng": 100.5,
+    "pricePerNight": 26000,
+    "rating": 8.2,
+    "reviewCount": 3860,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "물품 보관"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "가장 저렴한 호스텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

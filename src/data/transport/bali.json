@@ -1,0 +1,115 @@
+{
+  "airportTransfers": [
+    {
+      "id": "bal-t1",
+      "name": "누사랑이 셔틀",
+      "nameEn": "Nusa Dua Shuttle",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 6000,
+      "durationLabel": "약 60분",
+      "covers": [
+        "공항 → 세멩락",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "프라이드 같은 차량입니다.",
+      "perDayEquivalent": 6000
+    },
+    {
+      "id": "bal-t2",
+      "name": "공항 택시",
+      "nameEn": "공항 택시",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 48000,
+      "durationLabel": "약 40분",
+      "covers": [
+        "공항 → 우부드",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "계약제가 아니므로 협상하세요.",
+      "perDayEquivalent": 48000
+    },
+    {
+      "id": "bal-t3",
+      "name": "공항 셔틀 개인",
+      "nameEn": "공항 셔틀 개인",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 90000,
+      "durationLabel": "약 45분",
+      "covers": [
+        "공항 → 우부드",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "요금을 미리 정해 두는 편이 좋습니다.",
+      "perDayEquivalent": 90000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "bal-p1",
+      "name": "Grab 드라이버",
+      "nameEn": "Grab 드라이버",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 20000,
+      "durationLabel": "1회",
+      "covers": [
+        "시내 이동 1회"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "요금이 저렴한 택시입니다.",
+      "perDayEquivalent": 20000,
+      "recommended": false
+    },
+    {
+      "id": "bal-p2",
+      "name": "자전거 대여",
+      "nameEn": "자전거 대여",
+      "kind": "single_ticket",
+      "kindLabel": "자전거",
+      "price": 12000,
+      "durationLabel": "1일",
+      "covers": [
+        "도심 이동"
+      ],
+      "emoji": "🚲",
+      "icon": "walk",
+      "billing": "once",
+      "notes": "우부드 중심으로 좋습니다.",
+      "perDayEquivalent": 12000,
+      "recommended": false
+    },
+    {
+      "id": "bal-p3",
+      "name": "렌터카 6시간",
+      "nameEn": "렌터카 6시간",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 45000,
+      "durationLabel": "6시간",
+      "covers": [
+        "전 구간 이동",
+        "주차 포함"
+      ],
+      "emoji": "🚗",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "하루만 쓰기 좋습니다.",
+      "perDayEquivalent": 7500,
+      "recommended": true
+    }
+  ]
+}

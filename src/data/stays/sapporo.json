@@ -1,0 +1,183 @@
+[
+  {
+    "id": "sap-s1",
+    "name": "스시노 게스트하우스",
+    "nameEn": "스시노 게스트하우스",
+    "type": "guesthouse",
+    "district": "스시노",
+    "lat": 43.0612,
+    "lng": 141.3541,
+    "pricePerNight": 44000,
+    "rating": 8.5,
+    "reviewCount": 3260,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기",
+      "수건 제공"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "스시노 역 도보 4분. 역세권 최저가입니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "sap-s2",
+    "name": "삿포로 파크",
+    "nameEn": "삿포로 파크",
+    "type": "hotel",
+    "district": "대공원",
+    "lat": 43.0451,
+    "lng": 141.3423,
+    "pricePerNight": 176000,
+    "rating": 9.1,
+    "reviewCount": 4120,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "주차"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "대공원 옆 호텔. 가족 단위에 좋습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "sap-s3",
+    "name": "키타24 준 게스트하우스",
+    "nameEn": "키타24 준 게스트하우스",
+    "type": "guesthouse",
+    "district": "키타24조",
+    "lat": 43.0613,
+    "lng": 141.3528,
+    "pricePerNight": 38000,
+    "rating": 8.2,
+    "reviewCount": 4820,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "물품 보관"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "역 근처의 가성비 게스트하우스.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "sap-s4",
+    "name": "오로치 마운틴",
+    "nameEn": "오로치 마운틴",
+    "type": "hotel",
+    "district": "오로치",
+    "lat": 43.0608,
+    "lng": 141.3525,
+    "pricePerNight": 128000,
+    "rating": 8.9,
+    "reviewCount": 2340,
+    "amenities": [
+      "무료 와이파이",
+      "조식",
+      "룸서비스",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "오로치 시장 옆의 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "sap-s5",
+    "name": "타니가와 하우스",
+    "nameEn": "타니가와 하우스",
+    "type": "guesthouse",
+    "district": "타니가와",
+    "lat": 43.0561,
+    "lng": 141.3541,
+    "pricePerNight": 52000,
+    "rating": 8.4,
+    "reviewCount": 1620,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "역과 타니가와역 사이의 동네.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "sap-s6",
+    "name": "니시구 코티지",
+    "nameEn": "니시구 코티지",
+    "type": "airbnb",
+    "district": "니시구",
+    "lat": 43.0672,
+    "lng": 141.3468,
+    "pricePerNight": 94000,
+    "rating": 9.2,
+    "reviewCount": 540,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "엘리베이터"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "니시구 시장 옆 단독 주택.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "sap-s7",
+    "name": "스시로 리조트",
+    "nameEn": "스시로 리조트",
+    "type": "hotel",
+    "district": "루코포",
+    "lat": 43.0368,
+    "lng": 141.3621,
+    "pricePerNight": 212000,
+    "rating": 9.3,
+    "reviewCount": 2680,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "온천",
+      "조식",
+      "주차"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "도심에서 10분 거리 리조트.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "sha-s1",
+    "name": "번더 게스트하우스",
+    "nameEn": "번더 게스트하우스",
+    "type": "guesthouse",
+    "district": "번더",
+    "lat": 31.2389,
+    "lng": 121.4905,
+    "pricePerNight": 62000,
+    "rating": 8.5,
+    "reviewCount": 2840,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "번더 바로 옆. 강변 야경을 볼 수 있습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "sha-s2",
+    "name": "와차이 펠리컨",
+    "nameEn": "와차이 펠리컨",
+    "type": "hotel",
+    "district": "완자",
+    "lat": 31.2266,
+    "lng": 121.4786,
+    "pricePerNight": 186000,
+    "rating": 9.1,
+    "reviewCount": 3420,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "완자 창고 거리 와이드 애리-complaint.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "sha-s3",
+    "name": "난커 푸쉐",
+    "nameEn": "난커 푸쉐",
+    "type": "guesthouse",
+    "district": "난커",
+    "lat": 31.2349,
+    "lng": 121.4758,
+    "pricePerNight": 48000,
+    "rating": 8.3,
+    "reviewCount": 3620,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "물품 보관"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "난커 거리 게스트하우스.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "sha-s4",
+    "name": "징자 부티크",
+    "nameEn": "징자 부티크",
+    "type": "hotel",
+    "district": "징자",
+    "lat": 31.2272,
+    "lng": 121.4925,
+    "pricePerNight": 142000,
+    "rating": 8.8,
+    "reviewCount": 2140,
+    "amenities": [
+      "무료 와이파이",
+      "조식",
+      "룸서비스"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "징자 시장 옆 호텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "sha-s5",
+    "name": "자자이우 마린",
+    "nameEn": "자자이우 마린",
+    "type": "airbnb",
+    "district": "평로구",
+    "lat": 31.2308,
+    "lng": 121.4937,
+    "pricePerNight": 88000,
+    "rating": 9,
+    "reviewCount": 760,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "엘리베이터"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "핑리루 근처 원베드룸 민박.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "sha-s6",
+    "name": "완자 코워크 인",
+    "nameEn": "완자 코워크 인",
+    "type": "guesthouse",
+    "district": "완자",
+    "lat": 31.2258,
+    "lng": 121.4794,
+    "pricePerNight": 56000,
+    "rating": 8.6,
+    "reviewCount": 1480,
+    "amenities": [
+      "무료 와이파이",
+      "코워킹 공간",
+      "공용 주방"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "창고 개조 숙소. 일하기 좋습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

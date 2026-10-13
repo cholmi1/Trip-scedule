@@ -1,0 +1,115 @@
+{
+  "airportTransfers": [
+    {
+      "id": "fuk-t1",
+      "name": "후쿠오카 공항 지하철",
+      "nameEn": "후쿠오카 공항 지하철",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 6000,
+      "durationLabel": "약 15분",
+      "covers": [
+        "공항 → 시내 전 노선",
+        "편도 요금"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "가장 저렴하고 빠른 방법입니다.",
+      "perDayEquivalent": 6000
+    },
+    {
+      "id": "fuk-t2",
+      "name": "공항 시내버스",
+      "nameEn": "공항 시내버스",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 3200,
+      "durationLabel": "약 40분",
+      "covers": [
+        "공항 → 하카타역",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "역 앞에서 출발합니다.",
+      "perDayEquivalent": 3200
+    },
+    {
+      "id": "fuk-t3",
+      "name": "공항 택시",
+      "nameEn": "공항 택시",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 28000,
+      "durationLabel": "약 25분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "3인 이상이면 저렴합니다.",
+      "perDayEquivalent": 28000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "fuk-p1",
+      "name": "후쿠오카 시내 버스 1일권",
+      "nameEn": "후쿠오카 시내 버스 1일권",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 3000,
+      "durationLabel": "24시간",
+      "covers": [
+        "시내 버스 전 노선"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "하루에 5회 이상 타면 이득입니다.",
+      "perDayEquivalent": 3000,
+      "recommended": false
+    },
+    {
+      "id": "fuk-p2",
+      "name": "치쿠시 얼루 패스",
+      "nameEn": "치쿠시 얼루 패스",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 6800,
+      "durationLabel": "2일",
+      "covers": [
+        "시내 버스",
+        "지하철 일부"
+      ],
+      "emoji": "🎫",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "2일권이 가장 합리적입니다.",
+      "perDayEquivalent": 3400,
+      "recommended": true
+    },
+    {
+      "id": "fuk-p3",
+      "name": "후쿠오카 시내 교통 카드",
+      "nameEn": "Fukuoka Travel Card",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 2500,
+      "durationLabel": "1회",
+      "covers": [
+        "1회 이동권"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "이동이 적을 때만 유리합니다.",
+      "perDayEquivalent": 2500,
+      "recommended": false
+    }
+  ]
+}

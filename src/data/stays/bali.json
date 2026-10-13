@@ -1,0 +1,161 @@
+[
+  {
+    "id": "bal-s1",
+    "name": "우부드 팔랑 레르 인",
+    "nameEn": "우부드 팔랑 레르 인",
+    "type": "guesthouse",
+    "district": "팔랑 레르",
+    "lat": -8.5191,
+    "lng": 115.2633,
+    "pricePerNight": 34000,
+    "rating": 8.6,
+    "reviewCount": 3860,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "수영장",
+      "조식"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#10B981",
+      "#6EE7B7"
+    ],
+    "description": "우부드 중심. 정원이 있는 정글 뷰.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "bal-s2",
+    "name": "세멩락 비치 리조트",
+    "nameEn": "세멩락 비치 리조트",
+    "type": "hotel",
+    "district": "세멩락",
+    "lat": -8.6903,
+    "lng": 115.1672,
+    "pricePerNight": 178000,
+    "rating": 9.1,
+    "reviewCount": 4620,
+    "amenities": [
+      "무료 와이파이",
+      "수영장",
+      "조식",
+      "주차",
+      "룸서비스"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#7C2D12",
+      "#C2410C"
+    ],
+    "description": "해변까지 도보 3분.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "bal-s3",
+    "name": "우부드 정글 소파",
+    "nameEn": "우부드 정글 소파",
+    "type": "guesthouse",
+    "district": "우부드",
+    "lat": -8.5122,
+    "lng": 115.2645,
+    "pricePerNight": 46000,
+    "rating": 8.4,
+    "reviewCount": 2240,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "수영장"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#8B5CF6",
+      "#C4B5FD"
+    ],
+    "description": "우부드 협곡 옆 게스트하우스.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "bal-s4",
+    "name": "세멩락 캐스카",
+    "nameEn": "세멩락 캐스카",
+    "type": "airbnb",
+    "district": "세멩락",
+    "lat": -8.6912,
+    "lng": 115.1658,
+    "pricePerNight": 92000,
+    "rating": 9.2,
+    "reviewCount": 780,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "수영장",
+      "주차"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#EF4444",
+      "#FCA5A5"
+    ],
+    "description": "세멩락 중심의 원베드룸 민박.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "bal-s5",
+    "name": "울왓두 절벽 호텔",
+    "nameEn": "울왓두 절벽 호텔",
+    "type": "hotel",
+    "district": "울왓두",
+    "lat": -8.8288,
+    "lng": 115.0853,
+    "pricePerNight": 268000,
+    "rating": 9.4,
+    "reviewCount": 2860,
+    "amenities": [
+      "무료 와이파이",
+      "무한 수영장",
+      "조식",
+      "스파",
+      "주차"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0F172A",
+      "#64748B"
+    ],
+    "description": "절벽 위 위치. 석양이 압권입니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "bal-s6",
+    "name": "칸타마니 호스텔",
+    "nameEn": "칸타마니 호스텔",
+    "type": "guesthouse",
+    "district": "쿠타",
+    "lat": -8.6552,
+    "lng": 115.1449,
+    "pricePerNight": 26000,
+    "rating": 8.3,
+    "reviewCount": 4620,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "수영장",
+      "물품 보관"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#F59E0B",
+      "#FCD34D"
+    ],
+    "description": "쿠타의 저렴한 호스텔.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "airportTransfers": [
+    {
+      "id": "osk-t1",
+      "name": "간사이 공항 급행 열차",
+      "nameEn": "Kansai Airport Express",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 7200,
+      "durationLabel": "약 40분",
+      "covers": [
+        "간사이 공항 → 난바역",
+        "라운드 티켓"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "난바역까지 직통이므로 가장 편리합니다.",
+      "perDayEquivalent": 3600
+    },
+    {
+      "id": "osk-t2",
+      "name": "에코카 철도",
+      "nameEn": "Nankai Rapi:t",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 3800,
+      "durationLabel": "약 40분",
+      "covers": [
+        "간사이 공항 → 난바역",
+        "편도 요금"
+      ],
+      "emoji": "🚅",
+      "icon": "train",
+      "billing": "once",
+      "notes": "급행보다 저렴하고 소요 시간은 비슷합니다.",
+      "perDayEquivalent": 1900
+    },
+    {
+      "id": "osk-t3",
+      "name": "공항 리무진 버스",
+      "nameEn": "Airport Limousine Bus",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 3200,
+      "durationLabel": "약 75분",
+      "covers": [
+        "간사이 공항 → 시내 호텔",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "숙소 앞까지 가주면 짐 옮기기 편합니다.",
+      "perDayEquivalent": 1600
+    },
+    {
+      "id": "osk-t4",
+      "name": "공항 택시",
+      "nameEn": "Airport Taxi",
+      "kind": "taxi_ride",
+      "kindLabel": "공항 시내",
+      "price": 42000,
+      "durationLabel": "약 40분",
+      "covers": [
+        "간사이 공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "3인 이상이면 인원당으로는 저렴합니다.",
+      "perDayEquivalent": 21000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "osk-p1",
+      "name": "오사카 시내 1일권",
+      "nameEn": "Osaka Metro 1-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 7600,
+      "durationLabel": "24시간",
+      "covers": [
+        "오사카 시 지하철 6개 노선"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "우메다와 신세이바시 사이 이동에 적합합니다.",
+      "perDayEquivalent": 7600
+    },
+    {
+      "id": "osk-p2",
+      "name": "시라큐 도톤보리 입장권",
+      "nameEn": "Shiritsu Osaka Amazing Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 6000,
+      "durationLabel": "24시간",
+      "covers": [
+        "도톤보리 고층",
+        "시라큐 타워",
+        "이자베 사원"
+      ],
+      "emoji": "🎡",
+      "icon": "train",
+      "billing": "once",
+      "notes": "관람 시설 3곳 이상이면 이득입니다.",
+      "perDayEquivalent": 6000
+    },
+    {
+      "id": "osk-p3",
+      "name": "난바 시내 버스 1일권",
+      "nameEn": "Namba Bus 1-day",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 1600,
+      "durationLabel": "24시간",
+      "covers": [
+        "난바 시내 노면 버스"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "도톤보리와 신세이바시는 도보가 더 빠릅니다.",
+      "perDayEquivalent": 1600
+    },
+    {
+      "id": "osk-p4",
+      "name": "간사이 공항 쎄니타 패스",
+      "nameEn": "Kansai Thru Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 6200,
+      "durationLabel": "24시간",
+      "covers": [
+        "간사이 공항 ↔ 시내",
+        "한신 한류 하역장"
+      ],
+      "emoji": "🎫",
+      "icon": "train",
+      "billing": "once",
+      "notes": "하천잠 reversed 여행이나 공항 왕복 이동에 유용합니다.",
+      "perDayEquivalent": 6200
+    }
+  ]
+}

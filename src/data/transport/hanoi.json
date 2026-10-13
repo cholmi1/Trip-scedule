@@ -1,0 +1,114 @@
+{
+  "airportTransfers": [
+    {
+      "id": "han-t1",
+      "name": "공항 버스 86",
+      "nameEn": "공항 버스 86",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 3000,
+      "durationLabel": "약 45분",
+      "covers": [
+        "공항 → 하노이역",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "하노이역까지 직통입니다.",
+      "perDayEquivalent": 3000
+    },
+    {
+      "id": "han-t2",
+      "name": "공항 버스 32",
+      "nameEn": "공항 버스 32",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 2500,
+      "durationLabel": "약 60분",
+      "covers": [
+        "공항 → 옛 거리",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "옛 시내에서 내립니다.",
+      "perDayEquivalent": 2500
+    },
+    {
+      "id": "han-t3",
+      "name": "공항 택시",
+      "nameEn": "공항 택시",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 30000,
+      "durationLabel": "약 40분",
+      "covers": [
+        "공항 → 시내",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "미터기 요금입니다.",
+      "perDayEquivalent": 30000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "han-p1",
+      "name": "하노이 버스 카드",
+      "nameEn": "하노이 버스 카드",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 300,
+      "durationLabel": "1회",
+      "covers": [
+        "1회 이동권"
+      ],
+      "emoji": "🎫",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "버스 전용 카드입니다.",
+      "perDayEquivalent": 300,
+      "recommended": false
+    },
+    {
+      "id": "han-p2",
+      "name": "여행자 카드 24h",
+      "nameEn": "여행자 카드 24h",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 1500,
+      "durationLabel": "24시간",
+      "covers": [
+        "버스 무제한"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "하루에 4회 이상 타면 이득입니다.",
+      "perDayEquivalent": 1500,
+      "recommended": false
+    },
+    {
+      "id": "han-p3",
+      "name": "자전거 대여",
+      "nameEn": "자전거 대여",
+      "kind": "single_ticket",
+      "kindLabel": "자전거",
+      "price": 3000,
+      "durationLabel": "1일",
+      "covers": [
+        "도심 이동"
+      ],
+      "emoji": "🚲",
+      "icon": "walk",
+      "billing": "once",
+      "notes": "기차역 근처에서 빌립니다.",
+      "perDayEquivalent": 3000,
+      "recommended": false
+    }
+  ]
+}

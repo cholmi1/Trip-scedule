@@ -1,0 +1,149 @@
+{
+  "airportTransfers": [
+    {
+      "id": "kyo-t1",
+      "name": "난카이 급행 열차",
+      "nameEn": "Nankai Rapid Express",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 4600,
+      "durationLabel": "약 75분",
+      "covers": [
+        "간사이 공항 → 교토역",
+        "편도 요금"
+      ],
+      "emoji": "🚄",
+      "icon": "train",
+      "billing": "once",
+      "notes": "교토역까지 직통 열차입니다.",
+      "perDayEquivalent": 2300
+    },
+    {
+      "id": "kyo-t2",
+      "name": "하루카 급행 열차",
+      "nameEn": "Haruka Express",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 9200,
+      "durationLabel": "약 75분",
+      "covers": [
+        "간사이 공항 → 교토역",
+        "라운드 티켓"
+      ],
+      "emoji": "🚅",
+      "icon": "train",
+      "billing": "once",
+      "notes": "좌석 지정이 필요하지만 짐이 많을 때 편합니다.",
+      "perDayEquivalent": 4600
+    },
+    {
+      "id": "kyo-t3",
+      "name": "공항 리무진 버스",
+      "nameEn": "Airport Limousine Bus",
+      "kind": "airport_transfer",
+      "kindLabel": "공항 시내",
+      "price": 4400,
+      "durationLabel": "약 90분",
+      "covers": [
+        "간사이 공항 → 교토역",
+        "편도 요금"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "가격이 가장 저렴한 선택지입니다.",
+      "perDayEquivalent": 2200
+    },
+    {
+      "id": "kyo-t4",
+      "name": "공항 택시",
+      "nameEn": "Airport Taxi",
+      "kind": "taxi_ride",
+      "kindLabel": "공항 시내",
+      "price": 58000,
+      "durationLabel": "약 70분",
+      "covers": [
+        "간사이 공항 → 교토역",
+        "편도 요금"
+      ],
+      "emoji": "🚕",
+      "icon": "taxi",
+      "billing": "once",
+      "notes": "2인 이상이면 인원당 저렴해집니다.",
+      "perDayEquivalent": 29000
+    }
+  ],
+  "cityPasses": [
+    {
+      "id": "kyo-p1",
+      "name": "시내 버스 1일권",
+      "nameEn": "Kyoto City Bus 1-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 2200,
+      "durationLabel": "24시간",
+      "covers": [
+        "교토 시 버스 전 노선"
+      ],
+      "emoji": "🚌",
+      "icon": "bus",
+      "billing": "once",
+      "notes": "버스로 3회 이상 타면 이득입니다.",
+      "perDayEquivalent": 2200,
+      "recommended": true
+    },
+    {
+      "id": "kyo-p2",
+      "name": "버스와 지하철 공통 1일권",
+      "nameEn": "Bus + Subway 1-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 3400,
+      "durationLabel": "24시간",
+      "covers": [
+        "시내 버스",
+        "시내 지하철"
+      ],
+      "emoji": "🚌",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "두 종류를 모두 탈 계획이면 선택하세요.",
+      "perDayEquivalent": 3400
+    },
+    {
+      "id": "kyo-p3",
+      "name": "아라비야마 산책권",
+      "nameEn": "Randen 1-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 2400,
+      "durationLabel": "24시간",
+      "covers": [
+        "아라비야마 철도",
+        "아라비야마 공항행"
+      ],
+      "emoji": "🚃",
+      "icon": "train",
+      "billing": "once",
+      "notes": "아라비야마 산책 당일에만 의미가 있습니다.",
+      "perDayEquivalent": 2400
+    },
+    {
+      "id": "kyo-p4",
+      "name": "교토 지하철 1일권",
+      "nameEn": "Kyoto Subway 1-day Pass",
+      "kind": "city_pass",
+      "kindLabel": "시내 패스",
+      "price": 1400,
+      "durationLabel": "24시간",
+      "covers": [
+        "교토 시 지하철 2개 노선"
+      ],
+      "emoji": "🚇",
+      "icon": "subway",
+      "billing": "once",
+      "notes": "노선이 적어 판단이 필요합니다.",
+      "perDayEquivalent": 1400
+    }
+  ]
+}

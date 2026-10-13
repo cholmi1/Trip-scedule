@@ -1,0 +1,158 @@
+[
+  {
+    "id": "kyo-1",
+    "name": "프레임 호텔 더 워프",
+    "nameEn": "FRAME HOTEL THE WARP",
+    "type": "hotel",
+    "district": "교토역",
+    "lat": 34.9882,
+    "lng": 135.7596,
+    "pricePerNight": 128000,
+    "rating": 9.2,
+    "reviewCount": 1820,
+    "amenities": [
+      "무료 와이파이",
+      "바",
+      "사우나",
+      "짐 보관"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#0EA5E9",
+      "#BAE6FD"
+    ],
+    "description": "하카타역 바로 앞. 기차 승강장이 건물 안에 있습니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "kyo-2",
+    "name": "오플레먼츠 게스트하우스",
+    "nameEn": "OPLEMENTS Guesthouse",
+    "type": "guesthouse",
+    "district": "시하라",
+    "lat": 35.004,
+    "lng": 135.7692,
+    "pricePerNight": 41000,
+    "rating": 8.7,
+    "reviewCount": 1640,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "세탁기",
+      "자전거 대여"
+    ],
+    "emoji": "🏠",
+    "gradient": [
+      "#CA8A04",
+      "#FDE68A"
+    ],
+    "description": "가라가시 로터리 도보권. 아침마다 자전거로 거리 산책.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "kyo-3",
+    "name": "무크노 하우스",
+    "nameEn": "MUKNO HOUSE",
+    "type": "guesthouse",
+    "district": "묵노",
+    "lat": 34.9897,
+    "lng": 135.7659,
+    "pricePerNight": 34000,
+    "rating": 8.4,
+    "reviewCount": 980,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "다다미 방",
+      "조식 무료"
+    ],
+    "emoji": "🎒",
+    "gradient": [
+      "#78350F",
+      "#D6BC8B"
+    ],
+    "description": "옛날 목재 마을의 집을 그대로 숙소로 쓴 곳.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  },
+  {
+    "id": "kyo-4",
+    "name": "기요미즈 인",
+    "nameEn": "Kiyomizu Inn",
+    "type": "guesthouse",
+    "district": "기요미즈",
+    "lat": 34.9912,
+    "lng": 135.7663,
+    "pricePerNight": 58000,
+    "rating": 8.5,
+    "reviewCount": 2310,
+    "amenities": [
+      "무료 와이파이",
+      "공용 주방",
+      "옥상 테라스",
+      "자전거 대여"
+    ],
+    "emoji": "🏩",
+    "gradient": [
+      "#9333EA",
+      "#E9D5FF"
+    ],
+    "description": "기요미즈데라 골목 옆. 후다와 사전 바로 옆 골목.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "kyo-5",
+    "name": "가미야마 산엔",
+    "nameEn": "Kamiyama Inn",
+    "type": "airbnb",
+    "district": "가미야마",
+    "lat": 34.9972,
+    "lng": 135.7719,
+    "pricePerNight": 76000,
+    "rating": 9.1,
+    "reviewCount": 431,
+    "amenities": [
+      "무료 와이파이",
+      "주방",
+      "세탁기",
+      "무료 주차"
+    ],
+    "emoji": "🏡",
+    "gradient": [
+      "#DB2777",
+      "#FBCFE8"
+    ],
+    "description": "언덕 위 단독 주택. 이즈산 전망이 발코니에 걸립니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": false
+  },
+  {
+    "id": "kyo-6",
+    "name": "교토 시카가와 로얄",
+    "nameEn": "Kyoto Shikagawa Royal",
+    "type": "hotel",
+    "district": "시카가와",
+    "lat": 34.9836,
+    "lng": 135.7565,
+    "pricePerNight": 196000,
+    "rating": 9.3,
+    "reviewCount": 1240,
+    "amenities": [
+      "무료 와이파이",
+      "뷔페 조식",
+      "온천",
+      "셔틀"
+    ],
+    "emoji": "🏨",
+    "gradient": [
+      "#1F2937",
+      "#9CA3AF"
+    ],
+    "description": "조식 뷔페를 포함하면 식비가 사실상 공짜가 됩니다.",
+    "freeCancellation": true,
+    "breakfastIncluded": true
+  }
+]

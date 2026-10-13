@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { CalendarDays, Check, ChevronDown, MapPin, Plane, Search, Users } from "lucide-react";
 import { addDaysIso, minStartDate, nightsBetween, formatDateShort, weekdayKo, formatKrw } from "@/lib/format";
-import { CITIES, CITY_MAP, searchCities } from "@/lib/data";
+import { CITIES, CITY_MAP, CURATED_CITIES, searchCities } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import { useTripStore } from "@/store/useTripStore";
 import { Button } from "@/components/ui/button";
@@ -15,15 +15,18 @@ import { Badge } from "@/components/ui/badge";
 const POPULAR_CITY_IDS = [
   "tokyo",
   "osaka",
+  "fukuoka",
   "bangkok",
   "jeju",
+  "shanghai",
+  "chiangmai",
   "singapore",
   "paris",
-  "rome",
   "bali",
-  "chiangmai",
+  "hanoi",
   "london",
   "barcelona",
+  "rome",
 ];
 
 /* ── 여행지 자동완성 (전체 카탈로그 대상) ───────────────── */
@@ -32,18 +35,23 @@ function CityAutocomplete() {
   const setCity = useTripStore((s) => s.setCity);
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [onlyCurated, setOnlyCurated] = useState(false);
   const boxRef = useRef<HTMLDivElement>(null);
   const city = CITY_MAP[cityId];
 
-  // 검색어가 없으면 추천 도시 + 큐레이션 도시를 먼저 보여준다
+  // 검색어가 없으면 인기 도시 + 큐레이션 도시를 먼저 보여준다
   const results = useMemo(() => {
-    if (!query.trim()) {
+    const base = query.trim() ? searchCities(query) : CITIES;
+    const filtered = onlyCurated ? base.filter((c) => c.curated) : base;
+    if (!query.trim() && !onlyCurated) {
       const popular = POPULAR_CITY_IDS.map((id) => CITY_MAP[id]).filter(Boolean);
-      const rest = CITIES.filter((c) => !POPULAR_CITY_IDS.includes(c.id));
-      return { popular, rest: rest.slice(0, 60), total: CITIES.length };
+      const rest = CITIES.filter(
+        (c) => !POPULAR_CITY_IDS.includes(c.id) && !c.curated,
+      );
+      return { popular, rest: rest.slice(0, 40), total: CITIES.length };
     }
-    return { popular: [], rest: searchCities(query).slice(0, 80), total: searchCities(query).length };
-  }, [query]);
+    return { popular: [], rest: filtered.slice(0, 80), total: filtered.length };
+  }, [query, onlyCurated]);
 
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
@@ -86,12 +94,38 @@ function CityAutocomplete() {
               placeholder="도시, 국가, 동네, 공항 코드로 검색 (예: 도쿄, 스페인, HND)"
               className="h-9 border-0 bg-muted/50 focus-visible:ring-0"
             />
+            <div className="mt-2 flex items-center gap-2">
+              <button
+                onClick={() => setOnlyCurated(false)}
+                className={cn(
+                  "rounded-full border px-3 py-1 text-xs font-semibold transition-colors",
+                  !onlyCurated
+                    ? "border-primary bg-primary text-primary-foreground"
+                    : "hover:bg-accent",
+                )}
+              >
+                전체 {CITIES.length}곳
+              </button>
+              <button
+                onClick={() => setOnlyCurated(true)}
+                className={cn(
+                  "rounded-full border px-3 py-1 text-xs font-semibold transition-colors",
+                  onlyCurated
+                    ? "border-primary bg-primary text-primary-foreground"
+                    : "hover:bg-accent",
+                )}
+              >
+                실제 장소 {CURATED_CITIES.length}곳
+              </button>
+            </div>
           </div>
 
           <div className="max-h-80 overflow-y-auto p-1">
             {results.total === 0 && (
               <p className="px-3 py-6 text-center text-xs text-muted-foreground">
-                검색 결과가 없습니다. 다른 도시명이나 국가명으로 검색해 보세요.
+                {onlyCurated
+                  ? "실제 장소 데이터가 있는 도시가 아닙니다."
+                  : "검색 결과가 없습니다. 다른 도시명이나 국가명으로 검색해 보세요."}
               </p>
             )}
 
@@ -118,9 +152,6 @@ function CityAutocomplete() {
                     </button>
                   ))}
                 </div>
-                <p className="px-3 pb-1 pt-1 text-[11px] font-bold text-muted-foreground">
-                  전체 도시
-                </p>
               </>
             )}
 
@@ -163,7 +194,7 @@ function CityAutocomplete() {
           </div>
 
           <p className="border-t px-3 py-2 text-[10px] leading-relaxed text-muted-foreground">
-            {results.total}개 도시 · 실제 장소 데이터가 있는 도시는
+            {results.total}개 도시 · 실제 장소 데이터가 있는 {CURATED_CITIES.length}곳은
             &lsquo;실제 장소&rsquo; 배지가 붙습니다. 나머지는 도시 좌표와 비용 기준을 바탕으로
             일반 가이드를 만들어 계산합니다.
           </p>

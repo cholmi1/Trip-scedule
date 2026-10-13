@@ -259,7 +259,7 @@ export function searchCheapestDeparture(req: TripRequest) {
 /**
  * 숙소 랭킹 규칙
  *  1) 평점 8.0 이상만
- *  2) 도심 1km 이내 우선 (부족하면 1.5km → 3km으로 완화)
+ *  2) 도심 1km 이내 우선 (부족하면 1.5km → 3km까지 완화, 최소 5개 확보)
  *  3) 평점 내림차순 → 가격 오름차순 정렬
  *  4) 추천 숙소는 평점/가격 비율이 가장 좋은 곳(가성비 1위)
  */
@@ -270,11 +270,12 @@ export function rankStays(cityId: string): {
 } {
   const all = getStays(cityId);
   const highRated = all.filter((s) => s.rating >= 8.0);
-  const pool = highRated.length >= 3 ? highRated : all;
+  const pool = highRated.length >= 5 ? highRated : all;
   const radii = [1.0, 1.5, 3.0, 99];
   for (const r of radii) {
     const near = pool.filter((s) => s.distanceFromCenterKm <= r);
-    if (near.length >= 3) {
+    // 5개 이상 확보될 때까지 반경을 넓힌다
+    if (near.length >= 5) {
       const ranked = [...near].sort(
         (a, b) =>
           b.rating - a.rating ||
