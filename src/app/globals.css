@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ── 라이트 테마 토큰 ───────────────────────────── */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    /* 브랜드 포인트 컬러 #FF385C */
+    --primary: 355 100% 61%;
+    --primary-foreground: 0 0% 100%;
+    --brand: 355 100% 61%;
+    --brand-soft: 355 100% 97%;
+    --brand-ink: 355 78% 38%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 355 100% 96%;
+    --accent-foreground: 355 80% 34%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 152 62% 38%;
+    --success-foreground: 0 0% 100%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 355 100% 61%;
+
+    --radius: 0.85rem;
+
+    /* 카테고리별 차트 컬러 (Recharts에서도 사용) */
+    --chart-1: 355 100% 61%; /* 항공 */
+    --chart-2: 214 90% 56%; /* 숙박 */
+    --chart-3: 32 95% 55%; /* 식비 */
+    --chart-4: 152 62% 42%; /* 교통 */
+    --chart-5: 268 70% 60%; /* 기타 */
+  }
+
+  .dark {
+    /* ── 다크 테마 토큰 ───────────────────────────── */
+    --background: 240 10% 4%;
+    --foreground: 0 0% 97%;
+
+    --card: 240 9% 7%;
+    --card-foreground: 0 0% 97%;
+
+    --popover: 240 9% 7%;
+    --popover-foreground: 0 0% 97%;
+
+    --primary: 355 100% 63%;
+    --primary-foreground: 240 10% 4%;
+    --brand: 355 100% 63%;
+    --brand-soft: 355 40% 14%;
+    --brand-ink: 355 100% 78%;
+
+    --secondary: 240 4% 14%;
+    --secondary-foreground: 0 0% 97%;
+
+    --muted: 240 4% 14%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 355 40% 18%;
+    --accent-foreground: 355 100% 82%;
+
+    --destructive: 0 63% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 152 55% 48%;
+    --success-foreground: 240 10% 4%;
+
+    --border: 240 4% 18%;
+    --input: 240 4% 18%;
+    --ring: 355 100% 63%;
+
+    --chart-1: 355 100% 66%;
+    --chart-2: 214 90% 64%;
+    --chart-3: 32 95% 62%;
+    --chart-4: 152 55% 52%;
+    --chart-5: 268 75% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "tnum" on, "lnum" on;
+    text-rendering: optimizeLegibility;
+  }
+  /* 스크롤바 커스텀 */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-muted-foreground/30;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+@layer components {
+  .tc-card {
+    @apply rounded-lg border bg-card text-card-foreground shadow-soft;
+  }
+  .tc-scroll-x {
+    @apply flex gap-2 overflow-x-auto pb-2;
+    scrollbar-width: none;
+  }
+  .tc-scroll-x::-webkit-scrollbar {
+    display: none;
+  }
+  .tc-gradient-text {
+    @apply bg-gradient-to-r from-brand to-rose-400 bg-clip-text text-transparent;
+  }
+  /* 스켈레톤 로딩 */
+  .tc-skeleton {
+    @apply relative overflow-hidden rounded-md bg-muted;
+  }
+  .tc-skeleton::after {
+    @apply absolute inset-0 -translate-x-full animate-shimmer bg-gradient-to-r from-transparent via-white/25 to-transparent;
+    content: "";
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}

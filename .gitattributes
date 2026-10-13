@@ -1,0 +1,12 @@
+# 줄바꿈 정규화 (Windows CRLF / Mac LF 혼용 방지)
+* text=auto eol=lf
+
+# 바이너리 파일은 변환하지 않음
+*.woff binary
+*.woff2 binary
+*.ico binary
+*.png binary
+*.jpg binary
+
+# Lock 파일은 그대로 유지
+package-lock.json -diff
