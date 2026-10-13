@@ -127,6 +127,11 @@ function ItemCard({ item, isFirst }: { item: ItineraryItem; isFirst: boolean }) 
                 </span>
               )}
               {p.bestTime && <span className="ml-auto">추천 {p.bestTime}</span>}
+                  {p.synthetic && (
+                    <Badge variant="muted" className="shrink-0">
+                      일반 가이드
+                    </Badge>
+                  )}
             </div>
           </div>
         </div>

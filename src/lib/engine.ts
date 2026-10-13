@@ -2,6 +2,7 @@ import {
   CITIES,
   CITY_MAP,
   DEFAULT_AIRPORT,
+  DEPARTURE_AIRPORTS,
   getAttractions,
   getCafes,
   getRestaurants,
@@ -52,7 +53,7 @@ const AIRLINES = [
   { name: "저가항공 D", code: "9C", cabin: "lowcost" as const, w: 0.96 },
 ];
 
-/** 지역권별 기본 비행시간(분) 직항 기준 */
+/** 지역권별 기본 비행시간(분) 직항 기준 (큐레이션 도시 보정용) */
 const BASE_FLIGHT_MIN: Record<string, number> = {
   tokyo: 145,
   osaka: 145,
@@ -63,16 +64,44 @@ const BASE_FLIGHT_MIN: Record<string, number> = {
   jeju: 65,
 };
 
-/** 항공권 기본 가격(1인 왕복, KRW) — 목 데이터이므로 데모 예산에 맞춰 조정 */
-const BASE_PRICE: Record<string, number> = {
-  tokyo: 268000,
-  osaka: 254000,
-  kyoto: 262000,
-  paris: 655000,
-  rome: 612000,
-  bangkok: 208000,
-  jeju: 62000,
+/** 출발 공항별 운임 계수 */
+const AIRPORT_FACTOR: Record<string, number> = {
+  ICN: 1.0,
+  GMP: 1.0,
+  PUS: 1.15,
+  CJU: 0.92,
+  TAO: 0.98,
 };
+
+/** 경유 공항 후보 (실제 연동 시 Amadeus 응답의 경유지로 대체) */
+const HUB_CITIES = [
+  "베이징",
+  "홍콩",
+  "다낭",
+  "싱가포르",
+  "서울",
+  "삿포로",
+  "상하이",
+  "방콕",
+];
+
+/**
+ * 대권 거리(km) → 직항 소요시간(분)
+ * 순항 800km/h + 승륙·활주 50분으로 근사한다.
+ */
+function flightMinutesByDistance(km: number) {
+  return Math.round((km / 800) * 60) + 50;
+}
+
+/**
+ * 1인 왕복 최저가 추정
+ * 도시가 fare 를 갖고 있으면 그 값을, 없으면 거리 기반 파워 법칙으로 계산한다.
+ */
+function estimateFare(city: City, fromCode: string, km: number) {
+  const factor = AIRPORT_FACTOR[fromCode] ?? 1;
+  const base = city.fare ?? Math.round((90000 + 170000 * Math.pow(km / 1000, 0.72)) / 1000) * 1000;
+  return Math.round((base * factor) / 1000) * 1000;
+}
 
 function pickAirline(rnd: () => number) {
   const total = AIRLINES.reduce((s, a) => s + a.w, 0);
@@ -109,12 +138,18 @@ export function generateFlightOffers(
     const dow = new Date(departureDate).getDay();
     const dowFactor = dow === 5 || dow === 6 ? 1.12 : dow === 2 || dow === 3 ? 1.06 : 0.96;
     const noise = 0.86 + rnd() * 0.34;
-    const base = BASE_PRICE[cityId] ?? 500000;
+    // 출발 공항과 목적지 사이의 대권 거리로 운임과 비행시간을 추정한다
+    const ap = DEPARTURE_AIRPORTS.find((a) => a.code === fromCode) ?? DEPARTURE_AIRPORTS[0];
+    const km = haversineKm(
+      { lat: ap.lat, lng: ap.lng },
+      { lat: city.center.lat, lng: city.center.lng },
+    );
+    const base = estimateFare(city, fromCode, km);
     const pricePerPerson = Math.round((base / 100) * 100 * air.w * season * dowFactor * noise);
 
     const direct = rnd() > (air.cabin === "lowcost" ? 0.62 : 0.18);
-    const baseMin = BASE_FLIGHT_MIN[cityId] ?? 300;
-    const via = direct ? [] : [["베이징", "하이닉"][Math.floor(rnd() * 2)]];
+    const baseMin = BASE_FLIGHT_MIN[cityId] ?? flightMinutesByDistance(km);
+    const via = direct ? [] : [HUB_CITIES[Math.floor(rnd() * HUB_CITIES.length)]];
     const durationMin = Math.round(baseMin * (direct ? 1 : 1.55 + rnd() * 0.3));
 
     // 출발·도착 시각 (결정적)
@@ -747,6 +782,7 @@ export function buildTripPlan(req: TripRequest): TripPlan {
     tips,
     valueScore,
     generatedAt: new Date().toISOString(),
+    isCurated: !!city.curated,
   };
 }
 

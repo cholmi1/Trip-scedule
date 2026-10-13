@@ -5,11 +5,12 @@ import { useRouter } from "next/navigation";
 import { ArrowRight, Building2, Plane, Sparkles, Wallet } from "lucide-react";
 import { EXAMPLE_TRIPS, buildTripPlan } from "@/lib/engine";
 import { addDaysIso, formatKrw } from "@/lib/format";
-import { CITY_MAP } from "@/lib/data";
+import { CITIES, CITY_MAP, CURATED_CITIES } from "@/lib/data";
 import { useTripStore } from "@/store/useTripStore";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SearchHeader } from "@/components/search/SearchHeader";
+import { DestinationsBrowser } from "@/components/home/DestinationsBrowser";
 
 export default function HomeView() {
   const router = useRouter();
@@ -181,6 +182,29 @@ export default function HomeView() {
               </button>
             );
           })}
+        </div>
+      </section>
+
+      {/* 목적지 둘러보기 */}
+      <section className="border-t bg-muted/30 py-12">
+        <div className="container">
+          <div className="mb-4 flex flex-wrap items-end justify-between gap-2">
+            <div>
+              <h2 className="text-lg font-bold">
+                목적지 {CITIES.length}곳 중에서 자유롭게 골라보세요
+              </h2>
+              <p className="text-xs text-muted-foreground">
+                카드를 누르면 바로 가성비 계획을 계산합니다. &lsquo;실제 장소&rsquo; 배지가 붙은
+                도시는 장소·숙박·교통 데이터가 실제 기준으로 수록되어 있습니다.
+              </p>
+            </div>
+            <Badge variant="brand" className="gap-1">
+              <Sparkles className="h-3 w-3" /> 큐레이션 {CURATED_CITIES.length}곳 · 전체{" "}
+              {CITIES.length}곳
+            </Badge>
+          </div>
+
+          <DestinationsBrowser />
         </div>
       </section>
 

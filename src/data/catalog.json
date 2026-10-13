@@ -1,0 +1,3561 @@
+{
+  "cities": [
+    {
+      "id": "sapporo",
+      "ko": "삿포로",
+      "en": "Sapporo",
+      "cc": "일본",
+      "ce": "Japan",
+      "emoji": "🍜",
+      "lat": 43.0618,
+      "lng": 141.3545,
+      "ap": "CTS",
+      "apko": "신치토세 공항",
+      "ds": [
+        "스시노",
+        "타니가와",
+        "니시구"
+      ],
+      "dsr": "겨울 눈 축제와 해산물 도시",
+      "fare": 298000,
+      "tier": "mid",
+      "hs": [
+        12,
+        1,
+        2,
+        7,
+        8
+      ],
+      "tags": [
+        "일본",
+        "겨울",
+        "스키",
+        "축제"
+      ]
+    },
+    {
+      "id": "nagoya",
+      "ko": "나고야",
+      "en": "Nagoya",
+      "cc": "일본",
+      "ce": "Japan",
+      "emoji": "🦆",
+      "lat": 35.1815,
+      "lng": 136.9066,
+      "ap": "NGO",
+      "apko": "나고야 공항",
+      "ds": [
+        "나가야역",
+        "사카에",
+        "메이초"
+      ],
+      "dsr": "도쿄 옆에서 여유롭게 드는 도시",
+      "fare": 272000,
+      "tier": "mid",
+      "hs": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "tags": [
+        "일본",
+        "건축",
+        "히라야마"
+      ]
+    },
+    {
+      "id": "fukuoka",
+      "ko": "후쿠오카",
+      "en": "Fukuoka",
+      "cc": "일본",
+      "ce": "Japan",
+      "emoji": "🍲",
+      "lat": 33.5904,
+      "lng": 130.4017,
+      "ap": "FUK",
+      "apko": "후쿠오카 공항",
+      "ds": [
+        "텐진",
+        "하카타",
+        "시모"
+      ],
+      "dsr": "야키토리와 라멘의 도시",
+      "fare": 262000,
+      "tier": "mid",
+      "hs": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11
+      ],
+      "tags": [
+        "일본",
+        "먹거리",
+        "항구"
+      ]
+    },
+    {
+      "id": "yokohama",
+      "ko": "요코하마",
+      "en": "Yokohama",
+      "cc": "일본",
+      "ce": "Japan",
+      "emoji": "⚓",
+      "lat": 35.4437,
+      "lng": 139.638,
+      "ap": "HND",
+      "apko": "하네다 공항",
+      "ds": [
+        "미나토미라이",
+        "간나이",
+        "산마에"
+      ],
+      "dsr": "항구 야경이 아름다운 도시",
+      "fare": 285000,
+      "tier": "mid",
+      "hs": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "tags": [
+        "일본",
+        "항구",
+        "야경"
+      ]
+    },
+    {
+      "id": "hiroshima",
+      "ko": "히로시마",
+      "en": "Hiroshima",
+      "cc": "일본",
+      "ce": "Japan",
+      "emoji": "⛩️",
+      "lat": 34.3853,
+      "lng": 132.4553,
+      "ap": "HIJ",
+      "apko": "히로시마 공항",
+      "ds": [
+        "평화기념공원",
+        "원정거리",
+        "미야지마"
+      ],
+      "dsr": "평화의 도시와 섬 풍경",
+      "fare": 296000,
+      "tier": "low",
+      "hs": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "tags": [
+        "일본",
+        "역사",
+        "섬"
+      ]
+    },
+    {
+      "id": "nara",
+      "ko": "나라",
+      "en": "Nara",
+      "cc": "일본",
+      "ce": "Japan",
+      "emoji": "🦌",
+      "lat": 34.6851,
+      "lng": 135.8048,
+      "ap": "KIX",
+      "apko": "간사이 공항",
+      "ds": [
+        "나라공원",
+        "카조미야키",
+        "긴세이"
+      ],
+      "dsr": "사슴과 사원이 있는 고도",
+      "fare": 302000,
+      "tier": "low",
+      "hs": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "tags": [
+        "일본",
+        "사슴",
+        "사원"
+      ]
+    },
+    {
+      "id": "kobe",
+      "ko": "고베",
+      "en": "Kobe",
+      "cc": "일본",
+      "ce": "Japan",
+      "emoji": "🥩",
+      "lat": 34.6901,
+      "lng": 135.1955,
+      "ap": "UKB",
+      "apko": "고베 공항",
+      "ds": [
+        "키타노키요미",
+        "난보",
+        "산노미야"
+      ],
+      "dsr": "항구 도시와 고베 스테이크",
+      "fare": 288000,
+      "tier": "mid",
+      "hs": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "tags": [
+        "일본",
+        "육지"
+      ]
+    },
+    {
+      "id": "kanazawa",
+      "ko": "가나자와",
+      "en": "Kanazawa",
+      "cc": "일본",
+      "ce": "Japan",
+      "emoji": "🌾",
+      "lat": 36.5613,
+      "lng": 136.6562,
+      "ap": "KMQ",
+      "apko": "가나자와 공항",
+      "ds": [
+        "이마와레",
+        "가나자와성",
+        "히가시마"
+      ],
+      "dsr": "골목 정원과 금속공예의 도시",
+      "fare": 322000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "tags": [
+        "일본",
+        "정원"
+      ]
+    },
+    {
+      "id": "naha",
+      "ko": "나하",
+      "en": "Naha",
+      "cc": "일본",
+      "ce": "Japan",
+      "emoji": "🏝️",
+      "lat": 26.2124,
+      "lng": 127.6809,
+      "ap": "OKA",
+      "apko": "나하 공항",
+      "ds": [
+        "코사",
+        "마키토",
+        "류큐"
+      ],
+      "dsr": "아열대 섬의 바다 도시",
+      "fare": 248000,
+      "tier": "mid",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "일본",
+        "해변",
+        "다이빙"
+      ]
+    },
+    {
+      "id": "busan",
+      "ko": "부산",
+      "en": "Busan",
+      "cc": "대한민국",
+      "ce": "South Korea",
+      "emoji": "🌊",
+      "lat": 35.1796,
+      "lng": 129.0756,
+      "ap": "PUS",
+      "apko": "부산공항",
+      "ds": [
+        "해운대",
+        "광안리",
+        "서면"
+      ],
+      "dsr": "바다와 시장이 가까운 국내 여행",
+      "fare": 118000,
+      "tier": "low",
+      "hs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "tags": [
+        "국내여행",
+        "바다",
+        "시장"
+      ]
+    },
+    {
+      "id": "daegu",
+      "ko": "대구",
+      "en": "Daegu",
+      "cc": "대한민국",
+      "ce": "South Korea",
+      "emoji": "🍎",
+      "lat": 35.8714,
+      "lng": 128.6014,
+      "ap": "TAE",
+      "apko": "대구공항",
+      "ds": [
+        "동성로",
+        "충북로",
+        "alyeong"
+      ],
+      "dsr": "청량산과 약령시골의 도시",
+      "fare": 108000,
+      "tier": "low",
+      "hs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "tags": [
+        "국내여행",
+        "약령"
+      ]
+    },
+    {
+      "id": "gwangju",
+      "ko": "광주",
+      "cc": "대한민국",
+      "ce": "South Korea",
+      "emoji": "🎨",
+      "lat": 35.1595,
+      "lng": 126.8526,
+      "ap": "KWJ",
+      "apko": "광주공항",
+      "ds": [
+        "충무로",
+        "숭원",
+        "양동"
+      ],
+      "dsr": "먹거리와 예술이 있는 도시",
+      "fare": 104000,
+      "tier": "low",
+      "hs": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "tags": [
+        "국내여행",
+        "먹거리"
+      ]
+    },
+    {
+      "id": "jeonju",
+      "ko": "전주",
+      "en": "Jeonju",
+      "cc": "대한민국",
+      "ce": "South Korea",
+      "emoji": "🏚️",
+      "lat": 35.8242,
+      "lng": 127.148,
+      "ap": "KWJ",
+      "apko": "광주공항",
+      "ds": [
+        "한옥마을",
+        "전동",
+        "태평로"
+      ],
+      "dsr": "한옥과 비빔밥의 도시",
+      "fare": 118000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "tags": [
+        "국내여행",
+        "한옥"
+      ]
+    },
+    {
+      "id": "sokcho",
+      "ko": "속초",
+      "en": "Sokcho",
+      "cc": "대한민국",
+      "ce": "South Korea",
+      "emoji": "⛰️",
+      "lat": 38.207,
+      "lng": 128.5918,
+      "ap": "YNY",
+      "apko": "양양공항",
+      "ds": [
+        "속초시청",
+        "청호대",
+        "북쪽끝"
+      ],
+      "dsr": "설악산과 바다가 만나는 곳",
+      "fare": 96000,
+      "tier": "low",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "국내여행",
+        "등산"
+      ]
+    },
+    {
+      "id": "yeosu",
+      "ko": "여수",
+      "en": "Yeosu",
+      "cc": "대한민국",
+      "ce": "South Korea",
+      "emoji": "🌉",
+      "lat": 34.7604,
+      "lng": 127.6622,
+      "ap": "RSU",
+      "apko": "여수공항",
+      "ds": [
+        "소노이",
+        "진남",
+        "거북도"
+      ],
+      "dsr": "바다 다리 야경의 도시",
+      "fare": 98000,
+      "tier": "low",
+      "hs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "tags": [
+        "국내여행",
+        "야경"
+      ]
+    },
+    {
+      "id": "seongju",
+      "ko": "성주",
+      "en": "Seongju",
+      "cc": "대한민국",
+      "ce": "South Korea",
+      "emoji": "🍑",
+      "lat": 36.4167,
+      "lng": 128.1667,
+      "ap": "CJJ",
+      "apko": "제주국제공항",
+      "ds": [
+        "성주읍성",
+        "한누리마을",
+        "대천소"
+      ],
+      "dsr": "복숭아 향기가 나는 고택 마을",
+      "fare": 92000,
+      "tier": "low",
+      "hs": [
+        6,
+        7,
+        8
+      ],
+      "tags": [
+        "국내여행",
+        "한옥"
+      ]
+    },
+    {
+      "id": "taipei",
+      "ko": "타이베이",
+      "en": "Taipei",
+      "cc": "대만",
+      "ce": "Taiwan",
+      "emoji": "🏮",
+      "lat": 25.033,
+      "lng": 121.5654,
+      "ap": "TPE",
+      "apko": "타오위안 공항",
+      "ds": [
+        "시디",
+        "던수이",
+        "난먼"
+      ],
+      "dsr": "야시장과 맛집의 도시",
+      "fare": 268000,
+      "tier": "mid",
+      "hs": [
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ],
+      "tags": [
+        "대만",
+        "먹거리",
+        "야시장"
+      ]
+    },
+    {
+      "id": "kaohsiung",
+      "ko": "가오위옹",
+      "en": "Kaohsiung",
+      "cc": "대만",
+      "ce": "Taiwan",
+      "emoji": "🚲",
+      "lat": 22.6273,
+      "lng": 120.3014,
+      "ap": "KHH",
+      "apko": "가오위옹 공항",
+      "ds": [
+        "사랑 publicly",
+        "염창",
+        "보어"
+      ],
+      "dsr": "예쁜 카페와 harbor 풍경",
+      "fare": 272000,
+      "tier": "low",
+      "hs": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "tags": [
+        "대만",
+        "카페"
+      ]
+    },
+    {
+      "id": "tainan",
+      "ko": "타난",
+      "en": "Tainan",
+      "cc": "대만",
+      "ce": "Taiwan",
+      "emoji": "🏛️",
+      "lat": 22.9999,
+      "lng": 120.227,
+      "ap": "TNN",
+      "apko": "타난 공항",
+      "ds": [
+        "노팅크",
+        "안평",
+        "해안선"
+      ],
+      "dsr": "오래된 성벽과 작은 거리",
+      "fare": 278000,
+      "tier": "low",
+      "hs": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "tags": [
+        "대만",
+        "역사",
+        "먹거리"
+      ]
+    },
+    {
+      "id": "hualien",
+      "ko": "화롄",
+      "en": "Hualien",
+      "cc": "대만",
+      "ce": "Taiwan",
+      "emoji": "🏔️",
+      "lat": 23.9871,
+      "lng": 121.6015,
+      "ap": "HUN",
+      "apko": "화롄 공항",
+      "ds": [
+        "치싱탄",
+        "화롄역",
+        "아오야"
+      ],
+      "dsr": "태양빛 바다와 난초의 도시",
+      "fare": 312000,
+      "tier": "low",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "대만",
+        "자연"
+      ]
+    },
+    {
+      "id": "shanghai",
+      "ko": "상하이",
+      "en": "Shanghai",
+      "cc": "중국",
+      "ce": "China",
+      "emoji": "🌃",
+      "lat": 31.2304,
+      "lng": 121.4737,
+      "ap": "PVG",
+      "apko": "푸둥 공항",
+      "ds": [
+        "the Bund",
+        "진재",
+        "우둬"
+      ],
+      "dsr": "야경이 압권인 대상 도시",
+      "fare": 298000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "tags": [
+        "중국",
+        "쇼핑",
+        "야경"
+      ]
+    },
+    {
+      "id": "beijing",
+      "ko": "베이징",
+      "en": "Beijing",
+      "cc": "중국",
+      "ce": "China",
+      "emoji": "🏯",
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "ap": "PEK",
+      "apko": "베이징 서우두 공항",
+      "ds": [
+        "금지성",
+        "후하이구",
+        "옌안먼"
+      ],
+      "dsr": "만리장성과 사원의 도시",
+      "fare": 312000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "tags": [
+        "중국",
+        "역사"
+      ]
+    },
+    {
+      "id": "chengdu",
+      "ko": "충칭",
+      "en": "Chengdu",
+      "cc": "중국",
+      "ce": "China",
+      "emoji": "🐼",
+      "lat": 30.5728,
+      "lng": 104.0668,
+      "ap": "TFU",
+      "apko": "톈푸 공항",
+      "ds": [
+        "춘시로",
+        "타이리",
+        "커츠"
+      ],
+      "dsr": "판다와 마라탕의 도시",
+      "fare": 302000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "tags": [
+        "중국",
+        "먹거리",
+        "판다"
+      ]
+    },
+    {
+      "id": "xian",
+      "ko": "시안",
+      "en": "Xian",
+      "cc": "중국",
+      "ce": "China",
+      "emoji": "🐎",
+      "lat": 34.3416,
+      "lng": 108.9398,
+      "ap": "XIY",
+      "apko": "시안 공항",
+      "ds": [
+        "성벽",
+        "대사슴사",
+        "돝타"
+      ],
+      "dsr": "병마용과 성벽의 도시",
+      "fare": 298000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "tags": [
+        "중국",
+        "역사"
+      ]
+    },
+    {
+      "id": "guilin",
+      "ko": "구린",
+      "en": "Guilin",
+      "cc": "중국",
+      "ce": "China",
+      "emoji": "⛰️",
+      "lat": 25.2736,
+      "lng": 110.29,
+      "ap": "KWL",
+      "apko": "구린 공항",
+      "ds": [
+        "리강",
+        "양슈오",
+        "봉수"
+      ],
+      "dsr": "석회암 산과 리강 유람",
+      "fare": 298000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "tags": [
+        "중국",
+        "자연"
+      ]
+    },
+    {
+      "id": "harbin",
+      "ko": "하얼빈",
+      "en": "Harbin",
+      "cc": "중국",
+      "ce": "China",
+      "emoji": "🧊",
+      "lat": 45.8038,
+      "lng": 126.5349,
+      "ap": "HRB",
+      "apko": "하얼빈 공항",
+      "ds": [
+        "중앙 광장",
+        "아러바",
+        "순스카이"
+      ],
+      "dsr": "얼음세계와 겨울 festival",
+      "fare": 322000,
+      "tier": "low",
+      "hs": [
+        12,
+        1,
+        2
+      ],
+      "tags": [
+        "중국",
+        "겨울"
+      ]
+    },
+    {
+      "id": "hongkong",
+      "ko": "홍콩",
+      "en": "Hong Kong",
+      "cc": "홍콩",
+      "ce": "Hong Kong",
+      "emoji": "🛎️",
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "ap": "HKG",
+      "apko": "홍콩 공항",
+      "ds": [
+        "센트럴",
+        "causeway bay",
+        "mongkok"
+      ],
+      "dsr": "하늘을 도는 고층 도시",
+      "fare": 296000,
+      "tier": "mid",
+      "hs": [
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "tags": [
+        "홍콩",
+        "쇼핑"
+      ]
+    },
+    {
+      "id": "macau",
+      "ko": "마카오",
+      "en": "Macau",
+      "cc": "마카오",
+      "ce": "Macau",
+      "emoji": "🎰",
+      "lat": 22.1987,
+      "lng": 113.5439,
+      "ap": "MFM",
+      "apko": "마카오 공항",
+      "ds": [
+        "센타로",
+        "cotai",
+        "taipa"
+      ],
+      "dsr": "카지노와 포르투갈 거리",
+      "fare": 302000,
+      "tier": "mid",
+      "hs": [
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "tags": [
+        "마카오",
+        "카지노"
+      ]
+    },
+    {
+      "id": "singapore",
+      "ko": "싱가포르",
+      "en": "Singapore",
+      "cc": "싱가포르",
+      "ce": "Singapore",
+      "emoji": "🦁",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "ap": "SIN",
+      "apko": "창이 공항",
+      "ds": [
+        "마리나 베이",
+        "오션로드",
+        "리버풀"
+      ],
+      "dsr": "숲 도시와 Conforme한 미래",
+      "fare": 358000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        12
+      ],
+      "tags": [
+        "싱가포르",
+        "쇼핑"
+      ]
+    },
+    {
+      "id": "kualalumpur",
+      "ko": "쿠알라룸푸르",
+      "en": "Kuala Lumpur",
+      "cc": "말레이시아",
+      "ce": "Malaysia",
+      "emoji": "🏙️",
+      "lat": 3.139,
+      "lng": 101.6869,
+      "ap": "KUL",
+      "apko": "쿠알라룸푸르 공항",
+      "ds": [
+        "KLCC",
+        "차이페이지",
+        "brickfields"
+      ],
+      "dsr": "고층 타워와 거리 음식",
+      "fare": 282000,
+      "tier": "low",
+      "hs": [
+        1,
+        6,
+        7,
+        8,
+        12
+      ],
+      "tags": [
+        "말레이시아",
+        "먹거리"
+      ]
+    },
+    {
+      "id": "penang",
+      "ko": "페낭",
+      "en": "Penang",
+      "cc": "말레이시아",
+      "ce": "Malaysia",
+      "emoji": "🥘",
+      "lat": 5.4141,
+      "lng": 100.3288,
+      "ap": "PEN",
+      "apko": "페낭 공항",
+      "ds": [
+        "게오리타운",
+        "무라야",
+        "아르미점"
+      ],
+      "dsr": "/world heritage 거리와 길거리 음식",
+      "fare": 288000,
+      "tier": "low",
+      "hs": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        12
+      ],
+      "tags": [
+        "말레이시아",
+        "먹거리"
+      ]
+    },
+    {
+      "id": "jakarta",
+      "ko": "자카르타",
+      "en": "Jakarta",
+      "cc": "인도네시아",
+      "ce": "Indonesia",
+      "emoji": "🏗️",
+      "lat": -6.2088,
+      "lng": 106.8456,
+      "ap": "CGK",
+      "apko": "수카르노 공항",
+      "ds": [
+        "downtown",
+        "menteng",
+        "bsd"
+      ],
+      "dsr": "메트로와 야시장의 도시",
+      "fare": 342000,
+      "tier": "low",
+      "hs": [
+        6,
+        7,
+        8,
+        12
+      ],
+      "tags": [
+        "인도네시아",
+        "도시"
+      ]
+    },
+    {
+      "id": "bali",
+      "ko": "발리",
+      "en": "Bali",
+      "cc": "인도네시아",
+      "ce": "Indonesia",
+      "emoji": "🌺",
+      "lat": -8.4095,
+      "lng": 115.1889,
+      "ap": "DPS",
+      "apko": "낭라래 공항",
+      "ds": [
+        "우부드",
+        "세멍락",
+        "쿠타"
+      ],
+      "dsr": "바다와 절벽이 어우러진 섬",
+      "fare": 398000,
+      "tier": "low",
+      "hs": [
+        6,
+        7,
+        8
+      ],
+      "tags": [
+        "인도네시아",
+        "휴양"
+      ]
+    },
+    {
+      "id": "yogyakarta",
+      "ko": "약회",
+      "en": "Yogyakarta",
+      "cc": "인도네시아",
+      "ce": "Indonesia",
+      "emoji": "🏛️",
+      "lat": -7.7956,
+      "lng": 110.3695,
+      "ap": "YIA",
+      "apko": "요르가 공항",
+      "ds": [
+        "malioboro",
+        "prambanan",
+        "kraton"
+      ],
+      "dsr": "보로부둬르와 반둥 문화의 도시",
+      "fare": 378000,
+      "tier": "low",
+      "hs": [
+        6,
+        7,
+        8
+      ],
+      "tags": [
+        "인도네시아",
+        "문화"
+      ]
+    },
+    {
+      "id": "chiangmai",
+      "ko": "치앙마이",
+      "en": "Chiang Mai",
+      "cc": "태국",
+      "ce": "Thailand",
+      "emoji": "🐘",
+      "lat": 18.7883,
+      "lng": 98.9853,
+      "ap": "CNX",
+      "apko": "치앙마이 공항",
+      "ds": [
+        "nimman",
+        "oldcity",
+        "doi suthep"
+      ],
+      "dsr": "숲과 북부가 있는 고요 도시",
+      "fare": 262000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "태국",
+        "북부",
+        "자연"
+      ]
+    },
+    {
+      "id": "phuket",
+      "ko": "푸켓",
+      "en": "Phuket",
+      "cc": "태국",
+      "ce": "Thailand",
+      "emoji": "🏄",
+      "lat": 7.8804,
+      "lng": 98.3923,
+      "ap": "HKT",
+      "apko": "푸켓 공항",
+      "ds": [
+        "patong",
+        "karon",
+        "phuket oldtown"
+      ],
+      "dsr": "해변과 다이빙의 인기도",
+      "fare": 278000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "태국",
+        "해변"
+      ]
+    },
+    {
+      "id": "krabi",
+      "ko": "크라비",
+      "en": "Krabi",
+      "cc": "태국",
+      "ce": "Thailand",
+      "emoji": "🪨",
+      "lat": 8.0863,
+      "lng": 98.9063,
+      "ap": "KBV",
+      "apko": "크라비 공항",
+      "ds": [
+        "ao nang",
+        "railay",
+        "krabi town"
+      ],
+      "dsr": "석회암 절벽과 섬의 도시",
+      "fare": 284000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "태국",
+        "자연",
+        "해변"
+      ]
+    },
+    {
+      "id": "hanoi",
+      "ko": "하노이",
+      "en": "Hanoi",
+      "cc": "베트남",
+      "ce": "Vietnam",
+      "emoji": "🛵",
+      "lat": 21.0278,
+      "lng": 105.8342,
+      "ap": "HAN",
+      "apko": "노이바이 공항",
+      "ds": [
+        "oldquarter",
+        "hoan kiem",
+        "tay ho"
+      ],
+      "dsr": "오거리와 호수의 정서",
+      "fare": 292000,
+      "tier": "low",
+      "hs": [
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "tags": [
+        "베트남",
+        "오거리"
+      ]
+    },
+    {
+      "id": "hochiminh",
+      "ko": "호치민",
+      "en": "Ho Chi Minh City",
+      "cc": "베트남",
+      "ce": "Vietnam",
+      "emoji": "☕",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "ap": "SGN",
+      "apko": "탄선누트 공항",
+      "ds": [
+        "d1",
+        "binh thanh",
+        "thao Dien"
+      ],
+      "dsr": "커피와 야경이 살아있는 도시",
+      "fare": 298000,
+      "tier": "low",
+      "hs": [
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "tags": [
+        "베트남",
+        "커피"
+      ]
+    },
+    {
+      "id": "dananang",
+      "ko": "다낭",
+      "en": "Da Nang",
+      "cc": "베트남",
+      "ce": "Vietnam",
+      "emoji": "🌉",
+      "lat": 16.0544,
+      "lng": 108.2022,
+      "ap": "DAD",
+      "apko": "다낭 공항",
+      "ds": [
+        "my khe",
+        "son tra peninsula",
+        "han market"
+      ],
+      "dsr": "마 incent bridge와 모래사장",
+      "fare": 294000,
+      "tier": "low",
+      "hs": [
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "tags": [
+        "베트남",
+        "해변"
+      ]
+    },
+    {
+      "id": "hoidan",
+      "ko": "호이안",
+      "en": "Hoi An",
+      "cc": "베트남",
+      "ce": "Vietnam",
+      "emoji": "🏮",
+      "lat": 15.8801,
+      "lng": 108.338,
+      "ap": "DAD",
+      "apko": "다낭 공항",
+      "ds": [
+        "old town",
+        "an hien beach",
+        "cua dai"
+      ],
+      "dsr": "등불 야경의 옛 마을",
+      "fare": 296000,
+      "tier": "low",
+      "hs": [
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "tags": [
+        "베트남",
+        "야경"
+      ]
+    },
+    {
+      "id": "cebu",
+      "ko": "세부",
+      "en": "Cebu",
+      "cc": "필리핀",
+      "ce": "Philippines",
+      "emoji": "🐠",
+      "lat": 10.3157,
+      "lng": 123.8854,
+      "ap": "CEB",
+      "apko": "세부 공항",
+      "ds": [
+        "it park",
+        "lahun ok",
+        "mactan"
+      ],
+      "dsr": "섬과 리조트와 다이빙",
+      "fare": 302000,
+      "tier": "low",
+      "hs": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "필리핀",
+        "해변"
+      ]
+    },
+    {
+      "id": "boracay",
+      "ko": "보라카이",
+      "en": "Boracay",
+      "cc": "필리핀",
+      "ce": "Philippines",
+      "emoji": "🌴",
+      "lat": 11.9674,
+      "lng": 121.9238,
+      "ap": "MPH",
+      "apko": "칼리보 공항",
+      "ds": [
+        "white beach",
+        "puka shell",
+        "dalahican"
+      ],
+      "dsr": "하얀 모래사장의 인기도",
+      "fare": 312000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "tags": [
+        "필리핀",
+        "해변"
+      ]
+    },
+    {
+      "id": "siemreap",
+      "ko": "심레아프",
+      "en": "Siem Reap",
+      "cc": "캄보디아",
+      "ce": "Cambodia",
+      "emoji": "🛕",
+      "lat": 13.3671,
+      "lng": 103.8448,
+      "ap": "SAI",
+      "apko": "앙코르 공항",
+      "ds": [
+        "oasis",
+        "old market",
+        "angkor road"
+      ],
+      "dsr": "앙코르 유적의 기준 도시",
+      "fare": 288000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "캄보디아",
+        "유적"
+      ]
+    },
+    {
+      "id": "luangprabang",
+      "ko": "루앙프라방",
+      "en": "Luang Prabang",
+      "cc": "라오스",
+      "ce": "Laos",
+      "emoji": "🙏",
+      "lat": 19.8867,
+      "lng": 102.135,
+      "ap": "LPQ",
+      "apko": "루앙프라방 공항",
+      "ds": [
+        "old town",
+        "mount phousi",
+        "klong"
+      ],
+      "dsr": "강변 사원과 소란의 도시",
+      "fare": 322000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "라오스",
+        "고요"
+      ]
+    },
+    {
+      "id": "yangon",
+      "ko": "양곤",
+      "en": "Yangon",
+      "cc": "미얀마",
+      "ce": "Myanmar",
+      "emoji": "🌆",
+      "lat": 16.8661,
+      "lng": 96.1951,
+      "ap": "RGN",
+      "apko": "양곤 공항",
+      "ds": [
+        "central",
+        "dagon",
+        "kyauktada"
+      ],
+      "dsr": "황금 사원과 거리의 도시",
+      "fare": 348000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "미얀마",
+        "사원"
+      ]
+    },
+    {
+      "id": "delhi",
+      "ko": "델리",
+      "en": "Delhi",
+      "cc": "인도",
+      "ce": "India",
+      "emoji": "🕌",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "ap": "DEL",
+      "apko": "인디라 간다비 공항",
+      "ds": [
+        "old delhi",
+        "connaught place",
+        "humayun"
+      ],
+      "dsr": "사원과 시장이 공존하는 도시",
+      "fare": 398000,
+      "tier": "low",
+      "hs": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "인도",
+        "사원"
+      ]
+    },
+    {
+      "id": "mumbai",
+      "ko": "뭄바이",
+      "en": "Mumbai",
+      "cc": "인도",
+      "ce": "India",
+      "emoji": "🚕",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "ap": "BOM",
+      "apko": "차트라티 Shivaji 공항",
+      "ds": [
+        "colaba",
+        "bandra",
+        "marine drive"
+      ],
+      "dsr": "아라비 해와 다중 문화의 도시",
+      "fare": 412000,
+      "tier": "mid",
+      "hs": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "인도",
+        "도시"
+      ]
+    },
+    {
+      "id": "jaipur",
+      "ko": "자이푸르",
+      "en": "Jaipur",
+      "cc": "인도",
+      "ce": "India",
+      "emoji": "🟠",
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "ap": "JAI",
+      "apko": "자이푸르 공항",
+      "ds": [
+        "amber fort",
+        "city palace",
+        "bapu bazaar"
+      ],
+      "dsr": "분홍색 성의 도시",
+      "fare": 402000,
+      "tier": "low",
+      "hs": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "인도",
+        "궁전"
+      ]
+    },
+    {
+      "id": "varanasi",
+      "ko": "바라나시",
+      "en": "Varanasi",
+      "cc": "인도",
+      "ce": "India",
+      "emoji": "🕉️",
+      "lat": 25.3176,
+      "lng": 82.9739,
+      "ap": "VNS",
+      "apko": "바라나시 공항",
+      "ds": [
+        "ghat",
+        "saraswati",
+        "assi"
+      ],
+      "dsr": "강가에서 이어지는 의식의 도시",
+      "fare": 418000,
+      "tier": "low",
+      "hs": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "인도",
+        "강가"
+      ]
+    },
+    {
+      "id": "colombo",
+      "ko": "콜롬보",
+      "en": "Colombo",
+      "cc": "스리랑카",
+      "ce": "Sri Lanka",
+      "emoji": "🦁",
+      "lat": 6.9271,
+      "lng": 79.8612,
+      "ap": "CMB",
+      "apko": "반라라카 공항",
+      "ds": [
+        "fort",
+        "pettah",
+        "colombo 7"
+      ],
+      "dsr": "혼잡한 항구 도시",
+      "fare": 392000,
+      "tier": "low",
+      "hs": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "스리랑카",
+        "도시"
+      ]
+    },
+    {
+      "id": "kathmandu",
+      "ko": "카트만두",
+      "en": "Kathmandu",
+      "cc": "네팔",
+      "ce": "Nepal",
+      "emoji": "🏔️",
+      "lat": 27.7172,
+      "lng": 85.324,
+      "ap": "KTM",
+      "apko": "트리부반 공항",
+      "ds": [
+        "thamel",
+        "patan",
+        "boudhanath"
+      ],
+      "dsr": "히말라야를 배경으로 한 도시",
+      "fare": 398000,
+      "tier": "low",
+      "hs": [
+        3,
+        4,
+        10,
+        11
+      ],
+      "tags": [
+        "네팔",
+        "산"
+      ]
+    },
+    {
+      "id": "ulaanbaatar",
+      "ko": "울란바타르",
+      "en": "Ulaanbaatar",
+      "cc": "몽골",
+      "ce": "Mongolia",
+      "emoji": "🐎",
+      "lat": 47.8864,
+      "lng": 106.9057,
+      "ap": "UBN",
+      "apko": "칠이그 tost 공항",
+      "ds": [
+        "sükhbaatar square",
+        "gorkhi",
+        "songino"
+      ],
+      "dsr": "초원과 도시가 만나는 곳",
+      "fare": 412000,
+      "tier": "low",
+      "hs": [
+        6,
+        7,
+        8
+      ],
+      "tags": [
+        "몽골",
+        "초원"
+      ]
+    },
+    {
+      "id": "dubai",
+      "ko": "두바이",
+      "en": "Dubai",
+      "cc": "아랍에미리트",
+      "ce": "UAE",
+      "emoji": "🏙️",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "ap": "DXB",
+      "apko": "두바이 공항",
+      "ds": [
+        "downtown",
+        "marina",
+        "deira"
+      ],
+      "dsr": "사막 위에 선 초고층 도시",
+      "fare": 688000,
+      "tier": "high",
+      "hs": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "두바이",
+        "쇼핑",
+        "사막"
+      ]
+    },
+    {
+      "id": "doha",
+      "ko": "도하",
+      "en": "Doha",
+      "cc": "카타르",
+      "ce": "Qatar",
+      "emoji": "🎨",
+      "lat": 25.2854,
+      "lng": 51.531,
+      "ap": "DOH",
+      "apko": "하마드 공항",
+      "ds": [
+        "west bay",
+        "souq waqif",
+        "the pearl"
+      ],
+      "dsr": "새로운 건축과 art의 도시",
+      "fare": 682000,
+      "tier": "high",
+      "hs": [
+        10,
+        11,
+        12,
+        3
+      ],
+      "tags": [
+        "카타르",
+        "건축"
+      ]
+    },
+    {
+      "id": "riyadh",
+      "ko": "리야드",
+      "en": "Riyadh",
+      "cc": "사우디아라비아",
+      "ce": "Saudi Arabia",
+      "emoji": "🏜️",
+      "lat": 24.7136,
+      "lng": 46.6753,
+      "ap": "RUH",
+      "apko": "킹 압둘라지즈 공항",
+      "ds": [
+        "olaya",
+        "al batha",
+        "diriyah"
+      ],
+      "dsr": "사막과 모스크의 도시",
+      "fare": 712000,
+      "tier": "high",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "사우디",
+        "사막"
+      ]
+    },
+    {
+      "id": "istanbul",
+      "ko": "이스탄불",
+      "en": "Istanbul",
+      "cc": "튀르키예",
+      "ce": "Turkey",
+      "emoji": "🕌",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "ap": "IST",
+      "apko": "이스탄불 공항",
+      "ds": [
+        "sultanahmet",
+        "beyoglu",
+        "kadikoy"
+      ],
+      "dsr": "두 대륙을 잇는 도시",
+      "fare": 648000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "튀르키예",
+        "오스만",
+        "모스크"
+      ]
+    },
+    {
+      "id": "cappadocia",
+      "ko": "카파도시아",
+      "en": "Cappadocia",
+      "cc": "튀르키예",
+      "ce": "Turkey",
+      "emoji": "🎈",
+      "lat": 38.6431,
+      "lng": 34.8289,
+      "ap": "ASR",
+      "apko": "카파도시아 공항",
+      "ds": [
+        "goreme",
+        "üçhisar",
+        "love valley"
+      ],
+      "dsr": "바위 집과 열기구 풍경",
+      "fare": 712000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "튀르키예",
+        "풍경"
+      ]
+    },
+    {
+      "id": "cairo",
+      "ko": "카이로",
+      "en": "Cairo",
+      "cc": "이집트",
+      "ce": "Egypt",
+      "emoji": "🐫",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "ap": "CAI",
+      "apko": "카이로 공항",
+      "ds": [
+        "downtown",
+        "giza",
+        "nile corniche"
+      ],
+      "dsr": "피라미드와 나일 강",
+      "fare": 698000,
+      "tier": "low",
+      "hs": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "이집트",
+        "피라미드"
+      ]
+    },
+    {
+      "id": "marrakesh",
+      "ko": "마라케시",
+      "en": "Marrakesh",
+      "cc": "모로코",
+      "ce": "Morocco",
+      "emoji": "🟠",
+      "lat": 31.6295,
+      "lng": -7.9811,
+      "ap": "RAK",
+      "apko": "마라케시 공항",
+      "ds": [
+        "medina",
+        "gueliz",
+        "mouassine"
+      ],
+      "dsr": "빨간 성벽과 향신료 시장",
+      "fare": 742000,
+      "tier": "low",
+      "hs": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "tags": [
+        "모로코",
+        "시장"
+      ]
+    },
+    {
+      "id": "capetown",
+      "ko": "케이프타운",
+      "en": "Cape Town",
+      "cc": "남아프리카공화국",
+      "ce": "South Africa",
+      "emoji": "🌊",
+      "lat": -33.9249,
+      "lng": 18.4241,
+      "ap": "CPT",
+      "apko": "케이프타운 공항",
+      "ds": [
+        "v&a waterfront",
+        "bo-kaap",
+        "camps bay"
+      ],
+      "dsr": "표봉과 두 바다를 잇는 도시",
+      "fare": 968000,
+      "tier": "mid",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "남아공",
+        "자연"
+      ]
+    },
+    {
+      "id": "nairobi",
+      "ko": "나이로비",
+      "en": "Nairobi",
+      "cc": "케냐",
+      "ce": "Kenya",
+      "emoji": "🦒",
+      "lat": -1.2921,
+      "lng": 36.8219,
+      "ap": "NBO",
+      "apko": "요하네 케냐 공항",
+      "ds": [
+        "karura",
+        "westlands",
+        "nyali"
+      ],
+      "dsr": "야생동물과 공원이 가까운 도시",
+      "fare": 948000,
+      "tier": "mid",
+      "hs": [
+        6,
+        7,
+        8,
+        12
+      ],
+      "tags": [
+        "케냐",
+        "야생동물"
+      ]
+    },
+    {
+      "id": "addisababa",
+      "ko": "아디스아바바",
+      "en": "Addis Ababa",
+      "cc": "에티오피아",
+      "ce": "Ethiopia",
+      "emoji": "☕",
+      "lat": 9.032,
+      "lng": 38.7469,
+      "ap": "ADD",
+      "apko": "아디스아바바 공항",
+      "ds": [
+        "piazza",
+        "merkato",
+        "boll"
+      ],
+      "dsr": "커피 원산지의 고지대 도시",
+      "fare": 932000,
+      "tier": "low",
+      "hs": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "에티오피아",
+        "커피"
+      ]
+    },
+    {
+      "id": "newyork",
+      "ko": "뉴욕",
+      "en": "New York",
+      "cc": "미국",
+      "ce": "United States",
+      "emoji": "🗽",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "ap": "JFK/EWR",
+      "apko": "JFK 또는 뉴어크 공항",
+      "ds": [
+        "midtown",
+        "brooklyn",
+        "soho"
+      ],
+      "dsr": "끝없이 이어지는 도시의 횃불",
+      "fare": 986000,
+      "tier": "high",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "미국",
+        "도시"
+      ]
+    },
+    {
+      "id": "losangeles",
+      "ko": "로스앤젤레스",
+      "en": "Los Angeles",
+      "cc": "미국",
+      "ce": "United States",
+      "emoji": "🌴",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "ap": "LAX",
+      "apko": "로스앤젤레스 공항",
+      "ds": [
+        "hollywood",
+        "santa monica",
+        "downtown"
+      ],
+      "dsr": "해변과 할리우드가 있는 도시",
+      "fare": 948000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "미국",
+        "해변"
+      ]
+    },
+    {
+      "id": "sanfrancisco",
+      "ko": "샌프란시스코",
+      "en": "San Francisco",
+      "cc": "미국",
+      "ce": "United States",
+      "emoji": "🌁",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "ap": "SFO",
+      "apko": "샌프란시스코 공항",
+      "ds": [
+        "fisherman's wharf",
+        "mission",
+        "union square"
+      ],
+      "dsr": "안개가 감기는 언덕 도시",
+      "fare": 928000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "미국",
+        "도시"
+      ]
+    },
+    {
+      "id": "seattle",
+      "ko": "시애틀",
+      "en": "Seattle",
+      "cc": "미국",
+      "ce": "United States",
+      "emoji": "🌲",
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "ap": "SEA",
+      "apko": "시애틀 공항",
+      "ds": [
+        "pike place",
+        "capitol hill",
+        "space needle"
+      ],
+      "dsr": "해 Sound와 커피 문화",
+      "fare": 932000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "미국",
+        "커피"
+      ]
+    },
+    {
+      "id": "vancouver",
+      "ko": "밴쿠버",
+      "en": "Vancouver",
+      "cc": "캐나다",
+      "ce": "Canada",
+      "emoji": "🍁",
+      "lat": 49.2827,
+      "lng": -123.1207,
+      "ap": "YVR",
+      "apko": "밴쿠버 공항",
+      "ds": [
+        "gastown",
+        "stanley park",
+        "yaletown"
+      ],
+      "dsr": "산과 바다 사이의 도시",
+      "fare": 868000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "캐나다",
+        "자연"
+      ]
+    },
+    {
+      "id": "toronto",
+      "ko": "토론토",
+      "en": "Toronto",
+      "cc": "캐나다",
+      "ce": "Canada",
+      "emoji": "🍁",
+      "lat": 43.6532,
+      "lng": -79.3832,
+      "ap": "YYZ",
+      "apko": "피어슨 공항",
+      "ds": [
+        "downtown",
+        "queen west",
+        "distillery"
+      ],
+      "dsr": "호수와 다문화가 만나는 도시",
+      "fare": 902000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "캐나다",
+        "도시"
+      ]
+    },
+    {
+      "id": "honolulu",
+      "ko": "호놀룰루",
+      "en": "Honolulu",
+      "cc": "미국",
+      "ce": "United States",
+      "emoji": "🌺",
+      "lat": 21.3069,
+      "lng": -157.8583,
+      "ap": "HNL",
+      "apko": "호놀룰루 공항",
+      "ds": [
+        "waikiki",
+        "diamond head",
+        "kakaako"
+      ],
+      "dsr": "수변 리조트와 서핑",
+      "fare": 848000,
+      "tier": "high",
+      "hs": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        12
+      ],
+      "tags": [
+        "미국",
+        "해변"
+      ]
+    },
+    {
+      "id": "mexicocity",
+      "ko": "멕시코시티",
+      "en": "Mexico City",
+      "cc": "멕시코",
+      "ce": "Mexico",
+      "emoji": "🌶️",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "ap": "MEX",
+      "apko": "베니토 후아레스 공항",
+      "ds": [
+        "roma norte",
+        "condesa",
+        "centro"
+      ],
+      "dsr": "색과 맛이 넘치는 대도시",
+      "fare": 1024000,
+      "tier": "low",
+      "hs": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "멕시코",
+        "먹거리"
+      ]
+    },
+    {
+      "id": "cancun",
+      "ko": "칸쿤",
+      "en": "Cancun",
+      "cc": "멕시코",
+      "ce": "Mexico",
+      "emoji": "🏖️",
+      "lat": 21.1619,
+      "lng": -86.8515,
+      "ap": "CUN",
+      "apko": "칸쿤 공항",
+      "ds": [
+        "hotel zone",
+        "playa del carmen",
+        "tulum"
+      ],
+      "dsr": "카리브해 리조트",
+      "fare": 1072000,
+      "tier": "high",
+      "hs": [
+        12,
+        1,
+        2,
+        3,
+        7
+      ],
+      "tags": [
+        "멕시코",
+        "해변"
+      ]
+    },
+    {
+      "id": "havana",
+      "ko": "하바나",
+      "en": "Havana",
+      "cc": "쿠바",
+      "ce": "Cuba",
+      "emoji": "🎺",
+      "lat": 23.1136,
+      "lng": -82.3666,
+      "ap": "HAV",
+      "apko": "호세 마르티 공항",
+      "ds": [
+        "old havana",
+        "vedado",
+        "malecón"
+      ],
+      "dsr": "옛 색채가 남은 시간의 도시",
+      "fare": 1218000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "쿠바",
+        "역사"
+      ]
+    },
+    {
+      "id": "saopaulo",
+      "ko": "상파울루",
+      "en": "São Paulo",
+      "cc": "브라질",
+      "ce": "Brazil",
+      "emoji": "🌆",
+      "lat": -23.5505,
+      "lng": -46.6333,
+      "ap": "GRU",
+      "apko": "과룰루 공항",
+      "ds": [
+        "jardins",
+        "pinheiros",
+        "vila madalena"
+      ],
+      "dsr": "가장 큰 브라질 도시",
+      "fare": 1132000,
+      "tier": "mid",
+      "hs": [
+        12,
+        1,
+        2,
+        7
+      ],
+      "tags": [
+        "브라질",
+        "도시"
+      ]
+    },
+    {
+      "id": "riodejaneiro",
+      "ko": "리우데자네이루",
+      "en": "Rio de Janeiro",
+      "cc": "브라질",
+      "ce": "Brazil",
+      "emoji": "🏖️",
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "ap": "GIG",
+      "apko": "갈리온 공항",
+      "ds": [
+        "copacabana",
+        "ipanema",
+        "lapa"
+      ],
+      "dsr": "해변과 산이 만나는 도시",
+      "fare": 1138000,
+      "tier": "mid",
+      "hs": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "브라질",
+        "해변"
+      ]
+    },
+    {
+      "id": "buenosaires",
+      "ko": "부에노스아이레스",
+      "en": "Buenos Aires",
+      "cc": "아르헨티나",
+      "ce": "Argentina",
+      "emoji": "💃",
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "ap": "EZE",
+      "apko": "에세이사 공항",
+      "ds": [
+        "palermo",
+        "recoleta",
+        "san telmo"
+      ],
+      "dsr": "탄고와 책방 거리",
+      "fare": 1186000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "아르헨티나",
+        "먹거리"
+      ]
+    },
+    {
+      "id": "lima",
+      "ko": "리마",
+      "en": "Lima",
+      "cc": "페루",
+      "ce": "Peru",
+      "emoji": "🏛️",
+      "lat": -12.0464,
+      "lng": -77.0428,
+      "ap": "LIM",
+      "apko": "헤우르지 차베스 공항",
+      "ds": [
+        "miraflores",
+        "barranco",
+        "centro"
+      ],
+      "dsr": "해안 도시와 미라모르 박물관",
+      "fare": 1158000,
+      "tier": "low",
+      "hs": [
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "tags": [
+        "페루",
+        "먹거리"
+      ]
+    },
+    {
+      "id": "cusco",
+      "ko": "쿠스코",
+      "en": "Cusco",
+      "cc": "페루",
+      "ce": "Peru",
+      "emoji": "⛰️",
+      "lat": -13.5319,
+      "lng": -71.9675,
+      "ap": "CUZ",
+      "apko": "아벨라이타 베르티아 공항",
+      "ds": [
+        "san blas",
+        "sacred valley",
+        "plaza de armas"
+      ],
+      "dsr": "잉카 유적이 있는 고지대",
+      "fare": 1218000,
+      "tier": "low",
+      "hs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "tags": [
+        "페루",
+        "유적"
+      ]
+    },
+    {
+      "id": "santiago",
+      "ko": "산티아고",
+      "en": "Santiago",
+      "cc": "칠레",
+      "ce": "Chile",
+      "emoji": "🏔️",
+      "lat": -33.4489,
+      "lng": -70.6693,
+      "ap": "SCL",
+      "apko": "아르투로 메루이노 공항",
+      "ds": [
+        "providencia",
+        "lastarria",
+        "bellavista"
+      ],
+      "dsr": "안데스 산을 배경으로 한 도시",
+      "fare": 1218000,
+      "tier": "low",
+      "hs": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "칠레",
+        "산"
+      ]
+    },
+    {
+      "id": "bogota",
+      "ko": "보고타",
+      "en": "Bogotá",
+      "cc": "콜롬비아",
+      "ce": "Colombia",
+      "emoji": "🎨",
+      "lat": 4.711,
+      "lng": -74.0721,
+      "ap": "BOG",
+      "apko": "엘 도라도 공항",
+      "ds": [
+        "la candelaria",
+        "chapinero",
+        "usaquen"
+      ],
+      "dsr": "고도에 위치한 예술 도시",
+      "fare": 1124000,
+      "tier": "low",
+      "hs": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "콜롬비아",
+        "예술"
+      ]
+    },
+    {
+      "id": "barcelona",
+      "ko": "바르셀로나",
+      "en": "Barcelona",
+      "cc": "스페인",
+      "ce": "Spain",
+      "emoji": "🏛️",
+      "lat": 41.3874,
+      "lng": 2.1686,
+      "ap": "BCN",
+      "apko": "바르셀로나 공항",
+      "ds": [
+        "eixample",
+        "gothic",
+        "gràcia"
+      ],
+      "dsr": "해와 건축이 만나는 도시",
+      "fare": 826000,
+      "tier": "mid",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "스페인",
+        "건축",
+        "해변"
+      ]
+    },
+    {
+      "id": "madrid",
+      "ko": "마드리드",
+      "en": "Madrid",
+      "cc": "스페인",
+      "ce": "Spain",
+      "emoji": "🥁",
+      "lat": 40.4168,
+      "lng": -3.7038,
+      "ap": "MAD",
+      "apko": "마드리드 공항",
+      "ds": [
+        "sol",
+        "malasaña",
+        "retiro"
+      ],
+      "dsr": "밤이 늦게까지 열리는 도시",
+      "fare": 838000,
+      "tier": "mid",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "스페인",
+        "야경"
+      ]
+    },
+    {
+      "id": "seville",
+      "ko": "세비야",
+      "en": "Seville",
+      "cc": "스페인",
+      "ce": "Spain",
+      "emoji": "💃",
+      "lat": 37.3891,
+      "lng": -5.9845,
+      "ap": "SVQ",
+      "apko": "세비야 공항",
+      "ds": [
+        "triana",
+        "alfalfa",
+        "macarena"
+      ],
+      "dsr": "안달루시아의 플라멘코 도시",
+      "fare": 868000,
+      "tier": "low",
+      "hs": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "tags": [
+        "스페인",
+        "플라멘코"
+      ]
+    },
+    {
+      "id": "granada",
+      "ko": "그라나다",
+      "en": "Granada",
+      "cc": "스페인",
+      "ce": "Spain",
+      "emoji": "🏰",
+      "lat": 37.1773,
+      "lng": -3.5986,
+      "ap": "GRX",
+      "apko": "그라나다 공항",
+      "ds": [
+        "albaicín",
+        "centro",
+        "zona sur"
+      ],
+      "dsr": "알함브라 궁전이 있는 도시",
+      "fare": 886000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "tags": [
+        "스페인",
+        "궁전"
+      ]
+    },
+    {
+      "id": "lisbon",
+      "ko": "리스본",
+      "en": "Lisbon",
+      "cc": "포르투갈",
+      "ce": "Portugal",
+      "emoji": "🚋",
+      "lat": 38.7223,
+      "lng": -9.1393,
+      "ap": "LIS",
+      "apko": "리스본 공항",
+      "ds": [
+        "alfama",
+        "baixa",
+        "belém"
+      ],
+      "dsr": "언덕 골목과 타일로 장식한 도시",
+      "fare": 862000,
+      "tier": "low",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "포르투갈",
+        "골목"
+      ]
+    },
+    {
+      "id": "porto",
+      "ko": "포르투",
+      "en": "Porto",
+      "cc": "포르투갈",
+      "ce": "Portugal",
+      "emoji": "🍷",
+      "lat": 41.1579,
+      "lng": -8.6291,
+      "ap": "OPO",
+      "apko": "포르투 공항",
+      "ds": [
+        "ribeira",
+        "foz",
+        "bolhão"
+      ],
+      "dsr": "강변하늘색 집의 도시",
+      "fare": 872000,
+      "tier": "low",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "포르투갈",
+        "와인"
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "ko": "암스테르담",
+      "en": "Amsterdam",
+      "cc": "네덜란드",
+      "ce": "Netherlands",
+      "emoji": "🚲",
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "ap": "AMS",
+      "apko": "스히폴 공항",
+      "ds": [
+        "jordaan",
+        "de pip",
+        "museumplein"
+      ],
+      "dsr": "자전거와 운하의 도시",
+      "fare": 868000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "네덜란드",
+        "운하"
+      ]
+    },
+    {
+      "id": "brussels",
+      "ko": "브뤼셀",
+      "en": "Brussels",
+      "cc": "벨기에",
+      "ce": "Belgium",
+      "emoji": "🍺",
+      "lat": 50.8503,
+      "lng": 4.3517,
+      "ap": "BRU",
+      "apko": "브뤼셀 공항",
+      "ds": [
+        "grand place",
+        "rue desBond",
+        "ixelles"
+      ],
+      "dsr": "아르노아와 맥주의 도시",
+      "fare": 884000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "벨기에",
+        "맥주"
+      ]
+    },
+    {
+      "id": "berlin",
+      "ko": "베를린",
+      "en": "Berlin",
+      "cc": "독일",
+      "ce": "Germany",
+      "emoji": "🎧",
+      "lat": 52.52,
+      "lng": 13.405,
+      "ap": "BER",
+      "apko": "베를린 공항",
+      "ds": [
+        "mitte",
+        "kreuzberg",
+        "prenzlauer"
+      ],
+      "dsr": "역사와 클럽 문화의 도시",
+      "fare": 886000,
+      "tier": "mid",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "독일",
+        "클럽"
+      ]
+    },
+    {
+      "id": "munich",
+      "ko": "뮌헨",
+      "en": "Munich",
+      "cc": "독일",
+      "ce": "Germany",
+      "emoji": "🍺",
+      "lat": 48.1351,
+      "lng": 11.582,
+      "ap": "MUC",
+      "apko": "뮌헨 공항",
+      "ds": [
+        "altstadt",
+        "maxvorstadt",
+        "Schwabing"
+      ],
+      "dsr": "박물관과 알프스 접근성",
+      "fare": 904000,
+      "tier": "mid",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "독일",
+        "박물관"
+      ]
+    },
+    {
+      "id": "zurich",
+      "ko": "취리히",
+      "en": "Zurich",
+      "cc": "스위스",
+      "ce": "Switzerland",
+      "emoji": "🏔️",
+      "lat": 47.3769,
+      "lng": 8.5417,
+      "ap": "ZRH",
+      "apko": "취리히 공항",
+      "ds": [
+        "altstadt",
+        "벨리스트래스",
+        "칠리"
+      ],
+      "dsr": "호수와 산이 함께 보이는 도시",
+      "fare": 1008000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "tags": [
+        "스위스",
+        "산"
+      ]
+    },
+    {
+      "id": "vienna",
+      "ko": "빈",
+      "en": "Vienna",
+      "cc": "오스트리아",
+      "ce": "Austria",
+      "emoji": "🎻",
+      "lat": 48.2082,
+      "lng": 16.3738,
+      "ap": "VIE",
+      "apko": "빈 공항",
+      "ds": [
+        "innere stadt",
+        "naschmarkt",
+        "prater"
+      ],
+      "dsr": "궁전과 클래식 공연의 도시",
+      "fare": 902000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "tags": [
+        "오스트리아",
+        "궁전"
+      ]
+    },
+    {
+      "id": "milan",
+      "ko": "밀라노",
+      "en": "Milan",
+      "cc": "이탈리아",
+      "ce": "Italy",
+      "emoji": "👗",
+      "lat": 45.4642,
+      "lng": 9.19,
+      "ap": "MXP",
+      "apko": "밀라노 공항",
+      "ds": [
+        "duomo",
+        "brera",
+        "Navigli"
+      ],
+      "dsr": "패션과 산епّف르의 도시",
+      "fare": 832000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "이탈리아",
+        "패션"
+      ]
+    },
+    {
+      "id": "florence",
+      "ko": "피렌체",
+      "en": "Florence",
+      "cc": "이탈리아",
+      "ce": "Italy",
+      "emoji": "🎨",
+      "lat": 43.7696,
+      "lng": 11.2558,
+      "ap": "FLR",
+      "apko": "피렌체 공항",
+      "ds": [
+        "duomo",
+        "uffizi",
+        "oltrarno"
+      ],
+      "dsr": "르네상소의 사치가 있는 도시",
+      "fare": 852000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "tags": [
+        "이탈리아",
+        "미술"
+      ]
+    },
+    {
+      "id": "venice",
+      "ko": "베네치아",
+      "en": "Venice",
+      "cc": "이탈리아",
+      "ce": "Italy",
+      "emoji": "🛶",
+      "lat": 45.4408,
+      "lng": 12.3155,
+      "ap": "VCE",
+      "apko": "마르코 폴로 공항",
+      "ds": [
+        "san marco",
+        "cannaregio",
+        "castello"
+      ],
+      "dsr": "물 위에 뜬 도시",
+      "fare": 868000,
+      "tier": "mid",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "tags": [
+        "이탈리아",
+        "운하"
+      ]
+    },
+    {
+      "id": "naples",
+      "ko": "나폴리",
+      "en": "Naples",
+      "cc": "이탈리아",
+      "ce": "Italy",
+      "emoji": "🍕",
+      "lat": 40.8518,
+      "lng": 14.2681,
+      "ap": "NAP",
+      "apko": "카포디키아 공항",
+      "ds": [
+        "spaccanapoli",
+        "chiaia",
+        "piazzaMunicipio"
+      ],
+      "dsr": "피자와 고대 유적이 있는 도시",
+      "fare": 826000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "이탈리아",
+        "먹거리"
+      ]
+    },
+    {
+      "id": "athens",
+      "ko": "아테네",
+      "en": "Athens",
+      "cc": "그리스",
+      "ce": "Greece",
+      "emoji": "🏛️",
+      "lat": 37.9838,
+      "lng": 23.7275,
+      "ap": "ATH",
+      "apko": "아테네 공항",
+      "ds": [
+        "plaka",
+        "koukaki",
+        "monastiraki"
+      ],
+      "dsr": "고대 유적과 옥상 식당",
+      "fare": 826000,
+      "tier": "mid",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "그리스",
+        "유적"
+      ]
+    },
+    {
+      "id": "santorini",
+      "ko": "산토리니",
+      "en": "Santorini",
+      "cc": "그리스",
+      "ce": "Greece",
+      "emoji": "🌋",
+      "lat": 36.3932,
+      "lng": 25.4615,
+      "ap": "JTR",
+      "apko": "산토리니 공항",
+      "ds": [
+        "oia",
+        "fira",
+        "akrotiri"
+      ],
+      "dsr": "유화 같은 하얀 집의 섬",
+      "fare": 898000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "그리스",
+        "섬"
+      ]
+    },
+    {
+      "id": "dubrovnik",
+      "ko": "두브로브니크",
+      "en": "Dubrovnik",
+      "cc": "크로아티아",
+      "ce": "Croatia",
+      "emoji": "🏰",
+      "lat": 42.6507,
+      "lng": 18.0944,
+      "ap": "DBV",
+      "apko": "두브로브니크 공항",
+      "ds": [
+        "old town",
+        "lokrum",
+        "pile"
+      ],
+      "dsr": "벽으로 둘러싸인 푸른 바다 도시",
+      "fare": 902000,
+      "tier": "mid",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "크로아티아",
+        "해안"
+      ]
+    },
+    {
+      "id": "budapest",
+      "ko": "부다페스트",
+      "en": "Budapest",
+      "cc": "헝가리",
+      "ce": "Hungary",
+      "emoji": "♨️",
+      "lat": 47.4979,
+      "lng": 19.0402,
+      "ap": "BUD",
+      "apko": "부다페스트 공항",
+      "ds": [
+        "buda",
+        "pest",
+        "andrássy"
+      ],
+      "dsr": "온천과 다 nudge 선교와",
+      "fare": 842000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "헝가리",
+        "온천"
+      ]
+    },
+    {
+      "id": "prague",
+      "ko": "프라하",
+      "en": "Prague",
+      "cc": "체코",
+      "ce": "Czechia",
+      "emoji": "🕰️",
+      "lat": 50.0755,
+      "lng": 14.4378,
+      "ap": "PRG",
+      "apko": "프라하 공항",
+      "ds": [
+        "praha 1",
+        "vinohrady",
+        "karlín"
+      ],
+      "dsr": "천문시계가 있는 도시",
+      "fare": 852000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "체코",
+        "건축"
+      ]
+    },
+    {
+      "id": "krakow",
+      "ko": "크라쿠프",
+      "en": "Kraków",
+      "cc": "폴란드",
+      "ce": "Poland",
+      "emoji": "🏛️",
+      "lat": 50.0647,
+      "lng": 19.945,
+      "ap": "KRK",
+      "apko": "크라쿠프 공항",
+      "ds": [
+        "stare miasto",
+        "kazimierz",
+        "podgórze"
+      ],
+      "dsr": "구시가지 유교의 도시",
+      "fare": 872000,
+      "tier": "low",
+      "hs": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "폴란드",
+        "역사"
+      ]
+    },
+    {
+      "id": "copenhagen",
+      "ko": "코펜하겐",
+      "en": "Copenhagen",
+      "cc": "덴마크",
+      "ce": "Denmark",
+      "emoji": "🧡",
+      "lat": 55.6761,
+      "lng": 12.5683,
+      "ap": "CPH",
+      "apko": "코펜하겐 공항",
+      "ds": [
+        "norreport",
+        "nyhavn",
+        "vesterbro"
+      ],
+      "dsr": "자전거와 디자인의 도시",
+      "fare": 902000,
+      "tier": "high",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "덴마크",
+        "디자인"
+      ]
+    },
+    {
+      "id": "stockholm",
+      "ko": "스톡홀름",
+      "en": "Stockholm",
+      "cc": "스웨덴",
+      "ce": "Sweden",
+      "emoji": "🏛️",
+      "lat": 59.3293,
+      "lng": 18.0686,
+      "ap": "ARN",
+      "apko": "스톡홀름 공항",
+      "ds": [
+        "gamla stan",
+        "södermalm",
+        "outhun"
+      ],
+      "dsr": "14개 섬으로 이루어진 도시",
+      "fare": 912000,
+      "tier": "mid",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "스웨덴",
+        "디자인"
+      ]
+    },
+    {
+      "id": "oslo",
+      "ko": "오슬로",
+      "en": "Oslo",
+      "cc": "노르웨이",
+      "ce": "Norway",
+      "emoji": "🌲",
+      "lat": 59.9139,
+      "lng": 10.7522,
+      "ap": "OSL",
+      "apko": "오슬로 공항",
+      "ds": [
+        "carl berners plass",
+        "grünerløkka",
+        "havn"
+      ],
+      "dsr": "fjord에 접한 북유럽 도시",
+      "fare": 948000,
+      "tier": "high",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "노르웨이",
+        "피오르드"
+      ]
+    },
+    {
+      "id": "helsinki",
+      "ko": "헬싱키",
+      "en": "Helsinki",
+      "cc": "핀란드",
+      "ce": "Finland",
+      "emoji": "🎈",
+      "lat": 60.1699,
+      "lng": 24.9384,
+      "ap": "HEL",
+      "apko": "헬싱키 공항",
+      "ds": [
+        "kaartinkaupunki",
+        "design museum",
+        "esplanadi"
+      ],
+      "dsr": "디자인과 바다의 도시",
+      "fare": 978000,
+      "tier": "mid",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "핀란드",
+        "디자인"
+      ]
+    },
+    {
+      "id": "reykjavik",
+      "ko": "레이캬비크",
+      "en": "Reykjavik",
+      "cc": "아이슬란드",
+      "ce": "Iceland",
+      "emoji": "🌋",
+      "lat": 64.1466,
+      "lng": -21.9426,
+      "ap": "KEF",
+      "apko": "케플라비크 공항",
+      "ds": [
+        "miðborg",
+        "laugavegur",
+        "old harbour"
+      ],
+      "dsr": "온천 자연의 도시",
+      "fare": 1082000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "아이슬란드",
+        "자연"
+      ]
+    },
+    {
+      "id": "london",
+      "ko": "런던",
+      "en": "London",
+      "cc": "영국",
+      "ce": "United Kingdom",
+      "emoji": "🎡",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "ap": "LHR",
+      "apko": "히스로 공항",
+      "ds": [
+        "soho",
+        "covent garden",
+        "shoreditch"
+      ],
+      "dsr": "무드와 박물관이 있는 도시",
+      "fare": 928000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "영국",
+        "박물관"
+      ]
+    },
+    {
+      "id": "edinburgh",
+      "ko": "에디버러",
+      "en": "Edinburgh",
+      "cc": "영국",
+      "ce": "United Kingdom",
+      "emoji": "🏰",
+      "lat": 55.9533,
+      "lng": -3.1883,
+      "ap": "EDI",
+      "apko": "에디버러 공항",
+      "ds": [
+        "old town",
+        "new town",
+        "leith"
+      ],
+      "dsr": "성/crag와 풍요로운 축제",
+      "fare": 962000,
+      "tier": "mid",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "영국",
+        "축제"
+      ]
+    },
+    {
+      "id": "dublin",
+      "ko": "더블린",
+      "en": "Dublin",
+      "cc": "아일랜드",
+      "ce": "Ireland",
+      "emoji": "🍀",
+      "lat": 53.3498,
+      "lng": -6.2603,
+      "ap": "DUB",
+      "apko": "더블린 공항",
+      "ds": [
+        "temple bar",
+        "trinity",
+        "docklands"
+      ],
+      "dsr": "펍과 오케스트라의 도시",
+      "fare": 986000,
+      "tier": "mid",
+      "hs": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "아일랜드",
+        "펍"
+      ]
+    },
+    {
+      "id": "sydney",
+      "ko": "시드니",
+      "en": "Sydney",
+      "cc": "호주",
+      "ce": "Australia",
+      "emoji": "🌊",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "ap": "SYD",
+      "apko": "킹스포드 공항",
+      "ds": [
+        "circular quay",
+        "surry hills",
+        "bondi"
+      ],
+      "dsr": "항구와 해변의 도시",
+      "fare": 782000,
+      "tier": "high",
+      "hs": [
+        12,
+        1,
+        2
+      ],
+      "tags": [
+        "호주",
+        "해변"
+      ]
+    },
+    {
+      "id": "melbourne",
+      "ko": "멜버른",
+      "en": "Melbourne",
+      "cc": "호주",
+      "ce": "Australia",
+      "emoji": "☕",
+      "lat": -37.8136,
+      "lng": 144.9631,
+      "ap": "MEL",
+      "apko": "멜버른 공항",
+      "ds": [
+        "southbank",
+        "fitzroy",
+        "st kilda"
+      ],
+      "dsr": "커피와 스트리트 아트의 도시",
+      "fare": 782000,
+      "tier": "mid",
+      "hs": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "호주",
+        "커피",
+        "예술"
+      ]
+    },
+    {
+      "id": "goldcoast",
+      "ko": "골드코스트",
+      "en": "Gold Coast",
+      "cc": "호주",
+      "ce": "Australia",
+      "emoji": "🏄",
+      "lat": -28.0167,
+      "lng": 153.4,
+      "ap": "OOL",
+      "apko": "골드코스트 공항",
+      "ds": [
+        "surfers paradise",
+        "broadbeach",
+        "main beach"
+      ],
+      "dsr": "해변 리조트와 서핑",
+      "fare": 798000,
+      "tier": "mid",
+      "hs": [
+        12,
+        1,
+        2
+      ],
+      "tags": [
+        "호주",
+        "리조트"
+      ]
+    },
+    {
+      "id": "auckland",
+      "ko": "오클랜드",
+      "en": "Auckland",
+      "cc": "뉴질랜드",
+      "ce": "New Zealand",
+      "emoji": "🥝",
+      "lat": -36.8485,
+      "lng": 174.7633,
+      "ap": "AKL",
+      "apko": "오클랜드 공항",
+      "ds": [
+        "wynyard quarter",
+        "ponsonby",
+        "mission bay"
+      ],
+      "dsr": "항구와 사흐의 도시",
+      "fare": 862000,
+      "tier": "mid",
+      "hs": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "tags": [
+        "뉴질랜드",
+        "항구"
+      ]
+    },
+    {
+      "id": "queenstown",
+      "ko": "퀸스타운",
+      "en": "Queenstown",
+      "cc": "뉴질랜드",
+      "ce": "New Zealand",
+      "emoji": "⛷️",
+      "lat": -45.0312,
+      "lng": 168.6626,
+      "ap": "ZQN",
+      "apko": "퀸스타운 공항",
+      "ds": [
+        "waterfront",
+        "arrowtown",
+        "remarkables"
+      ],
+      "dsr": "호수와 산의 모험 도시",
+      "fare": 912000,
+      "tier": "high",
+      "hs": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "tags": [
+        "뉴질랜드",
+        "모험"
+      ]
+    }
+  ]
+}

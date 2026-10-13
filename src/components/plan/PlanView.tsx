@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import {
   BedDouble,
   CalendarDays,
+  Info,
   Map as MapIcon,
   Moon,
   Plane,
@@ -155,6 +156,21 @@ export default function PlanView() {
             ))}
           </div>
         </div>
+
+        {/* 큐레이션 데이터가 없는 도시 안내 */}
+        {!plan.isCurated && (
+          <div className="mb-5 flex items-start gap-3 rounded-lg border border-dashed bg-muted/40 p-4">
+            <Info className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
+            <p className="text-xs leading-relaxed text-muted-foreground">
+              <span className="font-bold text-foreground">
+                {city.nameKo}는 아직 장소 데이터가 수록되지 않은 도시입니다.
+              </span>{" "}
+              항공 운임·비행시간·교통패스·예산은 도시 좌표와 비용 기준으로 계산되며,
+              숙박과 장소는 유형별 <span className="font-semibold">일반 가이드</span>로
+              구성했습니다. 실제 방문 전에는 장소와 가격을 반드시 확인해 주세요.
+            </p>
+          </div>
+        )}
 
         {/* 탭 */}
         <Tabs value={activeTab} onValueChange={(v) => setActiveTab(v as TabKey)}>

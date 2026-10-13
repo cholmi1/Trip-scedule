@@ -119,6 +119,7 @@ function StayCard({
               <BadgeCheck className="h-3 w-3" /> 무료 취소
             </Badge>
           )}
+          {stay.synthetic && <Badge variant="muted">일반 가이드</Badge>}
         </div>
 
         <div className="mt-4 flex items-end justify-between border-t pt-3">

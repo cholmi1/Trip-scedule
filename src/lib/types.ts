@@ -36,6 +36,10 @@ export interface City {
   gradient: [string, string];
   /** 성수기/비수기 시즌 (가격 계수에 사용) */
   highSeasonMonths: number[];
+  /** 1인 왕복 최저가 기준(KRW). 미지정 시 거리 기반 추정 */
+  fare?: number;
+  /** 실제 장소 데이터를 큐레이션한 도시인지 여부 */
+  curated?: boolean;
 }
 
 /** 항공편 오퍼 (편도/왕복 1인 기준) */
@@ -112,6 +116,8 @@ export interface StayOption {
   /** 무료 취소 여부 */
   freeCancellation: boolean;
   breakfastIncluded: boolean;
+  /** 실제 숙소 데이터가 아닌 일반 가이드인지 여부 */
+  synthetic?: boolean;
 }
 
 /** 하루 중 시간대 */
@@ -152,6 +158,8 @@ export interface Place {
   tip?: string;
   /** 추천 시간대 (환경/혼잡도) */
   bestTime?: string;
+  /** 실제 장소 데이터가 아닌 일반 가이드인지 여부 */
+  synthetic?: boolean;
 }
 
 /** 하루 일정 */
@@ -292,4 +300,6 @@ export interface TripPlan {
   /** 종합 가성비 점수 */
   valueScore: number;
   generatedAt: string;
+  /** 큐레이션된 실제 장소 데이터 도시인지 여부 */
+  isCurated: boolean;
 }

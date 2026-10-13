@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { CalendarDays, Check, ChevronDown, MapPin, Plane, Search, Users } from "lucide-react";
 import { addDaysIso, minStartDate, nightsBetween, formatDateShort, weekdayKo, formatKrw } from "@/lib/format";
-import { CITIES, CITY_MAP } from "@/lib/data";
+import { CITIES, CITY_MAP, searchCities } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import { useTripStore } from "@/store/useTripStore";
 import { Button } from "@/components/ui/button";
@@ -11,7 +11,22 @@ import { Input, Label, Separator } from "@/components/ui/input";
 import { Slider } from "@/components/ui/slider";
 import { Badge } from "@/components/ui/badge";
 
-/* ── 여행지 자동완성 ────────────────────────────────────── */
+/** 검색창에서 먼저 노출하는 추천 도시 */
+const POPULAR_CITY_IDS = [
+  "tokyo",
+  "osaka",
+  "bangkok",
+  "jeju",
+  "singapore",
+  "paris",
+  "rome",
+  "bali",
+  "chiangmai",
+  "london",
+  "barcelona",
+];
+
+/* ── 여행지 자동완성 (전체 카탈로그 대상) ───────────────── */
 function CityAutocomplete() {
   const cityId = useTripStore((s) => s.request.cityId);
   const setCity = useTripStore((s) => s.setCity);
@@ -20,15 +35,14 @@ function CityAutocomplete() {
   const boxRef = useRef<HTMLDivElement>(null);
   const city = CITY_MAP[cityId];
 
+  // 검색어가 없으면 추천 도시 + 큐레이션 도시를 먼저 보여준다
   const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    if (!q) return CITIES;
-    return CITIES.filter((c) =>
-      [c.nameKo, c.nameEn, c.countryKo, c.countryEn, ...c.keywords]
-        .join(" ")
-        .toLowerCase()
-        .includes(q),
-    );
+    if (!query.trim()) {
+      const popular = POPULAR_CITY_IDS.map((id) => CITY_MAP[id]).filter(Boolean);
+      const rest = CITIES.filter((c) => !POPULAR_CITY_IDS.includes(c.id));
+      return { popular, rest: rest.slice(0, 60), total: CITIES.length };
+    }
+    return { popular: [], rest: searchCities(query).slice(0, 80), total: searchCities(query).length };
   }, [query]);
 
   useEffect(() => {
@@ -43,6 +57,7 @@ function CityAutocomplete() {
     <div ref={boxRef} className="relative">
       <Label className="mb-1.5 flex items-center gap-1.5">
         <MapPin className="h-3.5 w-3.5" /> 어디로 갈까요
+        <span className="ml-auto text-[10px] font-normal">도시 {CITIES.length}곳</span>
       </Label>
       <button
         onClick={() => {
@@ -68,40 +83,90 @@ function CityAutocomplete() {
               autoFocus
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="도시, 국가, 지역으로 검색 (예: 도쿄)"
+              placeholder="도시, 국가, 동네, 공항 코드로 검색 (예: 도쿄, 스페인, HND)"
               className="h-9 border-0 bg-muted/50 focus-visible:ring-0"
             />
           </div>
-          <ul className="max-h-72 overflow-y-auto p-1">
-            {results.length === 0 && (
-              <li className="px-3 py-6 text-center text-xs text-muted-foreground">
-                지원 중인 도시가 아닙니다. 예: 도쿄, 오사카, 교토, 파리, 로마, 방콕, 제주도
-              </li>
+
+          <div className="max-h-80 overflow-y-auto p-1">
+            {results.total === 0 && (
+              <p className="px-3 py-6 text-center text-xs text-muted-foreground">
+                검색 결과가 없습니다. 다른 도시명이나 국가명으로 검색해 보세요.
+              </p>
             )}
-            {results.map((c) => (
-              <li key={c.id}>
-                <button
-                  onClick={() => {
-                    setCity(c.id);
-                    setOpen(false);
-                  }}
-                  className={cn(
-                    "flex w-full items-center gap-3 rounded-md px-3 py-2.5 text-left transition-colors hover:bg-accent",
-                    c.id === cityId && "bg-accent",
-                  )}
-                >
-                  <span className="text-xl">{c.emoji}</span>
-                  <span className="min-w-0 flex-1">
-                    <span className="block truncate text-sm font-semibold">{c.nameKo}</span>
-                    <span className="block truncate text-xs text-muted-foreground">
-                      {c.countryKo} · {c.tagline}
+
+            {results.popular.length > 0 && (
+              <>
+                <p className="px-3 pb-1 pt-2 text-[11px] font-bold text-muted-foreground">
+                  지금 많이 찾는 도시
+                </p>
+                <div className="tc-scroll-x px-2 pb-2">
+                  {results.popular.map((c) => (
+                    <button
+                      key={c.id}
+                      onClick={() => {
+                        setCity(c.id);
+                        setOpen(false);
+                      }}
+                      className="flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors hover:bg-accent hover:text-accent-foreground"
+                    >
+                      <span>{c.emoji}</span>
+                      {c.nameKo}
+                      <span className="text-[10px] font-normal text-muted-foreground">
+                        {c.countryKo}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+                <p className="px-3 pb-1 pt-1 text-[11px] font-bold text-muted-foreground">
+                  전체 도시
+                </p>
+              </>
+            )}
+
+            {results.rest.map((c) => (
+              <button
+                key={c.id}
+                onClick={() => {
+                  setCity(c.id);
+                  setOpen(false);
+                }}
+                className={cn(
+                  "flex w-full items-center gap-3 rounded-md px-3 py-2.5 text-left transition-colors hover:bg-accent",
+                  c.id === cityId && "bg-accent",
+                )}
+              >
+                <span className="text-xl">{c.emoji}</span>
+                <span className="min-w-0 flex-1">
+                  <span className="flex items-center gap-1.5">
+                    <span className="truncate text-sm font-semibold">{c.nameKo}</span>
+                    <span className="shrink-0 text-xs text-muted-foreground">
+                      {c.countryKo}
                     </span>
+                    {c.curated ? (
+                      <Badge variant="brand" className="shrink-0 px-1.5 py-0 text-[10px]">
+                        실제 장소
+                      </Badge>
+                    ) : (
+                      <Badge variant="muted" className="shrink-0 px-1.5 py-0 text-[10px]">
+                        일반 가이드
+                      </Badge>
+                    )}
                   </span>
-                  {c.id === cityId && <Check className="h-4 w-4 shrink-0 text-primary" />}
-                </button>
-              </li>
+                  <span className="block truncate text-xs text-muted-foreground">
+                    {c.tagline} · 왕복 약 {Math.round((c.fare ?? 0) / 10000)}만원
+                  </span>
+                </span>
+                {c.id === cityId && <Check className="h-4 w-4 shrink-0 text-primary" />}
+              </button>
             ))}
-          </ul>
+          </div>
+
+          <p className="border-t px-3 py-2 text-[10px] leading-relaxed text-muted-foreground">
+            {results.total}개 도시 · 실제 장소 데이터가 있는 도시는
+            &lsquo;실제 장소&rsquo; 배지가 붙습니다. 나머지는 도시 좌표와 비용 기준을 바탕으로
+            일반 가이드를 만들어 계산합니다.
+          </p>
         </div>
       )}
     </div>
